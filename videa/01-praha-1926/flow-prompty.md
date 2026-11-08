@@ -77,7 +77,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-The orange-hoodie character steps off the curb looking left; a black 1920s car comes from the right on the left side of the road and swerves; the orange-hoodie character jumps back onto the sidewalk in comic shock. Static wide shot. 8 seconds. Car horn and engine sounds only, no music, no dialogue.
+2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+
+Camera: completely static, locked-off wide shot, no pan, no zoom.
+
+Action, in this order:
+0–3 s: the black 1920s car that is already in the frame drives a short distance toward the orange-hoodie character along the left side of the road.
+3–5 s: the car brakes hard and stops just in front of him; a small cartoon puff of dust appears at the wheels. The driver leans out and shakes his fist.
+5–8 s: the orange-hoodie character turns his head to the right, his eyes go wide in shock, and he hops one step back onto the sidewalk with both hands raised.
+
+The buildings, street and other people stay still. The character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame; the car keeps its shape and color.
+
+Duration 8 seconds. Audio: car engine, a screech of brakes and one honk, no music, no speech.
 ```
 
 ### S05 · Prvních pět minut · 🖼️ Remotion

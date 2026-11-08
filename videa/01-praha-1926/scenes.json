@@ -45,7 +45,7 @@
    "image": "A Prague street in 1926: the main character stepping off the curb while looking to the LEFT, while a black 1920s automobile approaches from the RIGHT driving on the left side of the road, the round-headed cartoon driver honking. Comic near-miss moment.",
    "motion": {
     "type": "veo",
-    "prompt": "The orange-hoodie character steps off the curb looking left; a black 1920s car comes from the right on the left side of the road and swerves; the orange-hoodie character jumps back onto the sidewalk in comic shock. Static wide shot. 8 seconds. Car horn and engine sounds only, no music, no dialogue."
+    "prompt": "2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.\n\nCamera: completely static, locked-off wide shot, no pan, no zoom.\n\nAction, in this order:\n0–3 s: the black 1920s car that is already in the frame drives a short distance toward the orange-hoodie character along the left side of the road.\n3–5 s: the car brakes hard and stops just in front of him; a small cartoon puff of dust appears at the wheels. The driver leans out and shakes his fist.\n5–8 s: the orange-hoodie character turns his head to the right, his eyes go wide in shock, and he hops one step back onto the sidewalk with both hands raised.\n\nThe buildings, street and other people stay still. The character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame; the car keeps its shape and color.\n\nDuration 8 seconds. Audio: car engine, a screech of brakes and one honk, no music, no speech."
    }
   },
   {
