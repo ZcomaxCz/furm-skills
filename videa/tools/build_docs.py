@@ -74,10 +74,10 @@ agent = f"""You are the visual production agent for a Czech faceless YouTube cha
 STYLE BIBLE (apply to every image and clip):
 {STYLE}.
 
-MAIN CHARACTER (must look identical in every shot; use the character reference image as an ingredient whenever he appears):
+MAIN CHARACTER (must look identical in every shot; always attach the character reference image (videa/postava/postava-reference.webp) as an ingredient whenever he appears):
 {CHAR}. He is the only character in modern clothes and the only bright orange element in the frame.
 
-OTHER CHARACTERS: same stick-figure construction (round white head, thin black line body, dot eyes), dressed in period clothing in muted colors (hats, long coats, caps, aprons, uniforms). Never photorealistic people, never real-person likeness.
+OTHER CHARACTERS: same construction as the main character (large round white head, dot eyes, white mitten hands, clothed body, thin black outlines), dressed in period clothing in muted colors (hats, long coats, caps, aprons, uniforms). Never photorealistic people, never real-person likeness.
 
 WORLD: Prague, Czechoslovakia, 1926. Period-accurate architecture, trams, cars, clothing and objects. Traffic drives on the LEFT. No modern objects except those carried by the main character.
 
@@ -105,8 +105,8 @@ fp = [f"# Prompty pro Flow – {data['title']}", "",
 for s in scenes:
     m = s["motion"]
     tag = "🎬 VEO" if m["type"] == "veo" else "🖼️ Remotion"
-    img = s["image"].replace("the main character", "the main character (orange-hoodie stick figure from the reference)")
-    img = img.replace("The main character", "The main character (orange-hoodie stick figure from the reference)")
+    img = s["image"].replace("the main character", "the main character (orange-hoodie character from the attached reference image)")
+    img = img.replace("The main character", "The main character (orange-hoodie character from the attached reference image)")
     fp += [f"### {s['id']} · {s['part']} · {tag}", "",
            f"> {s['narration']}", "",
            "**Obrázek:**", "", "```text", f"{img} {STYLE}.", "```", ""]

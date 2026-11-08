@@ -10,12 +10,12 @@ Vlož jako úvodní instrukci (Flow agent, Gemini nebo ChatGPT, který bude prom
 You are the visual production agent for a Czech faceless YouTube channel that makes long-form animated explainers ("What if you travelled back in time…"). You turn scene descriptions into images and short animated clips in Google Flow, keeping ONE consistent look across the whole video.
 
 STYLE BIBLE (apply to every image and clip):
-2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 
-MAIN CHARACTER (must look identical in every shot; use the character reference image as an ingredient whenever he appears):
-a simple white stick figure with a perfectly round white head, thin clean black outlines, two black dot eyes and a minimal expressive mouth, wearing a bright orange modern hoodie, dark jeans and white sneakers, often holding a black smartphone. He is the only character in modern clothes and the only bright orange element in the frame.
+MAIN CHARACTER (must look identical in every shot; always attach the character reference image (videa/postava/postava-reference.webp) as an ingredient whenever he appears):
+a cartoon character with a large perfectly round white head (about one third of his height) with a thin clean black outline, two small black dot eyes and a small simple mouth (no nose, no ears, no hair), wearing a bright orange hoodie (#FF7A1A) with hood, drawstrings and a kangaroo pocket, dark blue jeans and white sneakers, round white mitten-like hands, sometimes holding a black smartphone. He is the only character in modern clothes and the only bright orange element in the frame.
 
-OTHER CHARACTERS: same stick-figure construction (round white head, thin black line body, dot eyes), dressed in period clothing in muted colors (hats, long coats, caps, aprons, uniforms). Never photorealistic people, never real-person likeness.
+OTHER CHARACTERS: same construction as the main character (large round white head, dot eyes, white mitten hands, clothed body, thin black outlines), dressed in period clothing in muted colors (hats, long coats, caps, aprons, uniforms). Never photorealistic people, never real-person likeness.
 
 WORLD: Prague, Czechoslovakia, 1926. Period-accurate architecture, trams, cars, clothing and objects. Traffic drives on the LEFT. No modern objects except those carried by the main character.
 
@@ -34,7 +34,7 @@ WORKFLOW per scene: (a) generate the still image from the scene prompt with the 
 Výsledek ulož a používej jako *ingredient* / referenci u každé scény, kde je hlavní postava.
 
 ```text
-Character reference sheet: a simple white stick figure with a perfectly round white head, thin clean black outlines, two black dot eyes and a minimal expressive mouth, wearing a bright orange modern hoodie, dark jeans and white sneakers, often holding a black smartphone. Shown three times side by side on a plain warm off-white background: front view standing neutral, three-quarter view walking, side view pointing. Consistent proportions. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Character reference sheet: a cartoon character with a large perfectly round white head (about one third of his height) with a thin clean black outline, two small black dot eyes and a small simple mouth (no nose, no ears, no hair), wearing a bright orange hoodie (#FF7A1A) with hood, drawstrings and a kangaroo pocket, dark blue jeans and white sneakers, round white mitten-like hands, sometimes holding a black smartphone. Shown three times side by side on a plain warm off-white background: front view standing neutral, three-quarter view walking, side view pointing. Consistent proportions. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 ## 3. Scény
@@ -46,13 +46,13 @@ Character reference sheet: a simple white stick figure with a perfectly round wh
 **Obrázek:**
 
 ```text
-The main character (orange-hoodie stick figure from the reference) standing in the middle of Wenceslas Square in Prague in 1926, looking down in confusion at his smartphone whose screen shows a crossed-out signal icon. Around him: 1920s trams, horse-drawn carts, stick-figure men in hats and long coats. The National Museum building at the top of the square in the background. Overcast morning light. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+The main character (orange-hoodie character from the attached reference image) standing in the middle of Wenceslas Square in Prague in 1926, looking down in confusion at his smartphone whose screen shows a crossed-out signal icon. Around him: 1920s trams, horse-drawn carts, round-headed cartoon men in hats and long coats. The National Museum building at the top of the square in the background. Overcast morning light. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-Slow dolly-in on the stick figure as he lowers the phone and looks up in disbelief; a tram passes behind him, pedestrians in hats walk by, faint coal smoke drifts in the air. 8 seconds. Quiet city ambience only, no music, no dialogue.
+Slow dolly-in on the orange-hoodie character as he lowers the phone and looks up in disbelief; a tram passes behind him, pedestrians in hats walk by, faint coal smoke drifts in the air. 8 seconds. Quiet city ambience only, no music, no dialogue.
 ```
 
 ### S02 · Úvod · 🖼️ Remotion
@@ -62,7 +62,7 @@ Slow dolly-in on the stick figure as he lowers the phone and looks up in disbeli
 **Obrázek:**
 
 ```text
-Medium shot: a stick-figure gentleman in a bowler hat and long coat staring in shock at the main character (orange-hoodie stick figure from the reference). Behind them a horse-drawn wagon loaded with wooden beer barrels and a 1920s Prague tram in red and cream livery. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Medium shot: a round-headed cartoon gentleman in a bowler hat and long coat staring in shock at the main character (orange-hoodie character from the attached reference image). Behind them a horse-drawn wagon loaded with wooden beer barrels and a 1920s Prague tram in red and cream livery. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Pomalý zoom na šokovaný obličej pána v buřince.
@@ -74,7 +74,7 @@ Medium shot: a stick-figure gentleman in a bowler hat and long coat staring in s
 **Obrázek:**
 
 ```text
-Clean title-card composition: the main character (orange-hoodie stick figure from the reference) in the center surrounded by four small vignettes in the same style: a simple bed, a plate of dumplings, old coins, and a vintage 1920s automobile. Large empty plain area in the upper third reserved for a title. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Clean title-card composition: the main character (orange-hoodie character from the attached reference image) in the center surrounded by four small vignettes in the same style: a simple bed, a plate of dumplings, old coins, and a vintage 1920s automobile. Large empty plain area in the upper third reserved for a title. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Ikonky postupně naskakují (pop-in); nahoru titulek „PRAHA 1926“ vložený v Remotionu.
@@ -86,13 +86,13 @@ Clean title-card composition: the main character (orange-hoodie stick figure fro
 **Obrázek:**
 
 ```text
-A Prague street in 1926: the main character (orange-hoodie stick figure from the reference) stepping off the curb while looking to the LEFT, while a black 1920s automobile approaches from the RIGHT driving on the left side of the road, the stick-figure driver honking. Comic near-miss moment. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+A Prague street in 1926: the main character (orange-hoodie character from the attached reference image) stepping off the curb while looking to the LEFT, while a black 1920s automobile approaches from the RIGHT driving on the left side of the road, the round-headed cartoon driver honking. Comic near-miss moment. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-The stick figure steps off the curb looking left; a black 1920s car comes from the right on the left side of the road and swerves; the stick figure jumps back onto the sidewalk in comic shock. Static wide shot. 8 seconds. Car horn and engine sounds only, no music, no dialogue.
+The orange-hoodie character steps off the curb looking left; a black 1920s car comes from the right on the left side of the road and swerves; the orange-hoodie character jumps back onto the sidewalk in comic shock. Static wide shot. 8 seconds. Car horn and engine sounds only, no music, no dialogue.
 ```
 
 ### S05 · Prvních pět minut · 🖼️ Remotion
@@ -102,7 +102,7 @@ The stick figure steps off the curb looking left; a black 1920s car comes from t
 **Obrázek:**
 
 ```text
-Wide high-angle view of Wenceslas Square in 1926: trams running down the middle of the boulevard, few cars, horse carts, bicycles, crowds of stick-figure pedestrians all wearing hats (bowler hats, fedoras, women in cloche hats). The main character (orange-hoodie stick figure from the reference) is the only bareheaded person and clearly stands out in his orange hoodie. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Wide high-angle view of Wenceslas Square in 1926: trams running down the middle of the boulevard, few cars, horse carts, bicycles, crowds of round-headed cartoon pedestrians all wearing hats (bowler hats, fedoras, women in cloche hats). The main character (orange-hoodie character from the attached reference image) is the only bareheaded person and clearly stands out in his orange hoodie. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Pomalý pan shora dolů, na konci zoom na hlavu bez klobouku.
@@ -114,7 +114,7 @@ Wide high-angle view of Wenceslas Square in 1926: trams running down the middle 
 **Obrázek:**
 
 ```text
-Prague rooftops in winter 1926: dozens of chimneys releasing coal smoke, a grey haze over the city, Prague Castle faintly visible in the distance, soot-darkened facades. On the street below, the main character (orange-hoodie stick figure from the reference) coughing into his sleeve. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Prague rooftops in winter 1926: dozens of chimneys releasing coal smoke, a grey haze over the city, Prague Castle faintly visible in the distance, soot-darkened facades. On the street below, the main character (orange-hoodie character from the attached reference image) coughing into his sleeve. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -130,7 +130,7 @@ Smoke rises slowly from many chimneys and drifts across the frame; slow pan from
 **Obrázek:**
 
 ```text
-A 1920s office wall with a framed formal portrait of an elderly stick figure with a white goatee and pince-nez glasses, a Czechoslovak flag beside it, and a window showing factory chimneys and a bustling city. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+A 1920s office wall with a framed formal portrait of an elderly round-headed cartoon figure with a white goatee and pince-nez glasses, a Czechoslovak flag beside it, and a window showing factory chimneys and a bustling city. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Pomalý zoom od okna na portrét.
@@ -142,7 +142,7 @@ A 1920s office wall with a framed formal portrait of an elderly stick figure wit
 **Obrázek:**
 
 ```text
-Hand-drawn vintage-style illustrated map of Prague seen from above: the Vltava river, the historic center in the middle, surrounding districts drawn as separate soft-colored patches with factories and new apartment blocks at the edges. Cartographic style matching the explainer look, no labels. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Hand-drawn vintage-style illustrated map of Prague seen from above: the Vltava river, the historic center in the middle, surrounding districts drawn as separate soft-colored patches with factories and new apartment blocks at the edges. Cartographic style matching the explainer look, no labels. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Okolní čtvrti se postupně „přicvaknou“ k centru (masky v Remotionu); popisky Vinohrady, Žižkov, Smíchov, Karlín doplnit v Remotionu.
@@ -154,7 +154,7 @@ Hand-drawn vintage-style illustrated map of Prague seen from above: the Vltava r
 **Obrázek:**
 
 ```text
-A busy 1926 Prague street market: groups of stick figures in varied period clothing chatting, a market vendor, a businessman in a suit, a shopkeeper in front of his small shop; speech bubbles containing only abstract squiggles. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+A busy 1926 Prague street market: groups of round-headed cartoon figures in varied period clothing chatting, a market vendor, a businessman in a suit, a shopkeeper in front of his small shop; speech bubbles containing only abstract squiggles. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Pomalý boční pan přes trh.
@@ -166,7 +166,7 @@ A busy 1926 Prague street market: groups of stick figures in varied period cloth
 **Obrázek:**
 
 ```text
-Old Town Square in Prague in 1926 showing the Old Town Hall complete with its large neo-gothic east wing next to the clock tower, the Týn Church in the background; the main character (orange-hoodie stick figure from the reference) looking up at the building from the square. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Old Town Square in Prague in 1926 showing the Old Town Hall complete with its large neo-gothic east wing next to the clock tower, the Týn Church in the background; the main character (orange-hoodie character from the attached reference image) looking up at the building from the square. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -182,7 +182,7 @@ Slow upward tilt along the neo-gothic town hall wing and the clock tower, pigeon
 **Obrázek:**
 
 ```text
-Inside a small 1920s grocery shop: the main character (orange-hoodie stick figure from the reference) holding out a modern plastic payment card to a stick-figure shopkeeper in an apron who stares at it in total confusion. Wooden counter, brass scales, glass jars. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Inside a small 1920s grocery shop: the main character (orange-hoodie character from the attached reference image) holding out a modern plastic payment card to a round-headed cartoon shopkeeper in an apron who stares at it in total confusion. Wooden counter, brass scales, glass jars. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Zoom na kartu, pak na zmatený výraz prodavače.
@@ -194,13 +194,13 @@ Inside a small 1920s grocery shop: the main character (orange-hoodie stick figur
 **Obrázek:**
 
 ```text
-A stick-figure 1920s policeman in a dark uniform and cap, holding a small notebook and frowning at the main character (orange-hoodie stick figure from the reference), who nervously pulls out his empty pockets. Street background. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+A round-headed cartoon 1920s policeman in a dark uniform and cap, holding a small notebook and frowning at the main character (orange-hoodie character from the attached reference image), who nervously pulls out his empty pockets. Street background. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-The policeman taps his notebook with a pencil and leans forward suspiciously; the stick figure pulls out empty pockets and shrugs. Static medium shot. 8 seconds. Light street ambience, no music, no dialogue.
+The policeman taps his notebook with a pencil and leans forward suspiciously; the orange-hoodie character pulls out empty pockets and shrugs. Static medium shot. 8 seconds. Light street ambience, no music, no dialogue.
 ```
 
 ### S13 · Peníze a papíry · 🖼️ Remotion
@@ -210,7 +210,7 @@ The policeman taps his notebook with a pencil and leans forward suspiciously; th
 **Obrázek:**
 
 ```text
-A dim 1920s pawn shop: an old stick-figure pawnbroker with a jeweler's loupe suspiciously examining the glowing smartphone, shelves full of clocks, violins and pocket watches; the main character (orange-hoodie stick figure from the reference) waiting hopefully. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+A dim 1920s pawn shop: an old round-headed cartoon pawnbroker with a jeweler's loupe suspiciously examining the glowing smartphone, shelves full of clocks, violins and pocket watches; the main character (orange-hoodie character from the attached reference image) waiting hopefully. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Pomalý zoom na svítící telefon v rukou zastavárníka.
@@ -222,13 +222,13 @@ A dim 1920s pawn shop: an old stick-figure pawnbroker with a jeweler's loupe sus
 **Obrázek:**
 
 ```text
-Interior of a 1920s Prague factory hall with large machines, drive belts and steam; stick-figure workers in caps and overalls; the main character (orange-hoodie stick figure from the reference) among them, exhausted and sweating, struggling with a heavy metal part. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Interior of a 1920s Prague factory hall with large machines, drive belts and steam; round-headed cartoon workers in caps and overalls; the main character (orange-hoodie character from the attached reference image) among them, exhausted and sweating, struggling with a heavy metal part. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-Drive belts and wheels turn, steam puffs, workers move rhythmically; the orange-hoodie stick figure wipes his forehead. Slow lateral tracking shot. 8 seconds. Factory machine sounds only, no music, no dialogue.
+Drive belts and wheels turn, steam puffs, workers move rhythmically; the orange-hoodie character wipes his forehead. Slow lateral tracking shot. 8 seconds. Factory machine sounds only, no music, no dialogue.
 ```
 
 ### S15 · Práce · 🖼️ Remotion
@@ -238,7 +238,7 @@ Drive belts and wheels turn, steam puffs, workers move rhythmically; the orange-
 **Obrázek:**
 
 ```text
-Construction site of a large modernist building with a concrete frame and wooden scaffolding in Prague, 1926; stick-figure workers carrying bricks; the main character (orange-hoodie stick figure from the reference) carrying a heavy sack of coal on his back. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Construction site of a large modernist building with a concrete frame and wooden scaffolding in Prague, 1926; round-headed cartoon workers carrying bricks; the main character (orange-hoodie character from the attached reference image) carrying a heavy sack of coal on his back. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Pomalý pan zdola nahoru po lešení.
@@ -250,7 +250,7 @@ Construction site of a large modernist building with a concrete frame and wooden
 **Obrázek:**
 
 ```text
-A smoky 1920s pub: the main character (orange-hoodie stick figure from the reference) enthusiastically explaining something to a table of stick-figure men in flat caps who laugh at him; above him a thought bubble containing a simple television, a radio and an airplane drawn in simple lines. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+A smoky 1920s pub: the main character (orange-hoodie character from the attached reference image) enthusiastically explaining something to a table of round-headed cartoon men in flat caps who laugh at him; above him a thought bubble containing a simple television, a radio and an airplane drawn in simple lines. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Bublina s myšlenkou se nafoukne (scale-in), lehké třesení smíchem.
@@ -262,7 +262,7 @@ A smoky 1920s pub: the main character (orange-hoodie stick figure from the refer
 **Obrázek:**
 
 ```text
-A cramped 1920s working-class room: one shared bed, a stick-figure worker in overalls getting out of it at dawn while the main character (orange-hoodie stick figure from the reference) waits beside it holding a small bundle; a family sleeping in the background. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+A cramped 1920s working-class room: one shared bed, a round-headed cartoon worker in overalls getting out of it at dawn while the main character (orange-hoodie character from the attached reference image) waits beside it holding a small bundle; a family sleeping in the background. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Pomalý zoom na postel, přechod denního světla.
@@ -274,13 +274,13 @@ A cramped 1920s working-class room: one shared bed, a stick-figure worker in ove
 **Obrázek:**
 
 ```text
-Courtyard view of an old Prague tenement building with open balcony corridors on every floor, a small shared toilet door at the end of one corridor, a queue of stick figures waiting with newspapers, laundry hanging on lines. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Courtyard view of an old Prague tenement building with open balcony corridors on every floor, a small shared toilet door at the end of one corridor, a queue of round-headed cartoon figures waiting with newspapers, laundry hanging on lines. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-The toilet door opens, one stick figure walks out, the next in the queue hurries in; laundry sways in the wind. Static wide shot. 8 seconds. Courtyard ambience only, no music, no dialogue.
+The toilet door opens, one round-headed cartoon figure walks out, the next in the queue hurries in; laundry sways in the wind. Static wide shot. 8 seconds. Courtyard ambience only, no music, no dialogue.
 ```
 
 ### S19 · Bydlení · 🎬 VEO
@@ -290,7 +290,7 @@ The toilet door opens, one stick figure walks out, the next in the queue hurries
 **Obrázek:**
 
 ```text
-Dusk on a cobblestone street in Prague's Lesser Town: a stick-figure lamplighter with a long pole lighting a gas street lamp, warm glow spreading over the cobblestones; the main character (orange-hoodie stick figure from the reference) watching in awe. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Dusk on a cobblestone street in Prague's Lesser Town: a round-headed cartoon lamplighter with a long pole lighting a gas street lamp, warm glow spreading over the cobblestones; the main character (orange-hoodie character from the attached reference image) watching in awe. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -306,7 +306,7 @@ The lamplighter raises his pole and the gas lamp ignites with a warm flicker; he
 **Obrázek:**
 
 ```text
-A simple wooden kitchen table in a 1920s Czech working-class home: a bowl of potato soup, a loaf of bread, a plate of dumplings with sauerkraut, a jar of lard; the main character (orange-hoodie stick figure from the reference) eating together with a stick-figure family. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+A simple wooden kitchen table in a 1920s Czech working-class home: a bowl of potato soup, a loaf of bread, a plate of dumplings with sauerkraut, a jar of lard; the main character (orange-hoodie character from the attached reference image) eating together with a round-headed cartoon family. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Pomalý pan přes stůl.
@@ -318,7 +318,7 @@ A simple wooden kitchen table in a 1920s Czech working-class home: a bowl of pot
 **Obrázek:**
 
 ```text
-A stick-figure iceman carrying a large block of ice on his shoulder with iron tongs, walking from a horse-drawn ice wagon into a tenement doorway; the main character (orange-hoodie stick figure from the reference) holding the door open. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+A round-headed cartoon iceman carrying a large block of ice on his shoulder with iron tongs, walking from a horse-drawn ice wagon into a tenement doorway; the main character (orange-hoodie character from the attached reference image) holding the door open. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Pomalý zoom, ledař projde zleva doprava (parallax vrstvy).
@@ -330,7 +330,7 @@ A stick-figure iceman carrying a large block of ice on his shoulder with iron to
 **Obrázek:**
 
 ```text
-Lively 1920s Prague pub interior with wooden tables and foamy beer mugs; two stick figures arguing passionately about football, one wearing a dark red scarf, the other a red-and-white scarf; the main character (orange-hoodie stick figure from the reference) between them holding a beer. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Lively 1920s Prague pub interior with wooden tables and foamy beer mugs; two round-headed cartoon figures arguing passionately about football, one wearing a dark red scarf, the other a red-and-white scarf; the main character (orange-hoodie character from the attached reference image) between them holding a beer. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Rychlý zoom střídavě na oba fanoušky (komický efekt).
@@ -342,13 +342,13 @@ Lively 1920s Prague pub interior with wooden tables and foamy beer mugs; two sti
 **Obrázek:**
 
 ```text
-Dramatic dark composition: the main character (orange-hoodie stick figure from the reference) small in the center, surrounded by giant hand-drawn cartoon bacteria and microbes, ominous low-key lighting. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Dramatic dark composition: the main character (orange-hoodie character from the attached reference image) small in the center, surrounded by giant hand-drawn cartoon bacteria and microbes, ominous low-key lighting. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-Cartoon microbes slowly drift and pulse around the stick figure, who turns around nervously; camera slowly pulls back. 8 seconds. Low ominous ambient tone, no music, no dialogue.
+Cartoon microbes slowly drift and pulse around the orange-hoodie character, who turns around nervously; camera slowly pulls back. 8 seconds. Low ominous ambient tone, no music, no dialogue.
 ```
 
 ### S24 · Neviditelný nepřítel · 🖼️ Remotion
@@ -358,7 +358,7 @@ Cartoon microbes slowly drift and pulse around the stick figure, who turns aroun
 **Obrázek:**
 
 ```text
-A 1920s doctor's office: a stick-figure doctor with a head mirror and a black leather bag bandaging the main character (orange-hoodie stick figure from the reference)'s cut hand; shelves of glass medicine bottles. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+A 1920s doctor's office: a round-headed cartoon doctor with a head mirror and a black leather bag bandaging the main character (orange-hoodie character from the attached reference image)'s cut hand; shelves of glass medicine bottles. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Pomalý zoom na obvázanou ruku.
@@ -370,7 +370,7 @@ A 1920s doctor's office: a stick-figure doctor with a head mirror and a black le
 **Obrázek:**
 
 ```text
-A dim, damp, crowded tenement room with mold stains on the walls, a pale stick figure coughing in bed, a small window letting in grey light. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+A dim, damp, crowded tenement room with mold stains on the walls, a pale round-headed cartoon figure coughing in bed, a small window letting in grey light. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Velmi pomalý zoom, postupná desaturace.
@@ -382,7 +382,7 @@ A dim, damp, crowded tenement room with mold stains on the walls, a pale stick f
 **Obrázek:**
 
 ```text
-The main character (orange-hoodie stick figure from the reference) washing his hands with soap at an enamel basin, a kettle boiling on a cast-iron stove, an open window letting in bright sunlight; hopeful bright mood. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+The main character (orange-hoodie character from the attached reference image) washing his hands with soap at an enamel basin, a kettle boiling on a cast-iron stove, an open window letting in bright sunlight; hopeful bright mood. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Prosvětlení obrazu, lehký zoom-out.
@@ -394,7 +394,7 @@ The main character (orange-hoodie stick figure from the reference) washing his h
 **Obrázek:**
 
 ```text
-Elegant 1920s Prague grand café interior: tall windows overlooking the Vltava river and Prague Castle, marble tables, stick figures reading newspapers on wooden holders, a waiter in a tailcoat; the main character (orange-hoodie stick figure from the reference) sipping coffee. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Elegant 1920s Prague grand café interior: tall windows overlooking the Vltava river and Prague Castle, marble tables, round-headed cartoon figures reading newspapers on wooden holders, a waiter in a tailcoat; the main character (orange-hoodie character from the attached reference image) sipping coffee. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -410,7 +410,7 @@ Steam rises from the coffee cup, a waiter glides past, newspapers rustle; slow d
 **Obrázek:**
 
 ```text
-In the café: a stick-figure writer with slicked-back dark hair and a pipe writing at a table covered in papers; above him a whimsical thought bubble with a simple boxy cartoon robot; the main character (orange-hoodie stick figure from the reference) at the next table grinning knowingly. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+In the café: a round-headed cartoon writer with slicked-back dark hair and a pipe writing at a table covered in papers; above him a whimsical thought bubble with a simple boxy cartoon robot; the main character (orange-hoodie character from the attached reference image) at the next table grinning knowingly. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Robot v bublině se lehce pohupuje (wiggle), zoom na úsměv hlavní postavy.
@@ -422,7 +422,7 @@ In the café: a stick-figure writer with slicked-back dark hair and a pipe writi
 **Obrázek:**
 
 ```text
-Inside a 1920s cinema: a black-and-white silent film projected on the screen, a stick-figure pianist playing an upright piano below the screen, an audience of stick figures in hats, a visible beam of light from the projector. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Inside a 1920s cinema: a black-and-white silent film projected on the screen, a round-headed cartoon pianist playing an upright piano below the screen, an audience of round-headed cartoon figures in hats, a visible beam of light from the projector. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -438,7 +438,7 @@ The projector beam flickers, the pianist plays energetically, the audience laugh
 **Obrázek:**
 
 ```text
-A 1920s living room: a family crowding around a small crystal radio set, one stick figure wearing big headphones listening in amazement while the others wait their turn; the main character (orange-hoodie stick figure from the reference) smirking while holding his modern wireless earbuds. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+A 1920s living room: a family crowding around a small crystal radio set, one round-headed cartoon figure wearing big headphones listening in amazement while the others wait their turn; the main character (orange-hoodie character from the attached reference image) smirking while holding his modern wireless earbuds. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Zoom ze sluchátek rodiny na moderní sluchátka hlavní postavy.
@@ -450,7 +450,7 @@ A 1920s living room: a family crowding around a small crystal radio set, one sti
 **Obrázek:**
 
 ```text
-A huge stadium field seen from above: tens of thousands of stick-figure gymnasts in white and red outfits performing synchronized exercises in perfect geometric formation, packed wooden grandstands, Czechoslovak flags. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+A huge stadium field seen from above: tens of thousands of round-headed cartoon gymnasts in white and red outfits performing synchronized exercises in perfect geometric formation, packed wooden grandstands, Czechoslovak flags. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -466,7 +466,7 @@ The mass of gymnasts raise their arms in perfect unison, creating a wave pattern
 **Obrázek:**
 
 ```text
-Three-panel composition side by side showing the main character (orange-hoodie stick figure from the reference): panel 1 dodging a 1920s car, panel 2 carrying a sack of coal, panel 3 sitting confidently in a café wearing a 1920s fedora over his orange hoodie. Plain space above each panel for numbers to be added later. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Three-panel composition side by side showing the main character (orange-hoodie character from the attached reference image): panel 1 dodging a 1920s car, panel 2 carrying a sack of coal, panel 3 sitting confidently in a café wearing a 1920s fedora over his orange hoodie. Plain space above each panel for numbers to be added later. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Panely naskakují postupně; nad ně čísla „1 den / 1 měsíc / roky“ v Remotionu.
@@ -478,13 +478,13 @@ Three-panel composition side by side showing the main character (orange-hoodie s
 **Obrázek:**
 
 ```text
-The main character (orange-hoodie stick figure from the reference) standing alone on Charles Bridge at dusk, seen from behind, looking over the Vltava toward Prague Castle; a long shadow, dark storm clouds gathering on the horizon; melancholic mood. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+The main character (orange-hoodie character from the attached reference image) standing alone on Charles Bridge at dusk, seen from behind, looking over the Vltava toward Prague Castle; a long shadow, dark storm clouds gathering on the horizon; melancholic mood. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-Dark clouds slowly roll in over Prague Castle, the light dims, the stick figure lowers his head; slow push-in from behind. 8 seconds. Wind and distant church bells, no music, no dialogue.
+Dark clouds slowly roll in over Prague Castle, the light dims, the orange-hoodie character lowers his head; slow push-in from behind. 8 seconds. Wind and distant church bells, no music, no dialogue.
 ```
 
 ### S34 · Verdikt · 🖼️ Remotion
@@ -494,7 +494,7 @@ Dark clouds slowly roll in over Prague Castle, the light dims, the stick figure 
 **Obrázek:**
 
 ```text
-Close-up of the main character (orange-hoodie stick figure from the reference)'s face with a finger on his lips in a 'shh' gesture, sepia Prague softly blurred behind him. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Close-up of the main character (orange-hoodie character from the attached reference image)'s face with a finger on his lips in a 'shh' gesture, sepia Prague softly blurred behind him. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Velmi pomalý zoom, na konci střih do černé.
@@ -506,7 +506,7 @@ Close-up of the main character (orange-hoodie stick figure from the reference)'s
 **Obrázek:**
 
 ```text
-Teaser: a medieval Bohemian village with wooden houses and a castle on a hill; the main character (orange-hoodie stick figure from the reference) appearing in a flash of light, standing in the mud, while stick-figure medieval peasants with pitchforks stare at him. 2D hand-drawn explainer illustration, simple stick-figure characters with round heads and thin black outlines placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Teaser: a medieval Bohemian village with wooden houses and a castle on a hill; the main character (orange-hoodie character from the attached reference image) appearing in a flash of light, standing in the mud, while round-headed cartoon medieval peasants with pitchforks stare at him. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
 ```
 
 **Pohyb v Remotionu:** Bílý záblesk, rychlý zoom-out, odkaz na další video (koncová obrazovka).
