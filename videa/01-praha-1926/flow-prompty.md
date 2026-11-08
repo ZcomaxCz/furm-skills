@@ -181,7 +181,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Obrázek:**
 
 ```text
-Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Old Town Square in Prague in 1926 showing the Old Town Hall complete with its large neo-gothic east wing next to the clock tower, the Týn Church in the background; the orange-hoodie character from the attached image looking up at the building from the square. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Old Town Square in Prague in 1926 showing the Old Town Hall complete with its large neo-gothic east wing next to the clock tower, the Týn Church in the background; the orange-hoodie character from the attached image looking up at the building from the square; a few small pigeons sit on the cobblestones near him. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -192,9 +192,9 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 Camera: completely static, locked-off shot, no pan, no zoom.
 
 Action, in this order:
-0–3 s: the orange-hoodie character tilts his head back and looks up at the town hall with his mouth open in awe.
-3–6 s: he raises one hand and points up at the large neo-gothic wing.
-2–8 s: a few small cartoon pigeons already on the square flutter up and fly out of the frame to the right.
+0–2 s: a few small cartoon pigeons sitting on the cobblestones flutter up and fly out of the frame to the right.
+2–5 s: the orange-hoodie character tilts his head back and looks up at the town hall with his mouth open in awe.
+5–8 s: he raises one hand and points up at the large neo-gothic wing.
 
 The town hall, the clock tower, the Týn Church and the other buildings stay completely still and keep their exact shape. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
 
