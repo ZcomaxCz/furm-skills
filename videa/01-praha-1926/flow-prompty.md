@@ -105,7 +105,15 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-Smoke rises slowly from many chimneys and drifts across the frame; slow pan from the rooftops toward Prague Castle in the haze. 8 seconds. Wind ambience only, no music, no dialogue.
+2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects.
+
+Camera: completely static, locked-off shot, no pan, no zoom.
+
+Action: thin wisps of grey coal smoke rise slowly and steadily from the chimneys and drift gently to the right, drawn as soft stylized cartoon smoke. In the lower part of the frame, the orange-hoodie character coughs twice into his sleeve, his round head bobbing slightly with each cough, then waves the smoke away from his face with one hand.
+
+Everything else stays still: buildings, rooftops, Prague Castle and the sky do not move or change shape. The character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+
+Duration 8 seconds. Audio: soft winter wind and two muffled coughs, no music, no speech.
 ```
 
 ### S07 · Kam ses to dostal · 🖼️ Remotion
