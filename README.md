@@ -12,6 +12,8 @@ Skilly pro Claude Code pro tvorbu YouTube obsahu na český a slovenský kanál.
 
 ## Instalace
 
+V relaci Claude Code s tímto repozitářem se skilly z `.claude/skills/` načtou automaticky. Pro použití mimo repozitář je zkopírujte ručně:
+
 ```bash
-mkdir -p ~/.claude/skills && cp -r skills/* ~/.claude/skills/
+mkdir -p ~/.claude/skills && cp -r .claude/skills/* ~/.claude/skills/
 ```
