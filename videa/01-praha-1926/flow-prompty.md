@@ -37,7 +37,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-Slow dolly-in on the orange-hoodie character as he lowers the phone and looks up in disbelief; a tram passes behind him, pedestrians in hats walk by, faint coal smoke drifts in the air. 8 seconds. Quiet city ambience only, no music, no dialogue.
+2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+
+Camera: completely static, locked-off shot, no pan, no zoom.
+
+Action, in this order:
+0–3 s: the orange-hoodie character stares at his phone, then slowly lowers it.
+3–6 s: he looks up and turns his head left and right in disbelief, eyebrows raised.
+6–8 s: the tram already in the frame rolls a short distance forward and two pedestrians in hats take a few steps past him.
+
+The buildings, the National Museum and the sky stay still and do not change shape. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+
+Duration 8 seconds. Audio: quiet street ambience and a distant tram bell, no music, no speech.
 ```
 
 ### S02 · Úvod · 🖼️ Remotion
@@ -176,7 +187,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-Slow upward tilt along the neo-gothic town hall wing and the clock tower, pigeons fly across the square. 8 seconds. Square ambience only, no music, no dialogue.
+2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+
+Camera: completely static, locked-off shot, no pan, no zoom.
+
+Action, in this order:
+0–3 s: the orange-hoodie character tilts his head back and looks up at the town hall with his mouth open in awe.
+3–6 s: he raises one hand and points up at the large neo-gothic wing.
+2–8 s: a few small cartoon pigeons already on the square flutter up and fly out of the frame to the right.
+
+The town hall, the clock tower, the Týn Church and the other buildings stay completely still and keep their exact shape. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+
+Duration 8 seconds. Audio: square ambience and pigeon wings fluttering, no music, no speech.
 ```
 
 ### S11 · Peníze a papíry · 🖼️ Remotion
@@ -204,7 +226,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-The policeman taps his notebook with a pencil and leans forward suspiciously; the orange-hoodie character pulls out empty pockets and shrugs. Static medium shot. 8 seconds. Light street ambience, no music, no dialogue.
+2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+
+Camera: completely static, locked-off shot, no pan, no zoom.
+
+Action, in this order:
+0–3 s: the policeman taps his small notebook twice with a pencil and leans slightly forward, frowning.
+3–6 s: the orange-hoodie character pulls the empty pockets of his jeans inside out.
+6–8 s: he shrugs with both hands raised and gives a nervous smile.
+
+The street and background stay still. The policeman keeps his uniform and cap. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+
+Duration 8 seconds. Audio: light street ambience and a pencil tapping, no music, no speech.
 ```
 
 ### S13 · Peníze a papíry · 🖼️ Remotion
@@ -232,7 +265,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-Drive belts and wheels turn, steam puffs, workers move rhythmically; the orange-hoodie character wipes his forehead. Slow lateral tracking shot. 8 seconds. Factory machine sounds only, no music, no dialogue.
+2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+
+Camera: completely static, locked-off shot, no pan, no zoom.
+
+Action, in this order:
+0–8 s: the drive belts and wheels of the machines turn steadily at an even pace and small cartoon puffs of steam rise from the pipes; the workers repeat one small working motion.
+3–6 s: the orange-hoodie character puts the heavy metal part down.
+6–8 s: he wipes his forehead with his sleeve and his shoulders drop in exhaustion.
+
+The factory walls, windows and machine shapes stay still and do not change. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+
+Duration 8 seconds. Audio: rhythmic factory machine sounds and hissing steam, no music, no speech.
 ```
 
 ### S15 · Práce · 🖼️ Remotion
@@ -284,7 +328,19 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-The toilet door opens, one round-headed cartoon figure walks out, the next in the queue hurries in; laundry sways in the wind. Static wide shot. 8 seconds. Courtyard ambience only, no music, no dialogue.
+2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+
+Camera: completely static, locked-off shot, no pan, no zoom.
+
+Action, in this order:
+0–2 s: the small shared toilet door at the end of the corridor opens.
+2–4 s: one person walks out and moves aside.
+4–7 s: the next person in the queue hurries in with a newspaper under his arm and the door closes.
+0–8 s: the laundry on the lines sways gently in the wind.
+
+The building, the balcony corridors and the courtyard stay still and keep their exact shape. All people keep their round white heads and period clothing.
+
+Duration 8 seconds. Audio: courtyard ambience, a creaking door and a door closing, no music, no speech.
 ```
 
 ### S19 · Bydlení · 🎬 VEO
@@ -300,7 +356,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-The lamplighter raises his pole and the gas lamp ignites with a warm flicker; he walks on to the next lamp as dusk deepens. Slow push-in. 8 seconds. Soft evening ambience, no music, no dialogue.
+2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+
+Camera: completely static, locked-off shot, no pan, no zoom.
+
+Action, in this order:
+0–3 s: the lamplighter raises his long pole up to the gas lamp.
+3–5 s: a small flame ignites inside the lamp and a warm yellow glow spreads softly over the cobblestones.
+5–8 s: the orange-hoodie character's eyes widen and he smiles in wonder.
+
+The street, the houses and the sky stay still. The lamplighter keeps his coat and cap. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+
+Duration 8 seconds. Audio: soft evening ambience and a quiet hiss of gas igniting, no music, no speech.
 ```
 
 ### S20 · Jídlo · 🖼️ Remotion
@@ -352,7 +419,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-Cartoon microbes slowly drift and pulse around the orange-hoodie character, who turns around nervously; camera slowly pulls back. 8 seconds. Low ominous ambient tone, no music, no dialogue.
+2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+
+Camera: completely static, locked-off shot, no pan, no zoom.
+
+Action, in this order:
+0–8 s: the cartoon microbes drift slowly in place and gently pulse bigger and smaller, without leaving the frame.
+2–5 s: the orange-hoodie character turns his head left, then right, looking around nervously.
+5–8 s: he takes one small step back and hugs his arms to his chest.
+
+The dark background and the microbe shapes stay in the same style and colors. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+
+Duration 8 seconds. Audio: a low ominous ambient tone, no music, no speech.
 ```
 
 ### S24 · Neviditelný nepřítel · 🖼️ Remotion
@@ -404,7 +482,19 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-Steam rises from the coffee cup, a waiter glides past, newspapers rustle; slow dolly across the café toward the window view of Prague Castle. 8 seconds. Soft café ambience, no music, no dialogue.
+2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+
+Camera: completely static, locked-off shot, no pan, no zoom.
+
+Action, in this order:
+0–8 s: thin wisps of steam rise gently from the coffee cup.
+0–3 s: the orange-hoodie character lifts the cup.
+3–5 s: he takes a sip and closes his eyes with a happy expression.
+5–8 s: he sets the cup down; in the background the waiter who is already in the frame takes a few steps to the right and the newspapers of other guests rustle slightly.
+
+The café interior, the windows and the view of Prague Castle stay still and keep their exact shape. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+
+Duration 8 seconds. Audio: soft café ambience, clinking cups and rustling newspapers, no music, no speech.
 ```
 
 ### S28 · Zábava · 🖼️ Remotion
@@ -432,7 +522,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-The projector beam flickers, the pianist plays energetically, the audience laughs; slow push toward the screen. 8 seconds. Upbeat silent-film piano only, no dialogue.
+2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+
+Camera: completely static, locked-off shot, no pan, no zoom.
+
+Action, in this order:
+0–8 s: the beam of light from the projector flickers softly and the grey light on the screen flickers like an old film.
+0–8 s: the pianist's hands move quickly over the keys and his head bobs to the rhythm.
+3–8 s: the audience laughs, their round heads bouncing slightly.
+
+The cinema hall, the screen frame and the seats stay still. All people keep their round white heads and hats.
+
+Duration 8 seconds. Audio: lively silent-film piano and soft laughter, no music, no speech.
 ```
 
 ### S30 · Zábava · 🖼️ Remotion
@@ -460,7 +561,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-The mass of gymnasts raise their arms in perfect unison, creating a wave pattern across the field; slow aerial crane shot. 8 seconds. Distant crowd and brass band, no dialogue.
+2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+
+Camera: completely static, locked-off shot, no pan, no zoom.
+
+Action, in this order:
+0–3 s: all gymnasts on the field raise their arms up at the same moment in perfect unison.
+3–5 s: they hold the pose.
+5–8 s: they lower their arms together; the flags at the stadium flutter gently.
+
+The stadium, the grandstands and the geometric formation stay still and keep their exact shape; the gymnasts move only their arms.
+
+Duration 8 seconds. Audio: a distant brass band and crowd applause, no music, no speech.
 ```
 
 ### S32 · Verdikt · 🖼️ Remotion
@@ -488,7 +600,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-Dark clouds slowly roll in over Prague Castle, the light dims, the orange-hoodie character lowers his head; slow push-in from behind. 8 seconds. Wind and distant church bells, no music, no dialogue.
+2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+
+Camera: completely static, locked-off shot, no pan, no zoom.
+
+Action, in this order:
+0–8 s: the dark clouds on the horizon drift slowly and grow a little darker, and the light over the scene dims slightly.
+3–6 s: the orange-hoodie character slowly lowers his head.
+6–8 s: his shoulders drop and he stays still, looking at Prague Castle.
+
+Charles Bridge, the river, Prague Castle and the statues stay completely still and keep their exact shape. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+
+Duration 8 seconds. Audio: soft wind and distant church bells, no music, no speech.
 ```
 
 ### S34 · Verdikt · 🖼️ Remotion
