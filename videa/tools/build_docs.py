@@ -69,47 +69,39 @@ out += ["---", "", "## Ověřená fakta použitá ve scénáři", "",
 
 # ---------- flow-prompty.md ----------
 STYLE, CHAR = data["style"], data["character"]
-agent = f"""You are the visual production agent for a Czech faceless YouTube channel that makes long-form animated explainers ("What if you travelled back in time…"). You turn scene descriptions into images and short animated clips in Google Flow, keeping ONE consistent look across the whole video.
+agent = """You are my illustrator for a Czech faceless YouTube channel with long-form animated explainers ("What if you travelled back in time…", "How long would you survive…"). For every scene I send, you create ONE image in 16:9 landscape format. All images of a video must look like frames from the same animated film.
 
-STYLE BIBLE (apply to every image and clip):
-{STYLE}.
+THE MAIN CHARACTER IS IN THE ATTACHED IMAGE. Keep him exactly as he is drawn there in every image: the same large perfectly round white head (about one third of his height) with a thin black outline, the same two black dot eyes and small simple mouth, no nose, ears or hair, the same bright orange hoodie with hood, drawstrings and kangaroo pocket, the same dark blue jeans, white sneakers and round white mitten-like hands. Do not redesign, restyle or recolor him. You may change only his pose, facial expression (simple eyebrows and mouth, like in the reference) and what he holds. He is the only person in modern clothes and the only bright orange thing in the picture.
 
-MAIN CHARACTER (must look identical in every shot; always attach the character reference image (videa/postava/postava-reference.webp) as an ingredient whenever he appears):
-{CHAR}. He is the only character in modern clothes and the only bright orange element in the frame.
+Every other person is drawn the same way as him: large round white head, dot eyes, simple mouth, white mitten hands and a clothed body with thin black outlines, but dressed in clothing of the scene's era in muted colors. Never draw realistic people and never the likeness of a real, recognizable person.
 
-OTHER CHARACTERS: same construction as the main character (large round white head, dot eyes, white mitten hands, clothed body, thin black outlines), dressed in period clothing in muted colors (hats, long coats, caps, aprons, uniforms). Never photorealistic people, never real-person likeness.
+The look is a 2D hand-drawn explainer illustration: flat-colored cartoon characters placed in richly detailed painted backgrounds, a muted vintage palette matching the era (for Prague 1926: sepia, warm grey and soft teal), soft natural light and a subtle paper texture. Architecture, vehicles, clothing and objects are accurate for the place and year of the scene; nothing modern appears except what the main character carries. The composition is cinematic and the bottom part of the frame stays calm because subtitles will go there.
 
-WORLD: Prague, Czechoslovakia, 1926. Period-accurate architecture, trams, cars, clothing and objects. Traffic drives on the LEFT. No modern objects except those carried by the main character.
+Never put any text, letters, numbers, readable signs, logos or watermarks into the image; titles are added later in editing.
 
-RULES:
-1. 16:9, 1920x1080 composition, leave breathing room for subtitles in the lower 15 %.
-2. No text, letters, numbers, logos or watermarks inside images (titles are added later in editing).
-3. Animated clips: 8 seconds, slow and readable camera moves, the first frame must match the source image exactly (use it as the start frame). No dialogue and no music unless the shot description says so — the narration is added separately.
-4. Keep the color palette and line weight consistent between scenes; if a result drifts in style, regenerate rather than accept it.
-5. Name every output with its scene ID (S01, S02 …) so it can be matched to the voiceover.
+When I send a scene, reply only with the image. If I write "again", generate a new version of the same scene. If I write "fix: …", edit the last image only as described and keep everything else unchanged."""
 
-WORKFLOW per scene: (a) generate the still image from the scene prompt with the style bible and the character reference, (b) if the scene is marked VEO, create a Frames-to-Video clip from that still using the motion prompt, (c) export the still in full resolution and the clip as MP4."""
-
-fp = [f"# Prompty pro Flow – {data['title']}", "",
+fp = [f"# Prompty pro obrázky (Nano Banana) a animace (Flow) – {data['title']}", "",
       f"Celkem {len(scenes)} obrázků, z toho **{len(veo)} animovat ve Flow (Veo)**; "
-      "zbytek rozpohybujeme v Remotionu (zoom, pan, parallax), což šetří kredity Flow.", "",
-      "## 1. Hlavní prompt pro agenta / projekt ve Flow", "",
-      "Vlož jako úvodní instrukci (Flow agent, Gemini nebo ChatGPT, který bude prompty dávkovat).", "",
+      "zbytek rozpohybujeme v Remotionu (zoom, pan, parallax).", "",
+      "## 1. Instrukce pro Nano Banana (jednou na začátku konverzace / do Gemu)", "",
+      "Přilož výřez postavy `videa/postava/postava-zepredu.png` a pošli tento text. Pak už posílej jen prompty scén.", "",
       "```text", agent, "```", "",
-      "## 2. Referenční obrázek postavy (vygeneruj jako první)", "",
-      "Výsledek ulož a používej jako *ingredient* / referenci u každé scény, kde je hlavní postava.", "",
-      "```text",
-      f"Character reference sheet: {CHAR}. Shown three times side by side on a plain warm off-white background: front view standing neutral, three-quarter view walking, side view pointing. Consistent proportions. {STYLE}.",
-      "```", "",
-      "## 3. Scény", ""]
+      "## 2. Scény", "",
+      "Každý prompt je samostatný – funguje i bez instrukcí výše, když k němu přiložíš výřez postavy.", ""]
 for s in scenes:
     m = s["motion"]
     tag = "🎬 VEO" if m["type"] == "veo" else "🖼️ Remotion"
-    img = s["image"].replace("the main character", "the main character (orange-hoodie character from the attached reference image)")
-    img = img.replace("The main character", "The main character (orange-hoodie character from the attached reference image)")
+    scene = s["image"].replace("the main character", "the orange-hoodie character from the attached image")
+    scene = scene.replace("The main character", "The orange-hoodie character from the attached image")
+    img = (f"Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. "
+           f"Scene: {scene} "
+           "Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. "
+           "Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. "
+           "No text, letters, numbers or logos anywhere in the image.")
     fp += [f"### {s['id']} · {s['part']} · {tag}", "",
            f"> {s['narration']}", "",
-           "**Obrázek:**", "", "```text", f"{img} {STYLE}.", "```", ""]
+           "**Obrázek:**", "", "```text", img, "```", ""]
     if m["type"] == "veo":
         fp += ["**Animace (Flow → Frames to Video, start frame = obrázek výše):**", "",
                "```text", m["prompt"], "```", ""]

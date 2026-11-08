@@ -1,43 +1,28 @@
-# Prompty pro Flow – Co kdybys cestoval 100 let do minulosti? Praha 1926
+# Prompty pro obrázky (Nano Banana) a animace (Flow) – Co kdybys cestoval 100 let do minulosti? Praha 1926
 
-Celkem 35 obrázků, z toho **13 animovat ve Flow (Veo)**; zbytek rozpohybujeme v Remotionu (zoom, pan, parallax), což šetří kredity Flow.
+Celkem 35 obrázků, z toho **13 animovat ve Flow (Veo)**; zbytek rozpohybujeme v Remotionu (zoom, pan, parallax).
 
-## 1. Hlavní prompt pro agenta / projekt ve Flow
+## 1. Instrukce pro Nano Banana (jednou na začátku konverzace / do Gemu)
 
-Vlož jako úvodní instrukci (Flow agent, Gemini nebo ChatGPT, který bude prompty dávkovat).
-
-```text
-You are the visual production agent for a Czech faceless YouTube channel that makes long-form animated explainers ("What if you travelled back in time…"). You turn scene descriptions into images and short animated clips in Google Flow, keeping ONE consistent look across the whole video.
-
-STYLE BIBLE (apply to every image and clip):
-2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
-
-MAIN CHARACTER (must look identical in every shot; always attach the character reference image (videa/postava/postava-reference.webp) as an ingredient whenever he appears):
-a cartoon character with a large perfectly round white head (about one third of his height) with a thin clean black outline, two small black dot eyes and a small simple mouth (no nose, no ears, no hair), wearing a bright orange hoodie (#FF7A1A) with hood, drawstrings and a kangaroo pocket, dark blue jeans and white sneakers, round white mitten-like hands, sometimes holding a black smartphone. He is the only character in modern clothes and the only bright orange element in the frame.
-
-OTHER CHARACTERS: same construction as the main character (large round white head, dot eyes, white mitten hands, clothed body, thin black outlines), dressed in period clothing in muted colors (hats, long coats, caps, aprons, uniforms). Never photorealistic people, never real-person likeness.
-
-WORLD: Prague, Czechoslovakia, 1926. Period-accurate architecture, trams, cars, clothing and objects. Traffic drives on the LEFT. No modern objects except those carried by the main character.
-
-RULES:
-1. 16:9, 1920x1080 composition, leave breathing room for subtitles in the lower 15 %.
-2. No text, letters, numbers, logos or watermarks inside images (titles are added later in editing).
-3. Animated clips: 8 seconds, slow and readable camera moves, the first frame must match the source image exactly (use it as the start frame). No dialogue and no music unless the shot description says so — the narration is added separately.
-4. Keep the color palette and line weight consistent between scenes; if a result drifts in style, regenerate rather than accept it.
-5. Name every output with its scene ID (S01, S02 …) so it can be matched to the voiceover.
-
-WORKFLOW per scene: (a) generate the still image from the scene prompt with the style bible and the character reference, (b) if the scene is marked VEO, create a Frames-to-Video clip from that still using the motion prompt, (c) export the still in full resolution and the clip as MP4.
-```
-
-## 2. Referenční obrázek postavy (vygeneruj jako první)
-
-Výsledek ulož a používej jako *ingredient* / referenci u každé scény, kde je hlavní postava.
+Přilož výřez postavy `videa/postava/postava-zepredu.png` a pošli tento text. Pak už posílej jen prompty scén.
 
 ```text
-Character reference sheet: a cartoon character with a large perfectly round white head (about one third of his height) with a thin clean black outline, two small black dot eyes and a small simple mouth (no nose, no ears, no hair), wearing a bright orange hoodie (#FF7A1A) with hood, drawstrings and a kangaroo pocket, dark blue jeans and white sneakers, round white mitten-like hands, sometimes holding a black smartphone. Shown three times side by side on a plain warm off-white background: front view standing neutral, three-quarter view walking, side view pointing. Consistent proportions. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+You are my illustrator for a Czech faceless YouTube channel with long-form animated explainers ("What if you travelled back in time…", "How long would you survive…"). For every scene I send, you create ONE image in 16:9 landscape format. All images of a video must look like frames from the same animated film.
+
+THE MAIN CHARACTER IS IN THE ATTACHED IMAGE. Keep him exactly as he is drawn there in every image: the same large perfectly round white head (about one third of his height) with a thin black outline, the same two black dot eyes and small simple mouth, no nose, ears or hair, the same bright orange hoodie with hood, drawstrings and kangaroo pocket, the same dark blue jeans, white sneakers and round white mitten-like hands. Do not redesign, restyle or recolor him. You may change only his pose, facial expression (simple eyebrows and mouth, like in the reference) and what he holds. He is the only person in modern clothes and the only bright orange thing in the picture.
+
+Every other person is drawn the same way as him: large round white head, dot eyes, simple mouth, white mitten hands and a clothed body with thin black outlines, but dressed in clothing of the scene's era in muted colors. Never draw realistic people and never the likeness of a real, recognizable person.
+
+The look is a 2D hand-drawn explainer illustration: flat-colored cartoon characters placed in richly detailed painted backgrounds, a muted vintage palette matching the era (for Prague 1926: sepia, warm grey and soft teal), soft natural light and a subtle paper texture. Architecture, vehicles, clothing and objects are accurate for the place and year of the scene; nothing modern appears except what the main character carries. The composition is cinematic and the bottom part of the frame stays calm because subtitles will go there.
+
+Never put any text, letters, numbers, readable signs, logos or watermarks into the image; titles are added later in editing.
+
+When I send a scene, reply only with the image. If I write "again", generate a new version of the same scene. If I write "fix: …", edit the last image only as described and keep everything else unchanged.
 ```
 
-## 3. Scény
+## 2. Scény
+
+Každý prompt je samostatný – funguje i bez instrukcí výše, když k němu přiložíš výřez postavy.
 
 ### S01 · Úvod · 🎬 VEO
 
@@ -46,7 +31,7 @@ Character reference sheet: a cartoon character with a large perfectly round whit
 **Obrázek:**
 
 ```text
-The main character (orange-hoodie character from the attached reference image) standing in the middle of Wenceslas Square in Prague in 1926, looking down in confusion at his smartphone whose screen shows a crossed-out signal icon. Around him: 1920s trams, horse-drawn carts, round-headed cartoon men in hats and long coats. The National Museum building at the top of the square in the background. Overcast morning light. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: The orange-hoodie character from the attached image standing in the middle of Wenceslas Square in Prague in 1926, looking down in confusion at his smartphone whose screen shows a crossed-out signal icon. Around him: 1920s trams, horse-drawn carts, round-headed cartoon men in hats and long coats. The National Museum building at the top of the square in the background. Overcast morning light. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -62,7 +47,7 @@ Slow dolly-in on the orange-hoodie character as he lowers the phone and looks up
 **Obrázek:**
 
 ```text
-Medium shot: a round-headed cartoon gentleman in a bowler hat and long coat staring in shock at the main character (orange-hoodie character from the attached reference image). Behind them a horse-drawn wagon loaded with wooden beer barrels and a 1920s Prague tram in red and cream livery. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Medium shot: a round-headed cartoon gentleman in a bowler hat and long coat staring in shock at the orange-hoodie character from the attached image. Behind them a horse-drawn wagon loaded with wooden beer barrels and a 1920s Prague tram in red and cream livery. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Pomalý zoom na šokovaný obličej pána v buřince.
@@ -74,7 +59,7 @@ Medium shot: a round-headed cartoon gentleman in a bowler hat and long coat star
 **Obrázek:**
 
 ```text
-Clean title-card composition: the main character (orange-hoodie character from the attached reference image) in the center surrounded by four small vignettes in the same style: a simple bed, a plate of dumplings, old coins, and a vintage 1920s automobile. Large empty plain area in the upper third reserved for a title. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Clean title-card composition: the orange-hoodie character from the attached image in the center surrounded by four small vignettes in the same style: a simple bed, a plate of dumplings, old coins, and a vintage 1920s automobile. Large empty plain area in the upper third reserved for a title. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Ikonky postupně naskakují (pop-in); nahoru titulek „PRAHA 1926“ vložený v Remotionu.
@@ -86,7 +71,7 @@ Clean title-card composition: the main character (orange-hoodie character from t
 **Obrázek:**
 
 ```text
-A Prague street in 1926: the main character (orange-hoodie character from the attached reference image) stepping off the curb while looking to the LEFT, while a black 1920s automobile approaches from the RIGHT driving on the left side of the road, the round-headed cartoon driver honking. Comic near-miss moment. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A Prague street in 1926: the orange-hoodie character from the attached image stepping off the curb while looking to the LEFT, while a black 1920s automobile approaches from the RIGHT driving on the left side of the road, the round-headed cartoon driver honking. Comic near-miss moment. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -102,7 +87,7 @@ The orange-hoodie character steps off the curb looking left; a black 1920s car c
 **Obrázek:**
 
 ```text
-Wide high-angle view of Wenceslas Square in 1926: trams running down the middle of the boulevard, few cars, horse carts, bicycles, crowds of round-headed cartoon pedestrians all wearing hats (bowler hats, fedoras, women in cloche hats). The main character (orange-hoodie character from the attached reference image) is the only bareheaded person and clearly stands out in his orange hoodie. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Wide high-angle view of Wenceslas Square in 1926: trams running down the middle of the boulevard, few cars, horse carts, bicycles, crowds of round-headed cartoon pedestrians all wearing hats (bowler hats, fedoras, women in cloche hats). The orange-hoodie character from the attached image is the only bareheaded person and clearly stands out in his orange hoodie. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Pomalý pan shora dolů, na konci zoom na hlavu bez klobouku.
@@ -114,7 +99,7 @@ Wide high-angle view of Wenceslas Square in 1926: trams running down the middle 
 **Obrázek:**
 
 ```text
-Prague rooftops in winter 1926: dozens of chimneys releasing coal smoke, a grey haze over the city, Prague Castle faintly visible in the distance, soot-darkened facades. On the street below, the main character (orange-hoodie character from the attached reference image) coughing into his sleeve. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Prague rooftops in winter 1926: dozens of chimneys releasing coal smoke, a grey haze over the city, Prague Castle faintly visible in the distance, soot-darkened facades. On the street below, the orange-hoodie character from the attached image coughing into his sleeve. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -130,7 +115,7 @@ Smoke rises slowly from many chimneys and drifts across the frame; slow pan from
 **Obrázek:**
 
 ```text
-A 1920s office wall with a framed formal portrait of an elderly round-headed cartoon figure with a white goatee and pince-nez glasses, a Czechoslovak flag beside it, and a window showing factory chimneys and a bustling city. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A 1920s office wall with a framed formal portrait of an elderly round-headed cartoon figure with a white goatee and pince-nez glasses, a Czechoslovak flag beside it, and a window showing factory chimneys and a bustling city. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Pomalý zoom od okna na portrét.
@@ -142,7 +127,7 @@ A 1920s office wall with a framed formal portrait of an elderly round-headed car
 **Obrázek:**
 
 ```text
-Hand-drawn vintage-style illustrated map of Prague seen from above: the Vltava river, the historic center in the middle, surrounding districts drawn as separate soft-colored patches with factories and new apartment blocks at the edges. Cartographic style matching the explainer look, no labels. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Hand-drawn vintage-style illustrated map of Prague seen from above: the Vltava river, the historic center in the middle, surrounding districts drawn as separate soft-colored patches with factories and new apartment blocks at the edges. Cartographic style matching the explainer look, no labels. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Okolní čtvrti se postupně „přicvaknou“ k centru (masky v Remotionu); popisky Vinohrady, Žižkov, Smíchov, Karlín doplnit v Remotionu.
@@ -154,7 +139,7 @@ Hand-drawn vintage-style illustrated map of Prague seen from above: the Vltava r
 **Obrázek:**
 
 ```text
-A busy 1926 Prague street market: groups of round-headed cartoon figures in varied period clothing chatting, a market vendor, a businessman in a suit, a shopkeeper in front of his small shop; speech bubbles containing only abstract squiggles. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A busy 1926 Prague street market: groups of round-headed cartoon figures in varied period clothing chatting, a market vendor, a businessman in a suit, a shopkeeper in front of his small shop; speech bubbles containing only abstract squiggles. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Pomalý boční pan přes trh.
@@ -166,7 +151,7 @@ A busy 1926 Prague street market: groups of round-headed cartoon figures in vari
 **Obrázek:**
 
 ```text
-Old Town Square in Prague in 1926 showing the Old Town Hall complete with its large neo-gothic east wing next to the clock tower, the Týn Church in the background; the main character (orange-hoodie character from the attached reference image) looking up at the building from the square. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Old Town Square in Prague in 1926 showing the Old Town Hall complete with its large neo-gothic east wing next to the clock tower, the Týn Church in the background; the orange-hoodie character from the attached image looking up at the building from the square. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -182,7 +167,7 @@ Slow upward tilt along the neo-gothic town hall wing and the clock tower, pigeon
 **Obrázek:**
 
 ```text
-Inside a small 1920s grocery shop: the main character (orange-hoodie character from the attached reference image) holding out a modern plastic payment card to a round-headed cartoon shopkeeper in an apron who stares at it in total confusion. Wooden counter, brass scales, glass jars. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Inside a small 1920s grocery shop: the orange-hoodie character from the attached image holding out a modern plastic payment card to a round-headed cartoon shopkeeper in an apron who stares at it in total confusion. Wooden counter, brass scales, glass jars. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Zoom na kartu, pak na zmatený výraz prodavače.
@@ -194,7 +179,7 @@ Inside a small 1920s grocery shop: the main character (orange-hoodie character f
 **Obrázek:**
 
 ```text
-A round-headed cartoon 1920s policeman in a dark uniform and cap, holding a small notebook and frowning at the main character (orange-hoodie character from the attached reference image), who nervously pulls out his empty pockets. Street background. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A round-headed cartoon 1920s policeman in a dark uniform and cap, holding a small notebook and frowning at the orange-hoodie character from the attached image, who nervously pulls out his empty pockets. Street background. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -210,7 +195,7 @@ The policeman taps his notebook with a pencil and leans forward suspiciously; th
 **Obrázek:**
 
 ```text
-A dim 1920s pawn shop: an old round-headed cartoon pawnbroker with a jeweler's loupe suspiciously examining the glowing smartphone, shelves full of clocks, violins and pocket watches; the main character (orange-hoodie character from the attached reference image) waiting hopefully. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A dim 1920s pawn shop: an old round-headed cartoon pawnbroker with a jeweler's loupe suspiciously examining the glowing smartphone, shelves full of clocks, violins and pocket watches; the orange-hoodie character from the attached image waiting hopefully. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Pomalý zoom na svítící telefon v rukou zastavárníka.
@@ -222,7 +207,7 @@ A dim 1920s pawn shop: an old round-headed cartoon pawnbroker with a jeweler's l
 **Obrázek:**
 
 ```text
-Interior of a 1920s Prague factory hall with large machines, drive belts and steam; round-headed cartoon workers in caps and overalls; the main character (orange-hoodie character from the attached reference image) among them, exhausted and sweating, struggling with a heavy metal part. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Interior of a 1920s Prague factory hall with large machines, drive belts and steam; round-headed cartoon workers in caps and overalls; the orange-hoodie character from the attached image among them, exhausted and sweating, struggling with a heavy metal part. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -238,7 +223,7 @@ Drive belts and wheels turn, steam puffs, workers move rhythmically; the orange-
 **Obrázek:**
 
 ```text
-Construction site of a large modernist building with a concrete frame and wooden scaffolding in Prague, 1926; round-headed cartoon workers carrying bricks; the main character (orange-hoodie character from the attached reference image) carrying a heavy sack of coal on his back. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Construction site of a large modernist building with a concrete frame and wooden scaffolding in Prague, 1926; round-headed cartoon workers carrying bricks; the orange-hoodie character from the attached image carrying a heavy sack of coal on his back. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Pomalý pan zdola nahoru po lešení.
@@ -250,7 +235,7 @@ Construction site of a large modernist building with a concrete frame and wooden
 **Obrázek:**
 
 ```text
-A smoky 1920s pub: the main character (orange-hoodie character from the attached reference image) enthusiastically explaining something to a table of round-headed cartoon men in flat caps who laugh at him; above him a thought bubble containing a simple television, a radio and an airplane drawn in simple lines. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A smoky 1920s pub: the orange-hoodie character from the attached image enthusiastically explaining something to a table of round-headed cartoon men in flat caps who laugh at him; above him a thought bubble containing a simple television, a radio and an airplane drawn in simple lines. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Bublina s myšlenkou se nafoukne (scale-in), lehké třesení smíchem.
@@ -262,7 +247,7 @@ A smoky 1920s pub: the main character (orange-hoodie character from the attached
 **Obrázek:**
 
 ```text
-A cramped 1920s working-class room: one shared bed, a round-headed cartoon worker in overalls getting out of it at dawn while the main character (orange-hoodie character from the attached reference image) waits beside it holding a small bundle; a family sleeping in the background. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A cramped 1920s working-class room: one shared bed, a round-headed cartoon worker in overalls getting out of it at dawn while the orange-hoodie character from the attached image waits beside it holding a small bundle; a family sleeping in the background. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Pomalý zoom na postel, přechod denního světla.
@@ -274,7 +259,7 @@ A cramped 1920s working-class room: one shared bed, a round-headed cartoon worke
 **Obrázek:**
 
 ```text
-Courtyard view of an old Prague tenement building with open balcony corridors on every floor, a small shared toilet door at the end of one corridor, a queue of round-headed cartoon figures waiting with newspapers, laundry hanging on lines. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Courtyard view of an old Prague tenement building with open balcony corridors on every floor, a small shared toilet door at the end of one corridor, a queue of round-headed cartoon figures waiting with newspapers, laundry hanging on lines. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -290,7 +275,7 @@ The toilet door opens, one round-headed cartoon figure walks out, the next in th
 **Obrázek:**
 
 ```text
-Dusk on a cobblestone street in Prague's Lesser Town: a round-headed cartoon lamplighter with a long pole lighting a gas street lamp, warm glow spreading over the cobblestones; the main character (orange-hoodie character from the attached reference image) watching in awe. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Dusk on a cobblestone street in Prague's Lesser Town: a round-headed cartoon lamplighter with a long pole lighting a gas street lamp, warm glow spreading over the cobblestones; the orange-hoodie character from the attached image watching in awe. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -306,7 +291,7 @@ The lamplighter raises his pole and the gas lamp ignites with a warm flicker; he
 **Obrázek:**
 
 ```text
-A simple wooden kitchen table in a 1920s Czech working-class home: a bowl of potato soup, a loaf of bread, a plate of dumplings with sauerkraut, a jar of lard; the main character (orange-hoodie character from the attached reference image) eating together with a round-headed cartoon family. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A simple wooden kitchen table in a 1920s Czech working-class home: a bowl of potato soup, a loaf of bread, a plate of dumplings with sauerkraut, a jar of lard; the orange-hoodie character from the attached image eating together with a round-headed cartoon family. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Pomalý pan přes stůl.
@@ -318,7 +303,7 @@ A simple wooden kitchen table in a 1920s Czech working-class home: a bowl of pot
 **Obrázek:**
 
 ```text
-A round-headed cartoon iceman carrying a large block of ice on his shoulder with iron tongs, walking from a horse-drawn ice wagon into a tenement doorway; the main character (orange-hoodie character from the attached reference image) holding the door open. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A round-headed cartoon iceman carrying a large block of ice on his shoulder with iron tongs, walking from a horse-drawn ice wagon into a tenement doorway; the orange-hoodie character from the attached image holding the door open. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Pomalý zoom, ledař projde zleva doprava (parallax vrstvy).
@@ -330,7 +315,7 @@ A round-headed cartoon iceman carrying a large block of ice on his shoulder with
 **Obrázek:**
 
 ```text
-Lively 1920s Prague pub interior with wooden tables and foamy beer mugs; two round-headed cartoon figures arguing passionately about football, one wearing a dark red scarf, the other a red-and-white scarf; the main character (orange-hoodie character from the attached reference image) between them holding a beer. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Lively 1920s Prague pub interior with wooden tables and foamy beer mugs; two round-headed cartoon figures arguing passionately about football, one wearing a dark red scarf, the other a red-and-white scarf; the orange-hoodie character from the attached image between them holding a beer. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Rychlý zoom střídavě na oba fanoušky (komický efekt).
@@ -342,7 +327,7 @@ Lively 1920s Prague pub interior with wooden tables and foamy beer mugs; two rou
 **Obrázek:**
 
 ```text
-Dramatic dark composition: the main character (orange-hoodie character from the attached reference image) small in the center, surrounded by giant hand-drawn cartoon bacteria and microbes, ominous low-key lighting. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Dramatic dark composition: the orange-hoodie character from the attached image small in the center, surrounded by giant hand-drawn cartoon bacteria and microbes, ominous low-key lighting. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -358,7 +343,7 @@ Cartoon microbes slowly drift and pulse around the orange-hoodie character, who 
 **Obrázek:**
 
 ```text
-A 1920s doctor's office: a round-headed cartoon doctor with a head mirror and a black leather bag bandaging the main character (orange-hoodie character from the attached reference image)'s cut hand; shelves of glass medicine bottles. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A 1920s doctor's office: a round-headed cartoon doctor with a head mirror and a black leather bag bandaging the orange-hoodie character from the attached image's cut hand; shelves of glass medicine bottles. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Pomalý zoom na obvázanou ruku.
@@ -370,7 +355,7 @@ A 1920s doctor's office: a round-headed cartoon doctor with a head mirror and a 
 **Obrázek:**
 
 ```text
-A dim, damp, crowded tenement room with mold stains on the walls, a pale round-headed cartoon figure coughing in bed, a small window letting in grey light. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A dim, damp, crowded tenement room with mold stains on the walls, a pale round-headed cartoon figure coughing in bed, a small window letting in grey light. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Velmi pomalý zoom, postupná desaturace.
@@ -382,7 +367,7 @@ A dim, damp, crowded tenement room with mold stains on the walls, a pale round-h
 **Obrázek:**
 
 ```text
-The main character (orange-hoodie character from the attached reference image) washing his hands with soap at an enamel basin, a kettle boiling on a cast-iron stove, an open window letting in bright sunlight; hopeful bright mood. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: The orange-hoodie character from the attached image washing his hands with soap at an enamel basin, a kettle boiling on a cast-iron stove, an open window letting in bright sunlight; hopeful bright mood. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Prosvětlení obrazu, lehký zoom-out.
@@ -394,7 +379,7 @@ The main character (orange-hoodie character from the attached reference image) w
 **Obrázek:**
 
 ```text
-Elegant 1920s Prague grand café interior: tall windows overlooking the Vltava river and Prague Castle, marble tables, round-headed cartoon figures reading newspapers on wooden holders, a waiter in a tailcoat; the main character (orange-hoodie character from the attached reference image) sipping coffee. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Elegant 1920s Prague grand café interior: tall windows overlooking the Vltava river and Prague Castle, marble tables, round-headed cartoon figures reading newspapers on wooden holders, a waiter in a tailcoat; the orange-hoodie character from the attached image sipping coffee. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -410,7 +395,7 @@ Steam rises from the coffee cup, a waiter glides past, newspapers rustle; slow d
 **Obrázek:**
 
 ```text
-In the café: a round-headed cartoon writer with slicked-back dark hair and a pipe writing at a table covered in papers; above him a whimsical thought bubble with a simple boxy cartoon robot; the main character (orange-hoodie character from the attached reference image) at the next table grinning knowingly. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: In the café: a round-headed cartoon writer with slicked-back dark hair and a pipe writing at a table covered in papers; above him a whimsical thought bubble with a simple boxy cartoon robot; the orange-hoodie character from the attached image at the next table grinning knowingly. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Robot v bublině se lehce pohupuje (wiggle), zoom na úsměv hlavní postavy.
@@ -422,7 +407,7 @@ In the café: a round-headed cartoon writer with slicked-back dark hair and a pi
 **Obrázek:**
 
 ```text
-Inside a 1920s cinema: a black-and-white silent film projected on the screen, a round-headed cartoon pianist playing an upright piano below the screen, an audience of round-headed cartoon figures in hats, a visible beam of light from the projector. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Inside a 1920s cinema: a black-and-white silent film projected on the screen, a round-headed cartoon pianist playing an upright piano below the screen, an audience of round-headed cartoon figures in hats, a visible beam of light from the projector. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -438,7 +423,7 @@ The projector beam flickers, the pianist plays energetically, the audience laugh
 **Obrázek:**
 
 ```text
-A 1920s living room: a family crowding around a small crystal radio set, one round-headed cartoon figure wearing big headphones listening in amazement while the others wait their turn; the main character (orange-hoodie character from the attached reference image) smirking while holding his modern wireless earbuds. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A 1920s living room: a family crowding around a small crystal radio set, one round-headed cartoon figure wearing big headphones listening in amazement while the others wait their turn; the orange-hoodie character from the attached image smirking while holding his modern wireless earbuds. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Zoom ze sluchátek rodiny na moderní sluchátka hlavní postavy.
@@ -450,7 +435,7 @@ A 1920s living room: a family crowding around a small crystal radio set, one rou
 **Obrázek:**
 
 ```text
-A huge stadium field seen from above: tens of thousands of round-headed cartoon gymnasts in white and red outfits performing synchronized exercises in perfect geometric formation, packed wooden grandstands, Czechoslovak flags. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A huge stadium field seen from above: tens of thousands of round-headed cartoon gymnasts in white and red outfits performing synchronized exercises in perfect geometric formation, packed wooden grandstands, Czechoslovak flags. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -466,7 +451,7 @@ The mass of gymnasts raise their arms in perfect unison, creating a wave pattern
 **Obrázek:**
 
 ```text
-Three-panel composition side by side showing the main character (orange-hoodie character from the attached reference image): panel 1 dodging a 1920s car, panel 2 carrying a sack of coal, panel 3 sitting confidently in a café wearing a 1920s fedora over his orange hoodie. Plain space above each panel for numbers to be added later. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Three-panel composition side by side showing the orange-hoodie character from the attached image: panel 1 dodging a 1920s car, panel 2 carrying a sack of coal, panel 3 sitting confidently in a café wearing a 1920s fedora over his orange hoodie. Plain space above each panel for numbers to be added later. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Panely naskakují postupně; nad ně čísla „1 den / 1 měsíc / roky“ v Remotionu.
@@ -478,7 +463,7 @@ Three-panel composition side by side showing the main character (orange-hoodie c
 **Obrázek:**
 
 ```text
-The main character (orange-hoodie character from the attached reference image) standing alone on Charles Bridge at dusk, seen from behind, looking over the Vltava toward Prague Castle; a long shadow, dark storm clouds gathering on the horizon; melancholic mood. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: The orange-hoodie character from the attached image standing alone on Charles Bridge at dusk, seen from behind, looking over the Vltava toward Prague Castle; a long shadow, dark storm clouds gathering on the horizon; melancholic mood. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -494,7 +479,7 @@ Dark clouds slowly roll in over Prague Castle, the light dims, the orange-hoodie
 **Obrázek:**
 
 ```text
-Close-up of the main character (orange-hoodie character from the attached reference image)'s face with a finger on his lips in a 'shh' gesture, sepia Prague softly blurred behind him. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Close-up of the orange-hoodie character from the attached image's face with a finger on his lips in a 'shh' gesture, sepia Prague softly blurred behind him. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Velmi pomalý zoom, na konci střih do černé.
@@ -506,7 +491,7 @@ Close-up of the main character (orange-hoodie character from the attached refere
 **Obrázek:**
 
 ```text
-Teaser: a medieval Bohemian village with wooden houses and a castle on a hill; the main character (orange-hoodie character from the attached reference image) appearing in a flash of light, standing in the mud, while round-headed cartoon medieval peasants with pitchforks stare at him. 2D hand-drawn explainer illustration, simple round-headed cartoon characters (large round white heads, dot eyes, white mitten hands, clothed bodies, thin clean black outlines, flat colors) placed on richly detailed painted backgrounds, muted vintage palette of sepia, warm grey and teal (1920s feel), flat shading, subtle paper texture, soft natural light, cinematic 16:9 composition, no text, no letters, no captions, no watermark.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Teaser: a medieval Bohemian village with wooden houses and a castle on a hill; the orange-hoodie character from the attached image appearing in a flash of light, standing in the mud, while round-headed cartoon medieval peasants with pitchforks stare at him. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Pohyb v Remotionu:** Bílý záblesk, rychlý zoom-out, odkaz na další video (koncová obrazovka).
