@@ -80,13 +80,13 @@ const MapLabels: React.FC = () => {
   const districts = ["Vinohrady", "Žižkov", "Smíchov", "Karlín"];
   return (
     <AbsoluteFill>
-      <Tag text="VELKÁ PRAHA · 1922" delay={6} style={{ left: 70, bottom: 150 }} />
+      <Tag text="VELKÁ PRAHA · 1922" delay={6} style={{ left: "calc(70px + var(--inset, 0px))", bottom: 150 }} />
       {districts.map((d, i) => (
         <Tag
           key={d}
           text={`+ ${d}`}
           delay={40 + i * 22}
-          style={{ right: 70, top: 120 + i * 95, fontSize: 40, fontWeight: 500 }}
+          style={{ right: "calc(70px + var(--inset, 0px))", top: 120 + i * 95, fontSize: 40, fontWeight: 500 }}
         />
       ))}
     </AbsoluteFill>
@@ -136,7 +136,7 @@ const VerdictLabel: React.FC<{ t: string; x: number; w: number; delay: number }>
 };
 
 const Caption: React.FC<{ text: string; delay?: number }> = ({ text, delay = 12 }) => (
-  <Tag text={text} delay={delay} style={{ left: 70, top: 70, fontSize: 40, fontWeight: 500 }} />
+  <Tag text={text} delay={delay} style={{ left: "calc(70px + var(--inset, 0px))", top: 70, fontSize: 40, fontWeight: 500 }} />
 );
 
 const NextEpisode: React.FC = () => {

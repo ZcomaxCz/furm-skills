@@ -45,7 +45,7 @@ def ts(t):
     return f"{ms // 3600000:02d}:{ms // 60000 % 60:02d}:{ms // 1000 % 60:02d},{ms % 1000:03d}"
 
 
-lines, t, n = [], 0.0, 1
+lines, cues, t, n = [], [], 0.0, 1
 for s in scenes:
     d = durs[s["id"]]
     parts = chunks(s["narration"])
@@ -54,8 +54,10 @@ for s in scenes:
     for p in parts:
         dur = d * len(p) / total
         lines += [str(n), f"{ts(cur)} --> {ts(cur + dur - 0.05)}", p, ""]
+        cues.append({"start": round(cur, 3), "end": round(cur + dur - 0.05, 3), "text": p})
         cur += dur
         n += 1
     t += d + GAP
 (proj / "titulky.cs.srt").write_text("\n".join(lines), encoding="utf-8")
+(proj / "titulky.json").write_text(json.dumps(cues, ensure_ascii=False, indent=0), encoding="utf-8")
 print(n - 1, "titulků")

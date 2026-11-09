@@ -108,6 +108,21 @@ const SceneView: React.FC<{ scene: Scene; index: number; frames: number }> = ({
   );
 };
 
+// obraz celého dílu (bez zvuku) – používá ho hlavní video i shorty
+export const EpisodeVisual: React.FC = () => (
+  <AbsoluteFill style={{ backgroundColor: "#000" }}>
+    {timeline.map(({ scene, start, frames }, i) => {
+      const from = i === 0 ? 0 : start - FADE;
+      const len = frames + (i === 0 ? 0 : FADE) + (i === timeline.length - 1 ? FPS : 0);
+      return (
+        <Sequence key={scene.id} from={from} durationInFrames={len} name={scene.id}>
+          <SceneView scene={scene} index={i} frames={len} />
+        </Sequence>
+      );
+    })}
+  </AbsoluteFill>
+);
+
 export const Episode: React.FC = () => {
   const { durationInFrames } = useVideoConfig();
   const f = useCurrentFrame();
@@ -117,15 +132,7 @@ export const Episode: React.FC = () => {
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
       <AbsoluteFill style={{ opacity: endFade }}>
-        {timeline.map(({ scene, start, frames }, i) => {
-          const from = i === 0 ? 0 : start - FADE;
-          const len = frames + (i === 0 ? 0 : FADE) + (i === timeline.length - 1 ? FPS : 0);
-          return (
-            <Sequence key={scene.id} from={from} durationInFrames={len} name={scene.id}>
-              <SceneView scene={scene} index={i} frames={len} />
-            </Sequence>
-          );
-        })}
+        <EpisodeVisual />
       </AbsoluteFill>
       <Audio src={staticFile("audio/mix.wav")} />
     </AbsoluteFill>
