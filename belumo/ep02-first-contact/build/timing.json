@@ -1,0 +1,322 @@
+{
+ "shots": {
+  "1": [
+   0.0,
+   8.236
+  ],
+  "2": [
+   8.236,
+   19.292
+  ],
+  "3": [
+   19.292,
+   33.032
+  ],
+  "4": [
+   33.032,
+   42.937
+  ],
+  "5": [
+   42.937,
+   57.638
+  ],
+  "6": [
+   57.638,
+   76.672
+  ],
+  "7": [
+   76.672,
+   88.064
+  ],
+  "8": [
+   88.064,
+   108.99
+  ],
+  "9": [
+   108.99,
+   121.046
+  ],
+  "10": [
+   121.046,
+   130.602
+  ],
+  "11": [
+   130.602,
+   141.369
+  ],
+  "12": [
+   141.369,
+   158.609
+  ],
+  "13": [
+   158.609,
+   170.833
+  ]
+ },
+ "lines": [
+  {
+   "start": 0.6,
+   "end": 7.336,
+   "speaker": "Narrator",
+   "text": "Day two. The Department of Unfortunate Outcomes no longer officially existed. This was the day humanity chose to be contacted."
+  },
+  {
+   "start": 8.836,
+   "end": 11.264,
+   "speaker": "VERA",
+   "text": "Gary. We are receiving a transmission."
+  },
+  {
+   "start": 11.664,
+   "end": 13.317,
+   "speaker": "Gary",
+   "text": "Not now."
+  },
+  {
+   "start": 13.717,
+   "end": 15.77,
+   "speaker": "VERA",
+   "text": "It originates outside the solar system."
+  },
+  {
+   "start": 16.17,
+   "end": 18.392,
+   "speaker": "Gary",
+   "text": "Still not now."
+  },
+  {
+   "start": 19.892,
+   "end": 22.337,
+   "speaker": "VERA",
+   "text": "It is addressed to the highest authority on Earth."
+  },
+  {
+   "start": 22.737,
+   "end": 24.936,
+   "speaker": "Gary",
+   "text": "Then why is it ringing here?"
+  },
+  {
+   "start": 25.336,
+   "end": 29.695,
+   "speaker": "VERA",
+   "text": "A typo. Our postal code is one digit away from the United Nations."
+  },
+  {
+   "start": 30.095,
+   "end": 32.132,
+   "speaker": "Gary",
+   "text": "Of course it is."
+  },
+  {
+   "start": 33.632,
+   "end": 38.632,
+   "speaker": "Dolores",
+   "text": "Gary! There's an alien in the lobby! He's so tall! He brought a gift!"
+  },
+  {
+   "start": 39.032,
+   "end": 40.958,
+   "speaker": "Gary",
+   "text": "Is he on the visitor list?"
+  },
+  {
+   "start": 41.358,
+   "end": 42.037,
+   "speaker": "Dolores",
+   "text": "I'll check!"
+  },
+  {
+   "start": 43.537,
+   "end": 46.049,
+   "speaker": "Brenda",
+   "text": "Name, species, reason for visit?"
+  },
+  {
+   "start": 46.449,
+   "end": 50.53,
+   "speaker": "Ixx",
+   "text": "Ambassador Ixx. Vael. First contact."
+  },
+  {
+   "start": 50.93,
+   "end": 54.381,
+   "speaker": "Brenda",
+   "text": "There are only ten boxes for the name."
+  },
+  {
+   "start": 54.781,
+   "end": 56.738,
+   "speaker": "Ixx",
+   "text": "Then I shall be Ixx of Vael."
+  },
+  {
+   "start": 58.238,
+   "end": 64.629,
+   "speaker": "Ixx",
+   "text": "People of Earth. Eleven days ago we detected a singularity in your accounting department."
+  },
+  {
+   "start": 65.029,
+   "end": 66.073,
+   "speaker": "Gary",
+   "text": "That was ours."
+  },
+  {
+   "start": 66.473,
+   "end": 71.644,
+   "speaker": "Ixx",
+   "text": "It vanished. My civilization required four thousand years to achieve that."
+  },
+  {
+   "start": 72.044,
+   "end": 73.617,
+   "speaker": "Gary",
+   "text": "We fed it paperwork."
+  },
+  {
+   "start": 74.017,
+   "end": 75.772,
+   "speaker": "Ixx",
+   "text": "...Teach us."
+  },
+  {
+   "start": 77.272,
+   "end": 81.663,
+   "speaker": "Ixx",
+   "text": "Your species has weaponized bureaucracy. We bow before you."
+  },
+  {
+   "start": 82.063,
+   "end": 83.228,
+   "speaker": "VERA",
+   "text": "Technically correct."
+  },
+  {
+   "start": 83.628,
+   "end": 87.164,
+   "speaker": "Gary",
+   "text": "It's not a weapon. It's a Tuesday."
+  },
+  {
+   "start": 88.664,
+   "end": 97.131,
+   "speaker": "Ixx",
+   "text": "Unfortunately, protocol requires your formal reply within one Earth day. Otherwise your planet is declared unclaimed and reassigned."
+  },
+  {
+   "start": 97.531,
+   "end": 99.429,
+   "speaker": "Gary",
+   "text": "Reassigned to whom?"
+  },
+  {
+   "start": 99.829,
+   "end": 100.954,
+   "speaker": "Ixx",
+   "text": "A mining company."
+  },
+  {
+   "start": 101.354,
+   "end": 104.216,
+   "speaker": "Gary",
+   "text": "What do we have to file?"
+  },
+  {
+   "start": 104.616,
+   "end": 108.09,
+   "speaker": "Ixx",
+   "text": "Form 7-J. Fourteen pages. Notarized."
+  },
+  {
+   "start": 109.59,
+   "end": 111.689,
+   "speaker": "Brenda",
+   "text": "Notarized by whom?"
+  },
+  {
+   "start": 112.089,
+   "end": 113.368,
+   "speaker": "Ixx",
+   "text": "A neutral party."
+  },
+  {
+   "start": 113.768,
+   "end": 114.838,
+   "speaker": "VERA",
+   "text": "Dave is a notary."
+  },
+  {
+   "start": 115.238,
+   "end": 117.211,
+   "speaker": "Gary",
+   "text": "Dave is in Portugal."
+  },
+  {
+   "start": 117.611,
+   "end": 120.146,
+   "speaker": "Dolores",
+   "text": "I'll ask Dave! Does he have Wi-Fi?"
+  },
+  {
+   "start": 121.646,
+   "end": 123.469,
+   "speaker": "Brenda",
+   "text": "Out of toner."
+  },
+  {
+   "start": 123.869,
+   "end": 125.105,
+   "speaker": "Ixx",
+   "text": "We have eleven minutes."
+  },
+  {
+   "start": 125.505,
+   "end": 126.822,
+   "speaker": "Gary",
+   "text": "Nobody panic."
+  },
+  {
+   "start": 127.222,
+   "end": 129.702,
+   "speaker": "Dolores",
+   "text": "Eleven minutes!"
+  },
+  {
+   "start": 131.202,
+   "end": 140.469,
+   "speaker": "Vendor",
+   "text": "Thank you for calling Toner Express. Your order is important to us. Estimated delivery: six to eight weeks. Press one to hear this message again."
+  },
+  {
+   "start": 141.969,
+   "end": 144.63,
+   "speaker": "Ixx",
+   "text": "Form rejected. Signed by an intern."
+  },
+  {
+   "start": 145.03,
+   "end": 147.378,
+   "speaker": "Gary",
+   "text": "I'm the only one here."
+  },
+  {
+   "start": 147.778,
+   "end": 153.292,
+   "speaker": "VERA",
+   "text": "Gary. A legally non-existent entity cannot be rejected. It can only be pending."
+  },
+  {
+   "start": 153.692,
+   "end": 157.709,
+   "speaker": "Ixx",
+   "text": "...Pending is acceptable. Review time: six hundred years."
+  },
+  {
+   "start": 159.209,
+   "end": 169.933,
+   "speaker": "Narrator",
+   "text": "Earth was not destroyed. It was placed on hold. Estimated wait time: six hundred years. Gary's mood: unchanged. Next time on Department of Unfortunate Outcomes: Dolores Files a Complaint."
+  }
+ ]
+}
