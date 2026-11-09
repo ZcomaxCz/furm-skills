@@ -127,7 +127,7 @@ export const Episode: React.FC = () => {
           );
         })}
       </AbsoluteFill>
-      <Audio src={staticFile("audio/narace.wav")} />
+      <Audio src={staticFile("audio/mix.wav")} />
     </AbsoluteFill>
   );
 };

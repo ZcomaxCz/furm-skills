@@ -1,0 +1,15 @@
+{
+ "music_level": 0.22,
+ "tracks": [
+  {"id": "01-uvod", "start": 0, "end": 143.0,
+   "prompt": "Curious, gently whimsical 1920s-inspired instrumental: light ragtime-style upright piano, soft pizzicato strings and a muted clarinet, medium-slow tempo around 90 BPM, sense of wonder and discovery, warm vintage tone."},
+  {"id": "02-zivot", "start": 143.0, "end": 326.5,
+   "prompt": "Playful, slightly comedic Central European instrumental in a 1920s style: bouncy pizzicato strings, soft accordion and clarinet, light brushed percussion, around 100 BPM, lighthearted everyday-life mood, never loud."},
+  {"id": "03-bacily", "start": 326.5, "end": 370.9,
+   "prompt": "Ominous, tense but restrained instrumental: low sustained cello and double bass drones, sparse dissonant piano notes, slow heartbeat-like pulse, dark mysterious atmosphere, quiet."},
+  {"id": "04-zabava", "start": 370.9, "end": 439.4,
+   "prompt": "Lively jazz-age 1920s instrumental: bright silent-film style piano with a gentle foxtrot rhythm, soft muted trumpet and banjo, around 115 BPM, joyful café and cinema atmosphere."},
+  {"id": "05-verdikt", "start": 439.4, "end": 485.1,
+   "prompt": "Melancholic, reflective solo piano with soft string pad, slow tempo around 70 BPM, bittersweet nostalgic mood that slowly builds a little tension and ends softly."}
+ ]
+}
