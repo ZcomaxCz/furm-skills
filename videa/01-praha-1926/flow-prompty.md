@@ -516,7 +516,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Obrázek:**
 
 ```text
-Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Inside a 1920s cinema: a black-and-white silent film projected on the screen, a round-headed cartoon pianist playing an upright piano below the screen, an audience of round-headed cartoon figures in hats, a visible beam of light from the projector. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Inside a 1920s cinema, seen from the back rows: the backs of the round heads of the audience, many wearing hats, in front of a large glowing screen showing a simple black-and-white silent-film scene; a round-headed cartoon pianist at an upright piano below the screen; a visible beam of light from the projector above. In the foreground, medium-large in the frame, the orange-hoodie character from the attached image sits in the last row, turned three-quarters toward the viewer, smiling. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -527,13 +527,13 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 Camera: completely static, locked-off shot, no pan, no zoom.
 
 Action, in this order:
-0–8 s: the beam of light from the projector flickers softly and the grey light on the screen flickers like an old film.
+0–8 s: the beam of light from the projector flickers softly and the light of the screen flickers like an old film, while the image on the screen stays the same.
 0–8 s: the pianist's hands move quickly over the keys and his head bobs to the rhythm.
-3–8 s: the audience laughs, their round heads bouncing slightly.
+3–8 s: the audience laughs, the backs of their round heads bouncing slightly; the orange-hoodie character laughs along and claps his hands twice.
 
-The cinema hall, the screen frame and the seats stay still. All people keep their round white heads and hats.
+The cinema hall, the screen frame and the seats stay still. All people keep their round white heads and hats. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
 
-Duration 8 seconds. Audio: lively silent-film piano and soft laughter, no music, no speech.
+Duration 8 seconds. Audio: a lively silent-film piano melody and soft audience laughter, no speech.
 ```
 
 ### S30 · Zábava · 🖼️ Remotion
