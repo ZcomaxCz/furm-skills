@@ -89,7 +89,7 @@ S22 – 16:9. Lively 1920s Prague pub interior with wooden tables and foamy beer
 ## S24
 
 ```text
-S24 – 16:9. A 1920s doctor's office: a round-headed cartoon doctor with a head mirror and a black leather bag bandaging the orange-hoodie character from the reference's cut hand; shelves of glass medicine bottles.
+S24 – 16:9. A 1920s doctor's office: a round-headed cartoon doctor with a head mirror and a black leather bag bandaging the cut hand of the orange-hoodie character from the reference; shelves of glass medicine bottles.
 ```
 
 ## S25
@@ -125,7 +125,7 @@ S32 – 16:9. Three-panel composition side by side showing the orange-hoodie cha
 ## S34
 
 ```text
-S34 – 16:9. Close-up of the orange-hoodie character from the reference's face with a finger on his lips in a 'shh' gesture, sepia Prague softly blurred behind him.
+S34 – 16:9. Close-up of the face of the orange-hoodie character from the reference with a finger on his lips in a 'shh' gesture, sepia Prague softly blurred behind him.
 ```
 
 ## S35
