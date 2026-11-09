@@ -322,7 +322,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Obrázek:**
 
 ```text
-Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Courtyard view of an old Prague tenement building with open balcony corridors on every floor, a small shared toilet door at the end of one corridor, a queue of round-headed cartoon figures waiting with newspapers, laundry hanging on lines. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Close view of one open balcony corridor (pavlač) of an old Prague tenement building, seen from the courtyard: a small closed wooden toilet door at the end of the corridor, a queue of four round-headed cartoon people in period clothing waiting in front of it, the first one holding a folded newspaper, and the orange-hoodie character from the attached image standing last in the queue holding his smartphone. Laundry hangs on a line above the railing. The door and the queue are medium-large in the frame. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -333,14 +333,14 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 Camera: completely static, locked-off shot, no pan, no zoom.
 
 Action, in this order:
-0–2 s: the small shared toilet door at the end of the corridor opens.
-2–4 s: one person walks out and moves aside.
-4–7 s: the next person in the queue hurries in with a newspaper under his arm and the door closes.
-0–8 s: the laundry on the lines sways gently in the wind.
+0–8 s: the laundry on the line sways gently in the wind.
+0–3 s: the people in the queue shift their weight impatiently from foot to foot.
+3–5 s: the first person in the queue knocks twice on the toilet door.
+5–8 s: the orange-hoodie character at the end of the queue looks at his phone, sighs and lets his head drop.
 
-The building, the balcony corridors and the courtyard stay still and keep their exact shape. All people keep their round white heads and period clothing.
+The building, the railing, the corridor and the closed door stay still and keep their exact shape. All people keep their round white heads and period clothing. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
 
-Duration 8 seconds. Audio: courtyard ambience, a creaking door and a door closing, no music, no speech.
+Duration 8 seconds. Audio: courtyard ambience and two knocks on a wooden door, no music, no speech.
 ```
 
 ### S19 · Bydlení · 🎬 VEO
