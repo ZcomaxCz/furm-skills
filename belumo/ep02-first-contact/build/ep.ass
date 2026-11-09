@@ -1,0 +1,56 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Poppins,58,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,1,2,200,200,70,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.60,0:00:07.46,Default,,0,0,0,,{\c&H00FFFFFF&}Day two. The Department of Unfortunate Outcomes no longer officially existed. This was the day humanity chose to be contacted.
+Dialogue: 0,0:00:08.84,0:00:11.38,Default,,0,0,0,,{\c&H00D0E04D&}Gary. We are receiving a transmission.
+Dialogue: 0,0:00:11.66,0:00:13.44,Default,,0,0,0,,{\c&H00FFFFFF&}Not now.
+Dialogue: 0,0:00:13.72,0:00:15.89,Default,,0,0,0,,{\c&H00D0E04D&}It originates outside the solar system.
+Dialogue: 0,0:00:16.17,0:00:18.51,Default,,0,0,0,,{\c&H00FFFFFF&}Still not now.
+Dialogue: 0,0:00:19.89,0:00:22.46,Default,,0,0,0,,{\c&H00D0E04D&}It is addressed to the highest authority on Earth.
+Dialogue: 0,0:00:22.74,0:00:25.06,Default,,0,0,0,,{\c&H00FFFFFF&}Then why is it ringing here?
+Dialogue: 0,0:00:25.34,0:00:29.82,Default,,0,0,0,,{\c&H00D0E04D&}A typo. Our postal code is one digit away from the United Nations.
+Dialogue: 0,0:00:30.09,0:00:32.25,Default,,0,0,0,,{\c&H00FFFFFF&}Of course it is.
+Dialogue: 0,0:00:33.63,0:00:38.75,Default,,0,0,0,,{\c&H00AA8CFF&}Gary! There's an alien in the lobby! He's so tall! He brought a gift!
+Dialogue: 0,0:00:39.03,0:00:41.08,Default,,0,0,0,,{\c&H00FFFFFF&}Is he on the visitor list?
+Dialogue: 0,0:00:41.36,0:00:42.16,Default,,0,0,0,,{\c&H00AA8CFF&}I'll check!
+Dialogue: 0,0:00:43.54,0:00:46.17,Default,,0,0,0,,{\c&H00FFFFFF&}Name, species, reason for visit?
+Dialogue: 0,0:00:46.45,0:00:50.65,Default,,0,0,0,,{\c&H00B4E6BE&}Ambassador Ixx. Vael. First contact.
+Dialogue: 0,0:00:50.93,0:00:54.50,Default,,0,0,0,,{\c&H00FFFFFF&}There are only ten boxes for the name.
+Dialogue: 0,0:00:54.78,0:00:56.86,Default,,0,0,0,,{\c&H00B4E6BE&}Then I shall be Ixx of Vael.
+Dialogue: 0,0:00:58.24,0:01:04.75,Default,,0,0,0,,{\c&H00B4E6BE&}People of Earth. Eleven days ago we detected a singularity in your accounting department.
+Dialogue: 0,0:01:05.03,0:01:06.19,Default,,0,0,0,,{\c&H00FFFFFF&}That was ours.
+Dialogue: 0,0:01:06.47,0:01:11.76,Default,,0,0,0,,{\c&H00B4E6BE&}It vanished. My civilization required four thousand years to achieve that.
+Dialogue: 0,0:01:12.04,0:01:13.74,Default,,0,0,0,,{\c&H00FFFFFF&}We fed it paperwork.
+Dialogue: 0,0:01:14.02,0:01:15.89,Default,,0,0,0,,{\c&H00B4E6BE&}...Teach us.
+Dialogue: 0,0:01:17.27,0:01:21.78,Default,,0,0,0,,{\c&H00B4E6BE&}Your species has weaponized bureaucracy. We bow before you.
+Dialogue: 0,0:01:22.06,0:01:23.35,Default,,0,0,0,,{\c&H00D0E04D&}Technically correct.
+Dialogue: 0,0:01:23.63,0:01:27.28,Default,,0,0,0,,{\c&H00FFFFFF&}It's not a weapon. It's a Tuesday.
+Dialogue: 0,0:01:28.66,0:01:37.25,Default,,0,0,0,,{\c&H00B4E6BE&}Unfortunately, protocol requires your formal reply within one Earth day. Otherwise your planet is declared unclaimed and reassigned.
+Dialogue: 0,0:01:37.53,0:01:39.55,Default,,0,0,0,,{\c&H00FFFFFF&}Reassigned to whom?
+Dialogue: 0,0:01:39.83,0:01:41.07,Default,,0,0,0,,{\c&H00B4E6BE&}A mining company.
+Dialogue: 0,0:01:41.35,0:01:44.34,Default,,0,0,0,,{\c&H00FFFFFF&}What do we have to file?
+Dialogue: 0,0:01:44.62,0:01:48.21,Default,,0,0,0,,{\c&H00B4E6BE&}Form 7-J. Fourteen pages. Notarized.
+Dialogue: 0,0:01:49.59,0:01:51.81,Default,,0,0,0,,{\c&H00FFFFFF&}Notarized by whom?
+Dialogue: 0,0:01:52.09,0:01:53.49,Default,,0,0,0,,{\c&H00B4E6BE&}A neutral party.
+Dialogue: 0,0:01:53.77,0:01:54.96,Default,,0,0,0,,{\c&H00D0E04D&}Dave is a notary.
+Dialogue: 0,0:01:55.24,0:01:57.33,Default,,0,0,0,,{\c&H00FFFFFF&}Dave is in Portugal.
+Dialogue: 0,0:01:57.61,0:02:00.27,Default,,0,0,0,,{\c&H00AA8CFF&}I'll ask Dave! Does he have Wi-Fi?
+Dialogue: 0,0:02:01.65,0:02:03.59,Default,,0,0,0,,{\c&H00FFFFFF&}Out of toner.
+Dialogue: 0,0:02:03.87,0:02:05.23,Default,,0,0,0,,{\c&H00B4E6BE&}We have eleven minutes.
+Dialogue: 0,0:02:05.50,0:02:06.94,Default,,0,0,0,,{\c&H00FFFFFF&}Nobody panic.
+Dialogue: 0,0:02:07.22,0:02:09.82,Default,,0,0,0,,{\c&H00AA8CFF&}Eleven minutes!
+Dialogue: 0,0:02:11.20,0:02:20.59,Default,,0,0,0,,{\c&H00C8C8C8&}Thank you for calling Toner Express. Your order is important to us. Estimated delivery: six to eight weeks. Press one to hear this message again.
+Dialogue: 0,0:02:21.97,0:02:24.75,Default,,0,0,0,,{\c&H00B4E6BE&}Form rejected. Signed by an intern.
+Dialogue: 0,0:02:25.03,0:02:27.50,Default,,0,0,0,,{\c&H00FFFFFF&}I'm the only one here.
+Dialogue: 0,0:02:27.78,0:02:33.41,Default,,0,0,0,,{\c&H00D0E04D&}Gary. A legally non-existent entity cannot be rejected. It can only be pending.
+Dialogue: 0,0:02:33.69,0:02:37.83,Default,,0,0,0,,{\c&H00B4E6BE&}...Pending is acceptable. Review time: six hundred years.
+Dialogue: 0,0:02:39.21,0:02:50.05,Default,,0,0,0,,{\c&H00FFFFFF&}Earth was not destroyed. It was placed on hold. Estimated wait time: six hundred years. Gary's mood: unchanged. Next time on Department of Unfortunate Outcomes: Dolores Files a Complaint.
