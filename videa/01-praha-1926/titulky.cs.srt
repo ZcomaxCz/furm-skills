@@ -39,16 +39,16 @@ jako bys spadl z Marsu.
 Což vlastně skoro sedí.
 
 11
-00:00:24,732 --> 00:00:29,814
+00:00:24,732 --> 00:00:29,875
 V tomhle videu zjistíme, jak dlouho bys v Praze roku 1926 vydržel.
 
 12
-00:00:29,864 --> 00:00:35,956
-Kde bys spal, co bys jedl, za co bys platil – a jaká drobnost by tě mohla zabít
+00:00:29,925 --> 00:00:33,258
+Kde bys spal, co bys jedl, za co bys platil
 
 13
-00:00:36,006 --> 00:00:37,900
-během prvních pěti minut.
+00:00:33,308 --> 00:00:37,900
+a jaká drobnost by tě mohla zabít během prvních pěti minut.
 
 14
 00:00:38,300 --> 00:00:40,100
@@ -135,40 +135,40 @@ Republika je mladá, sebevědomá a patří k průmyslově nejvyspělejším zem
 A Praha je najednou velkoměsto.
 
 35
-00:01:44,751 --> 00:01:51,119
-Před čtyřmi lety se k ní připojily desítky okolních obcí – Vinohrady, Žižkov
+00:01:44,751 --> 00:01:50,444
+Před čtyřmi lety se k ní připojily desítky okolních obcí – Vinohrady
 
 36
-00:01:51,169 --> 00:01:55,257
-Smíchov, Karlín – a vznikla takzvaná Velká Praha.
+00:01:50,494 --> 00:01:55,257
+Žižkov, Smíchov, Karlín – a vznikla takzvaná Velká Praha.
 
 37
 00:01:55,307 --> 00:01:58,044
 Žije tu přes sedm set tisíc lidí.
 
 38
-00:01:58,444 --> 00:02:01,987
+00:01:58,444 --> 00:02:02,035
 Na ulici uslyšíš češtinu, ale taky němčinu.
 
 39
-00:02:02,037 --> 00:02:08,254
-Praha je město tří kultur – české, německé a židovské – a potkávají se tu v
+00:02:02,085 --> 00:02:06,523
+Praha je město tří kultur – české, německé a židovské
 
 40
-00:02:08,304 --> 00:02:11,011
-kavárnách, divadlech i na trzích.
+00:02:06,573 --> 00:02:11,011
+a potkávají se tu v kavárnách, divadlech i na trzích.
 
 41
-00:02:11,411 --> 00:02:15,704
+00:02:11,411 --> 00:02:15,734
 A až dojdeš na Staroměstské náměstí, uvidíš radnici celou.
 
 42
-00:02:15,754 --> 00:02:21,920
-I s velkým novogotickým křídlem, které v posledních dnech války shoří a už nikdy se
+00:02:15,784 --> 00:02:18,071
+I s velkým novogotickým křídlem
 
 43
-00:02:21,970 --> 00:02:22,594
-neobnoví.
+00:02:18,121 --> 00:02:22,594
+které v posledních dnech války shoří a už nikdy se neobnoví.
 
 44
 00:02:22,994 --> 00:02:25,518
@@ -199,23 +199,23 @@ Když je zkusíš utratit, v lepším případě se ti vysmějí.
 V horším zavolají strážníka.
 
 51
-00:02:43,537 --> 00:02:46,114
+00:02:43,537 --> 00:02:46,126
 A strážník bude chtít vědět, kdo jsi.
 
 52
-00:02:46,164 --> 00:02:51,653
-V téhle době má každý takzvanou domovskou příslušnost – obec, ke které patří a
+00:02:46,176 --> 00:02:50,404
+V téhle době má každý takzvanou domovskou příslušnost – obec
 
 53
-00:02:51,703 --> 00:02:54,920
-která se o něj postará, když přijde o všechno.
+00:02:50,454 --> 00:02:54,897
+ke které patří a která se o něj postará, když přijde o všechno.
 
 54
-00:02:54,970 --> 00:02:56,198
+00:02:54,947 --> 00:02:56,181
 Ty nepatříš nikam.
 
 55
-00:02:56,248 --> 00:03:00,388
+00:02:56,231 --> 00:03:00,388
 Nemáš papíry, adresu ani nikoho, kdo by se za tebe zaručil.
 
 56
@@ -239,43 +239,43 @@ Nejrealističtější cesta?
 Práce.
 
 61
-00:03:18,588 --> 00:03:19,905
+00:03:18,588 --> 00:03:19,918
 Práce se najít dá.
 
 62
-00:03:19,955 --> 00:03:26,132
-Republika má od roku 1918 zákon o osmihodinové pracovní době – na svou dobu docela
+00:03:19,968 --> 00:03:24,520
+Republika má od roku 1918 zákon o osmihodinové pracovní době
 
 63
-00:03:26,182 --> 00:03:26,891
-pokrokový.
+00:03:24,570 --> 00:03:26,820
+na svou dobu docela pokrokový.
 
 64
-00:03:26,941 --> 00:03:33,194
-Jenže osm hodin v továrně v Libni nebo na Smíchově je úplně jiná liga než osm hodin
+00:03:26,870 --> 00:03:30,655
+Jenže osm hodin v továrně v Libni nebo na Smíchově
 
 65
-00:03:33,244 --> 00:03:34,029
-u počítače.
+00:03:30,705 --> 00:03:34,029
+je úplně jiná liga než osm hodin u počítače.
 
 66
-00:03:34,429 --> 00:03:41,766
-Bez papírů a bez řemesla tě čeká to nejtěžší – nosič, pomocník na stavbě, vykládání
+00:03:34,429 --> 00:03:38,341
+Bez papírů a bez řemesla tě čeká to nejtěžší
 
 67
-00:03:41,816 --> 00:03:42,211
-uhlí.
+00:03:38,391 --> 00:03:42,123
+nosič, pomocník na stavbě, vykládání uhlí.
 
 68
-00:03:42,261 --> 00:03:43,724
+00:03:42,173 --> 00:03:43,654
 A staví se hodně.
 
 69
-00:03:43,774 --> 00:03:48,085
+00:03:43,704 --> 00:03:48,066
 Roste Veletržní palác, nové čtvrti, nové činžáky.
 
 70
-00:03:48,135 --> 00:03:49,687
+00:03:48,116 --> 00:03:49,687
 Ruce jsou potřeba.
 
 71
@@ -299,23 +299,23 @@ Víš, že filmy brzy promluví.
 Jenže kdo by věřil chlápkovi v teniskách, který tvrdí, že zná budoucnost?
 
 76
-00:04:04,648 --> 00:04:05,969
+00:04:04,648 --> 00:04:05,985
 Máš první výplatu.
 
 77
-00:04:06,019 --> 00:04:07,112
+00:04:06,035 --> 00:04:07,140
 Kde budeš spát?
 
 78
-00:04:07,162 --> 00:04:13,435
-Na Žižkově nebo v Libni můžeš být takzvaný nocležník – platíš si jen postel v cizím
+00:04:07,190 --> 00:04:11,146
+Na Žižkově nebo v Libni můžeš být takzvaný nocležník
 
 79
-00:04:13,485 --> 00:04:13,816
-bytě.
+00:04:11,196 --> 00:04:13,766
+platíš si jen postel v cizím bytě.
 
 80
-00:04:13,866 --> 00:04:18,234
+00:04:13,816 --> 00:04:18,234
 Někdy jen na pár hodin, než ji uvolní někdo z noční směny.
 
 81
@@ -419,27 +419,27 @@ Jsou to bacily.
 Antibiotika neexistují.
 
 106
-00:05:36,669 --> 00:05:42,648
-Penicilin objeví Alexander Fleming až za dva roky a do běžné léčby se dostane až ve
+00:05:36,669 --> 00:05:40,178
+Penicilin objeví Alexander Fleming až za dva roky
 
 107
-00:05:42,698 --> 00:05:44,028
-čtyřicátých letech.
+00:05:40,228 --> 00:05:44,028
+a do běžné léčby se dostane až ve čtyřicátých letech.
 
 108
 00:05:44,078 --> 00:05:47,514
 Obyčejná infekce z řezné rány může být smrtelná.
 
 109
-00:05:47,914 --> 00:05:52,989
-Tuberkulóze se tu říká vídeňská nemoc a zabíjí hlavně mladé lidi v přeplněných
+00:05:47,914 --> 00:05:50,863
+Tuberkulóze se tu říká vídeňská nemoc a zabíjí
 
 110
-00:05:53,039 --> 00:05:53,975
-vlhkých bytech.
+00:05:50,913 --> 00:05:53,993
+hlavně mladé lidi v přeplněných, vlhkých bytech.
 
 111
-00:05:54,025 --> 00:05:56,406
+00:05:54,043 --> 00:05:56,406
 Přesně v takových, kde bys bydlel ty.
 
 112
@@ -471,121 +471,117 @@ Kavárny jsou plné spisovatelů, malířů a novinářů.
 U jednoho kafe můžeš sedět celé odpoledne a číst noviny – mají jich tu desítky.
 
 119
-00:06:24,438 --> 00:06:26,589
+00:06:24,438 --> 00:06:26,598
 Možná tu potkáš Karla Čapka.
 
 120
-00:06:26,639 --> 00:06:27,768
-Jeho hra R.U.R.
+00:06:26,648 --> 00:06:29,598
+Jeho hra R.U.R. dala světu slovo robot
 
 121
-00:06:27,818 --> 00:06:34,291
-dala světu slovo robot – a ty jsi jediný člověk v Praze, který ví, jak moc to slovo
+00:06:29,648 --> 00:06:34,965
+a ty jsi jediný člověk v Praze, který ví, jak moc to slovo zdomácní.
 
 122
-00:06:34,341 --> 00:06:34,998
-zdomácní.
-
-123
-00:06:35,048 --> 00:06:37,041
+00:06:35,015 --> 00:06:37,018
 Franze Kafku ale nepotkáš.
 
-124
-00:06:37,091 --> 00:06:42,543
+123
+00:06:37,068 --> 00:06:42,543
 Zemřel před dvěma lety a o jeho budoucí slávě zatím nikdo nemá tušení.
 
-125
+124
 00:06:42,943 --> 00:06:47,865
 V kinech běží němé filmy a hraje k nim živý klavír nebo orchestr.
 
-126
+125
 00:06:47,915 --> 00:06:51,383
 Mluvený film dorazí až na konci dvacátých let.
 
-127
-00:06:51,783 --> 00:06:52,387
+126
+00:06:51,783 --> 00:06:52,395
 A rádio?
 
-128
-00:06:52,437 --> 00:06:53,531
+127
+00:06:52,445 --> 00:06:53,552
 Úplná novinka.
 
+128
+00:06:53,602 --> 00:06:57,687
+Radiojournal vysílá pravidelně teprve od roku 1923
+
 129
-00:06:53,581 --> 00:07:00,315
-Radiojournal vysílá pravidelně teprve od roku 1923 – první vysílání šlo ze stanu ve
+00:06:57,737 --> 00:07:00,913
+první vysílání šlo ze stanu ve Kbelích.
 
 130
-00:07:00,365 --> 00:07:00,969
-Kbelích.
-
-131
-00:07:01,019 --> 00:07:05,709
+00:07:00,963 --> 00:07:05,709
 Rádio doma je luxus a poslouchá se často jen na sluchátka.
 
-132
+131
 00:07:06,109 --> 00:07:12,253
 A v létě roku 1926 zažiješ něco, co dnes nemá obdoby – všesokolský slet.
 
-133
+132
 00:07:12,303 --> 00:07:18,963
 Desítky tisíc lidí cvičí naráz v dokonalé souhře a celé město žije jen tímhle.
 
-134
+133
 00:07:19,363 --> 00:07:21,717
 Takže – jak dlouho bys vydržel?
 
-135
+134
 00:07:21,767 --> 00:07:27,223
 První den je nejnebezpečnější: auta zprava, žádné peníze, žádné papíry.
 
-136
+135
 00:07:27,273 --> 00:07:31,023
 Když najdeš práci a postel, první měsíc zvládneš.
 
-137
+136
 00:07:31,073 --> 00:07:34,203
 A když se vyhneš infekcím, klidně i roky.
 
-138
-00:07:34,603 --> 00:07:37,065
+137
+00:07:34,603 --> 00:07:37,095
 Jenže je tu ještě jedna věc.
 
-139
-00:07:37,115 --> 00:07:39,218
+138
+00:07:37,145 --> 00:07:39,275
 Ty víš, co přijde potom.
 
-140
-00:07:39,268 --> 00:07:39,757
+139
+00:07:39,325 --> 00:07:39,819
 Krize.
 
-141
-00:07:39,807 --> 00:07:40,475
+140
+00:07:39,869 --> 00:07:40,546
 Mnichov.
 
-142
-00:07:40,525 --> 00:07:41,013
+141
+00:07:40,596 --> 00:07:41,091
 Válka.
 
+142
+00:07:41,141 --> 00:07:45,631
+Celá tahle Praha – kavárny, Sokol, svobodné noviny
+
 143
-00:07:41,063 --> 00:07:48,011
-Celá tahle Praha – kavárny, Sokol, svobodné noviny – se za pouhých třináct let
+00:07:45,681 --> 00:07:49,626
+se za pouhých třináct let změní k nepoznání.
 
 144
-00:07:48,061 --> 00:07:49,626
-změní k nepoznání.
-
-145
 00:07:50,026 --> 00:07:54,345
 Takže otázka nezní, jestli bys v roce 1926 přežil.
 
-146
+145
 00:07:54,395 --> 00:07:57,578
 Otázka zní, jestli bys dokázal mlčet.
 
-147
+146
 00:07:57,978 --> 00:08:01,605
 Příště se podíváme ještě dál – do středověkých Čech.
 
-148
+147
 00:08:01,655 --> 00:08:03,727
 A tam by to bylo mnohem horší.

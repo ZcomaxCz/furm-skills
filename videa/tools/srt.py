@@ -15,15 +15,28 @@ scenes = json.loads((proj / "scenes.json").read_text(encoding="utf-8"))["scenes"
 durs = json.loads((proj / "audio" / "durations.json").read_text())
 
 
+SHORT = {"a", "i", "v", "ve", "s", "se", "z", "ze", "k", "ke", "o", "u", "na", "do", "že"}  # nekončit řádek předložkou/spojkou
+
+
+def split_long(sent):
+    """Dlouhou větu rozdělí na části do MAXLEN, řez hledá co nejblíž středu."""
+    if len(sent) <= MAXLEN:
+        return [sent]
+    mid = len(sent) // 2
+    ok = lambda i: min(i, len(sent) - i) >= 25  # žádné krátké zbytky
+    cands = [i for i in range(len(sent)) if sent.startswith((", ", " – "), i) and ok(i)] or \
+            [i for i, c in enumerate(sent) if c == " " and ok(i)
+             and sent[:i].split()[-1].lower() not in SHORT]
+    cut = min(cands, key=lambda i: abs(i - mid))
+    left, right = sent[:cut].strip(" ,"), sent[cut:].strip(" ,–")
+    return split_long(left) + split_long(right)
+
+
 def chunks(text):
+    text = text.replace("R.U.R.", "R\u2024U\u2024R\u2024")  # zkratka nesmí ukončit větu
     out = []
     for sent in re.split(r"(?<=[.!?…])\s+", text.strip()):
-        while len(sent) > MAXLEN:
-            cut = max(sent.rfind(sep, 0, MAXLEN) for sep in (", ", " – ", " "))
-            out.append(sent[:cut].strip(" ,"))
-            sent = sent[cut:].strip(" ,–")
-        if sent:
-            out.append(sent)
+        out += [p.replace("\u2024", ".") for p in split_long(sent) if p]
     return out
 
 
