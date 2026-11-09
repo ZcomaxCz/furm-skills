@@ -13,7 +13,7 @@ SHORTS = {
  "yt1": dict(shots=[2, 3], t3="CASE #002  ·  WRONG ADDRESS", cx={2: .52, 3: .5}),
  "yt2": dict(shots=[6, 7], t3="CASE #002  ·  IT'S A TUESDAY", cx={6: .5, 7: .48}),
  "yt3": dict(shots=[9, 10, 11], t3="CASE #002  ·  OUT OF TONER", cx={9: .55, 10: .45, 11: .5}),
- "tiktok": dict(shots=[5, 7, 10], t3="CASE #002  ·  FIRST CONTACT", cx={5: .45, 7: .48, 10: .45}, tiktok=True),
+ "tiktok": dict(shots=[5, 7, 10], t3="CASE #002  ·  FIRST CONTACT", cx={5: .5, 7: .48, 10: .45}, tiktok=True),
 }
 name = sys.argv[1]; S = SHORTS[name]; TT = S.get("tiktok", False)
 SEG = [(k, *E.SH[k]) for k in S["shots"]]
