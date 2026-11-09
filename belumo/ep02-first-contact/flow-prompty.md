@@ -11,7 +11,7 @@ Každý prompt je kompletní, stačí zkopírovat.
 
 ## Záběr 8 – omluvný úředník (21 s)
 ```
-2D adult animated TV cartoon, limited animation, flat colors, thick black outlines. Animate the provided start frame exactly as drawn; keep all three characters, outfits, faces and the art style unchanged. The camera is locked: no camera movement, no zoom, no shake. Background, table, mugs and donuts stay perfectly still. The alien lowers his raised hand slowly in a polite, apologetic gesture and tilts his head a few degrees; the small spark of light near his fingers fades out. The tired man resting his cheek on his fist blinks slowly and lets out a small sigh, his shoulders dropping slightly. The young woman with pink hair in the background hugs her binder and nods twice, her wide smile unchanged. Mouths stay closed. No new objects, no text, no music, no dialogue.
+2D adult animated TV cartoon, limited animation, flat colors, thick black outlines. Animate the provided start frame exactly as drawn; keep all three characters, outfits, faces and the art style unchanged. The camera is locked: no camera movement, no zoom, no shake. Background, table, mugs and donuts stay perfectly still. The alien lowers his raised hand slowly in a polite, apologetic gesture and tilts his head a few degrees; the small spark of light near his fingers fades out. The tired man resting his cheek on his fist blinks slowly and lets out a small sigh, his shoulders dropping slightly. The young woman with pink hair standing between them hugs her binder and nods twice, her wide smile unchanged. Mouths stay closed. No new objects, no text, no music, no dialogue.
 ```
 
 ## Záběr 5 – recepce (15 s)
@@ -21,7 +21,7 @@ Každý prompt je kompletní, stačí zkopírovat.
 
 ## Záběr 10 – tiskárna (16 s)
 ```
-2D adult animated TV cartoon, limited animation, flat colors, thick black outlines. Animate the provided start frame exactly as drawn; keep all three characters, outfits, faces and the art style unchanged. The camera is locked: no camera movement, no zoom, no shake. The printer, filing cabinets and room stay perfectly still; the paper in the tray does not move. The red warning light on the printer blinks steadily on and off. The glowing teal ring above the alien's open palm slowly turns clockwise. The woman with glasses clutches her head and rocks slightly in panic, expression unchanged. The young woman with pink hair in the background bounces gently on her toes with hands clasped, smiling. No new objects, no text, no music, no dialogue.
+2D adult animated TV cartoon, limited animation, flat colors, thick black outlines. Animate the provided start frame exactly as drawn; keep all three characters, outfits, faces and the art style unchanged. The camera is locked: no camera movement, no zoom, no shake. The printer, filing cabinets and room stay perfectly still; the paper in the tray does not move. The red beacon light on top of the printer blinks steadily on and off. The glowing teal ring above the alien's open palm slowly turns clockwise. The woman with glasses clutches her head and rocks slightly in panic, expression unchanged. The young woman with pink hair on the left bounces gently on her toes with hands clasped, smiling. No new objects, no text, no music, no dialogue.
 ```
 
 ## Záběr 11 – telefon (11 s)

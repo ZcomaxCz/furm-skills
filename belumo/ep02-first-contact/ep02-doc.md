@@ -47,79 +47,79 @@ Timings are targets; the real cut follows the finished voice files.
 
 ### Shot 1 · 0:00–0:12 · Exterior
 
-Dusk. A small flying saucer hovers silently over a half-empty office parking lot. Nobody looks up.
+Sunset. A drab two-storey 1960s office building with an atom emblem on the facade, autumn trees, old cars in a half-empty parking lot. A small teal flying saucer hovers silently in the orange sky on the right. Nobody looks up.
 
 **NARRATOR:** Day two. The Department of Unfortunate Outcomes no longer officially existed. This was the day humanity chose to be contacted.
 
 ### Shot 2 · 0:12–0:26 · Accounting office
 
-Gary alone at his desk, cold coffee, a blank paper tag taped over his badge. VERA glows above him.
+Gary slumped in a leather chair at his cluttered desk, cheek on his fist, a stained coffee mug and a blank badge on his lanyard. VERA's teal ring glows on the ceiling above him; the sunset city with a space-needle tower behind the windows.
 
 **VERA:** Gary. We are receiving a transmission. **GARY:** Not now. **VERA:** It originates outside the solar system. **GARY:** Still not now.
 
 ### Shot 3 · 0:26–0:42 · VERA close-up
 
-VERA's ring pulses as a spiral of glowing glyphs floats under it.
+Low angle under VERA's ring: a spiral of glowing teal glyphs (circles, cubes) floats below it. Gary's tired face in the lower left corner looks up at it.
 
 **VERA:** It is addressed to the highest authority on Earth. **GARY:** Then why is it ringing here? **VERA:** A typo. Our postal code is one digit away from the United Nations. **GARY:** Of course it is.
 
 ### Shot 4 · 0:42–0:54 · Door
 
-Dolores bursts into the room, beaming, binder hugged to her chest.
+Dolores runs in through the open orange door, beaming, binder hugged to her chest, one foot in the air. Gary sits at his desk on the right, unmoved, under VERA's ring.
 
 **DOLORES:** Gary! There's an alien in the lobby! He's so tall! He brought a gift! **GARY:** Is he on the visitor list? **DOLORES:** I'll check!
 
 ### Shot 5 · 0:54–1:10 · Lobby
 
-Ixx stands very straight at a reception desk. Brenda holds a clipboard with a tiny sign-in sheet.
+Office lobby at sunset. Ixx stands tall and still with hands folded, VISITOR badge on his robe. Brenda sits behind the reception desk with a clipboard, a brass bell on the counter, panicked but trying to look professional.
 
 **BRENDA:** Name, species, reason for visit? **IXX:** Ambassador Ixx. Vael. First contact. **BRENDA:** There are only ten boxes for the name. **IXX:** Then I shall be Ixx of Vael.
 
 ### Shot 6 · 1:10–1:28 · Break room
 
-Gary and Ixx sit across a small table. The glowing cube floats above Ixx's palm.
+Break room. Gary and Ixx sit at a round table with coffee mugs and two donuts. A glowing teal cube floats between Ixx's long fingers. Gary rests his cheek on his fist, unimpressed. VERA's ring glows on the ceiling.
 
 **IXX:** People of Earth. Eleven days ago we detected a singularity in your accounting department. **GARY:** That was ours. **IXX:** It vanished. My civilization required four thousand years to achieve that. **GARY:** We fed it paperwork. **IXX:** ...Teach us.
 
 ### Shot 7 · 1:28–1:44 · Break room, closer
 
-Ixx lowers his head in awe; Gary stays unmoved.
+Same table. A cone-shaped teal hologram rises from the cube, showing Ixx's home world: a planet and a city of white spires. Ixx gestures toward it with open hands. Gary stares at it with wide eyes, hands half raised.
 
 **IXX:** Your species has weaponized bureaucracy. We bow before you. **VERA:** Technically correct. **GARY:** It's not a weapon. It's a Tuesday.
 
 ### Shot 8 · 1:44–2:02 · Break room, two-shot
 
-Ixx becomes apologetic, a clerk about to deliver bad news.
+Same table, wider. Ixx raises one hand with a small spark of light at his fingertips, an apologetic clerk smile. Gary back to cheek-on-fist. Dolores stands between them with her binder, grinning far too widely.
 
 **IXX:** Unfortunately, protocol requires your formal reply within one Earth day. Otherwise your planet is declared unclaimed and reassigned. **GARY:** Reassigned to whom? **IXX:** A mining company. **GARY:** What do we have to file? **IXX:** Form 7-J. Fourteen pages. Notarized.
 
 ### Shot 9 · 2:02–2:18 · Stack of forms
 
-A thick stack of glowing forms on the table. Brenda stares at it. Dolores peeks over her shoulder.
+Close shot of a thick stack of glowing teal forms on the table. Brenda leans over it, her round glasses reflecting the glow, mouth open in dread. Dolores peeks over her shoulder, delighted. Gary's profile at the left edge, cheek on fist.
 
 **BRENDA:** Notarized by whom? **IXX:** A neutral party. **VERA:** Dave is a notary. **GARY:** Dave is in Portugal. **DOLORES:** I'll ask Dave! Does he have Wi-Fi?
 
 ### Shot 10 · 2:18–2:34 · Printer
 
-Brenda feeds the forms into the old printer. A red light blinks. Ixx checks a glowing timer above his palm.
+Accounting office corner. Brenda clutches her head over the beige printer; a red beacon on top glows, a sheet of paper sticks half out. Ixx stands calmly with a segmented teal countdown ring floating above his palm. Dolores behind him, hands clasped, thrilled.
 
 **BRENDA:** Out of toner. **IXX:** We have eleven minutes. **GARY:** Nobody panic. **DOLORES:** Eleven minutes!
 
 ### Shot 11 · 2:34–2:50 · Phone
 
-Gary on the desk phone, a pen already in his other hand, a growing pile of handwritten pages beside him.
+Gary at his desk with an old beige phone at his ear, writing with his other hand, a tall pile of handwritten pages with yellow sticky tabs beside him, a desk lamp glowing.
 
 **VENDOR (recording):** Thank you for calling Toner Express. Your order is important to us. Estimated delivery: six to eight weeks. Press one to hear this message again. **GARY:** (presses one)
 
 ### Shot 12 · 2:50–3:08 · Break room, verdict
 
-Ixx stamps the last page with a small glowing stamp.
+Break room. Ixx presses a small glowing teal stamp onto the last page of the stack. Gary sits across with his cheek on his fist, flat expression. A segment of VERA's ring glows at the top edge.
 
 **IXX:** Form rejected. Signed by an intern. **GARY:** I'm the only one here. **VERA:** Gary. A legally non-existent entity cannot be rejected. It can only be pending. **IXX:** ...Pending is acceptable. Review time: six hundred years.
 
 ### Shot 13 · 3:08–3:22 · Exterior
 
-The saucer rises silently from the parking lot. Lights come on in the windows behind.
+Night. The same office building, lights on in the windows, silhouettes of people at the glass. The saucer glides away silently into the starry sky, its lights fading.
 
 **NARRATOR:** Earth was not destroyed. It was placed on hold. Estimated wait time: six hundred years. Gary's mood: unchanged. Next time on Department of Unfortunate Outcomes: Dolores Files a Complaint.
 
@@ -212,14 +212,14 @@ Six shots are animated in Flow; the other seven (1, 3, 4, 7, 9, 12, 13) are done
 
 **Rules that worked in Episode 1:** pin the camera in words, describe only small movements, keep the facial expression from the start frame, and avoid verbs like "grows", "pulled in" or "yanked", which make Veo add explosions or extra objects.
 
-- **Shot 6** (`shot06_start.png`): The cube above Ixx's palm pulses with a slow soft glow. Ixx blinks once slowly and tilts his head a few degrees. Gary blinks once, expression unchanged. Nothing else moves.
-- **Shot 8** (`shot08_start.png`): Ixx's shoulders rise and fall once as if sighing politely. Gary slowly rubs his forehead with one hand and lowers it. Dolores in the background nods twice with her wide smile unchanged.
-- **Shot 5** (`shot05_start.png`): Brenda's hand trembles slightly as she holds the clipboard and she swallows once. Ixx stays upright and blinks slowly. The plant on the desk is still.
-- **Shot 10** (`shot10_start.png`): The red warning light on the printer blinks steadily. Brenda presses both hands to her head and lowers them. The countdown ring above Ixx's palm slowly turns. Dolores bounces slightly on her toes, smiling.
-- **Shot 2** (`shot02_start.png`): Gary slowly lifts his coffee mug, looks into it, and sets it down. VERA's teal slit pulses softly once. The room stays still.
-- **Shot 11** (`shot11_start.png`): Gary's pen hand writes slowly on the top page. He presses the phone to his ear with his shoulder and sighs, his shoulders dropping. The desk lamp glow stays constant.
+- **Shot 6** (`shot06_start.png`): The teal cube between Ixx's hands slowly rotates and pulses, a soft teal flicker on both faces. Ixx's fingers move slightly and he blinks once, calm smile unchanged. Gary, cheek on fist, blinks once, unimpressed. Full copy-paste prompts: `flow-prompty.md`.
+- **Shot 8** (`shot08_start.png`): Ixx slowly lowers his raised hand in a polite, apologetic gesture and tilts his head; the spark at his fingers fades. Gary blinks slowly and sighs, shoulders dropping. Dolores, standing between them, hugs her binder and nods twice, smile unchanged. Full copy-paste prompts: `flow-prompty.md`.
+- **Shot 5** (`shot05_start.png`): Ixx blinks once slowly and gives a tiny polite nod. Brenda grips the clipboard with trembling hands, glances down and back up at Ixx, and swallows once. Full copy-paste prompts: `flow-prompty.md`.
+- **Shot 10** (`shot10_start.png`): The red beacon on top of the printer blinks steadily. The segmented teal ring above Ixx's palm slowly turns. Brenda clutches her head and rocks slightly. Dolores on the left bounces gently on her toes, hands clasped. Full copy-paste prompts: `flow-prompty.md`.
+- **Shot 2** (`shot02_start.png`): VERA's ring pulses softly once. Gary, cheek on fist, blinks slowly, rolls his eyes up to the ceiling light and back, and sinks a little deeper into his chair. Full copy-paste prompts: `flow-prompty.md`.
+- **Shot 11** (`shot11_start.png`): Gary holds the receiver to his ear and slowly writes on the page. He blinks slowly and sighs, shoulders dropping; the coiled phone cord sways gently. Full copy-paste prompts: `flow-prompty.md`.
 
-**Effects-only shots (no Flow credits):** 1 slow push-in over the building with a faint blink on the saucer; 3 glyph spiral rotating under VERA; 4 Dolores gets a short slide-in and settle; 7 slow push-in on Ixx's bow; 9 slow pan across the glowing stack; 12 slow push-in with a glow pulse when the stamp lands; 13 saucer rises with a vertical pan and fades to a dark card.
+**Effects-only shots (no Flow credits):** 1 slow push-in over the building, the saucer bobs gently and its lights pulse; 3 glyph spiral rotates and pulses under VERA; 4 Dolores gets a short slide-in and settle; 7 hologram shimmer and glow pulse with a slow push-in on Gary's stare; 9 slow push-in on the glowing stack with a pulse; 12 slow push-in with a glow flash when the stamp lands; 13 saucer drifts up and away, its lights fading, then fade to black.
 
 **Download at the highest resolution Flow offers.** Episode 1's 720p clips were the weak point; if Flow lets you choose 1080p, I can keep the image sharper.
 
