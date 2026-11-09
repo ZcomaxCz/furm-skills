@@ -1,9 +1,32 @@
 {
-  "Narrator": {"id": "t8Tv5ozFscpNn688uUdP", "name": "NARRATOR"},
-  "Gary":     {"id": "xJMcEnbcF98BBLYdgBgP", "name": "Gary"},
-  "VERA":     {"id": "CPj3RRYe7OHKhTaeBonK", "name": "Vera"},
-  "Dolores":  {"id": "Nggzl2QAXh3OijoXD116", "name": "Candy - Young and Sweet"},
-  "Brenda":   {"id": "wfJ7pHCS3lXZdaz77rIG", "name": "Jessi - Corporate, Direct and Energetic"},
-  "Vendor":   {"id": "jwjWpCFQUCpnHneBySsF", "name": "Melina - Instructive and Robotic"},
-  "Ixx":      {"id": "alMSnmMfBQWEfTP8MRcX", "name": "Simeon - Reassuring, Deep, and Smooth"}
+  "Narrator": {
+    "id": "t8Tv5ozFscpNn688uUdP",
+    "name": "NARRATOR"
+  },
+  "Gary": {
+    "id": "xJMcEnbcF98BBLYdgBgP",
+    "name": "Gary"
+  },
+  "VERA": {
+    "id": "CPj3RRYe7OHKhTaeBonK",
+    "name": "Vera"
+  },
+  "Dolores": {
+    "id": "Nggzl2QAXh3OijoXD116",
+    "name": "Candy - Young and Sweet",
+    "note": "library voice, needs a paid plan via API"
+  },
+  "Brenda": {
+    "id": "wfJ7pHCS3lXZdaz77rIG",
+    "name": "Jessi - Corporate, Direct and Energetic",
+    "note": "library voice, needs a paid plan via API"
+  },
+  "Vendor": {
+    "id": "Xb7hH8MSUJpSbSDYk0k2",
+    "name": "Alice - Clear, Engaging Educator"
+  },
+  "Ixx": {
+    "id": "JBFqnCBsd6RMkjVDRZzb",
+    "name": "George - Warm, Captivating Storyteller"
+  }
 }
