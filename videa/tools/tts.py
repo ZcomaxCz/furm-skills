@@ -25,7 +25,7 @@ def tts(text, prev, nxt, dest):
     if model != "eleven_v3":
         body["previous_text"], body["next_text"] = prev, nxt
     req = urllib.request.Request(
-        f"https://api.elevenlabs.io/v1/text-to-speech/{voice}?output_format=mp3_44100_192",
+        f"https://api.elevenlabs.io/v1/text-to-speech/{voice}?output_format=mp3_44100_128",
         data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
     dest.write_bytes(urllib.request.urlopen(req, timeout=300).read())
 
@@ -47,15 +47,13 @@ for i, s in enumerate(scenes):
 (out / "durations.json").write_text(json.dumps(durs, indent=1))
 
 # složení: scéna + ticho GAP, výstup MP3 i WAV
-silence = out / "_gap.wav"
-subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono",
-                "-t", str(GAP), str(silence)], check=True)
-lst = out / "_concat.txt"
-lst.write_text("".join(f"file '{s['id']}.mp3'\nfile '_gap.wav'\n" for s in scenes))
-subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", str(lst),
-                "-ar", "44100", "-ac", "1", str(out / "narace.wav")], check=True)
+# každou scénu dekódovat a doplnit tichem přesně na (délka + GAP), pak spojit filtrem concat
+args, parts = ["ffmpeg", "-y", "-v", "error"], []
+for i, s in enumerate(scenes):
+    args += ["-i", str(out / f"{s['id']}.mp3")]
+    parts.append(f"[{i}:a]aresample=44100,aformat=channel_layouts=mono,apad=whole_dur={durs[s['id']] + GAP}[a{i}]")
+filt = ";".join(parts) + ";" + "".join(f"[a{i}]" for i in range(len(scenes))) + f"concat=n={len(scenes)}:v=0:a=1[out]"
+subprocess.run(args + ["-filter_complex", filt, "-map", "[out]", str(out / "narace.wav")], check=True)
 subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(out / "narace.wav"),
                 "-b:a", "192k", str(out / "narace.mp3")], check=True)
-silence.unlink()
-lst.unlink()
 print("Celkem", round(duration(out / "narace.mp3"), 1), "s")
