@@ -2,3 +2,5 @@ belumo/**/build/*.wav
 belumo/**/build/*.mp4
 belumo/**/build/render.log
 belumo/**/build/fx_test.png
+belumo/**/build/norm/
+belumo/**/build/mix.wav
