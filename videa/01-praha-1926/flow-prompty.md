@@ -594,7 +594,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Obrázek:**
 
 ```text
-Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: The orange-hoodie character from the attached image standing alone on Charles Bridge at dusk, seen from behind, looking over the Vltava toward Prague Castle; a long shadow, dark storm clouds gathering on the horizon; melancholic mood. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: The orange-hoodie character from the attached image standing alone at the stone parapet of Charles Bridge at dusk, seen from behind and medium-large in the lower right of the frame (the back of his round white head and the hood of his orange hoodie clearly visible), looking over the Vltava toward Prague Castle; a long shadow, dark storm clouds gathering on the horizon; melancholic mood. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -609,7 +609,7 @@ Action, in this order:
 3–6 s: the orange-hoodie character slowly lowers his head.
 6–8 s: his shoulders drop and he stays still, looking at Prague Castle.
 
-Charles Bridge, the river, Prague Castle and the statues stay completely still and keep their exact shape. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+Charles Bridge, the river, Prague Castle and the statues stay completely still and keep their exact shape. The orange-hoodie character stays seen from behind for the whole shot and does not turn around; he keeps his round white head, orange hoodie, jeans and white sneakers exactly as in the start frame.
 
 Duration 8 seconds. Audio: soft wind and distant church bells, no music, no speech.
 ```
