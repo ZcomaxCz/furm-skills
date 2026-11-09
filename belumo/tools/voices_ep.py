@@ -1,7 +1,7 @@
 """Namluví repliky z tabulky „Voice sheet“ v dokumentu epizody přes ElevenLabs (eleven_v3).
 
 Použití: python3 voices_ep.py <doc.md> <voices.json> <out_dir> [soubor ...]
-Bez výčtu souborů namluví všechny repliky, existující mp3 přeskočí.
+Bez výčtu souborů namluví všechny repliky. Existující mp3 vždy přeskočí (šetří kvótu); pro nové namluvení soubor smažte.
 API klíč doplňuje síťová proxy prostředí (hlavička xi-api-key), skript ho nečte.
 """
 import json, re, sys, urllib.request
@@ -19,7 +19,7 @@ for l in doc.read_text(encoding="utf-8").splitlines():
     lines.append((f, spk, f"{tags} {text}".strip()))
 for f, spk, text in lines:
     dest = out / f"{f}.mp3"
-    if (only and f not in only) or (not only and dest.exists()):
+    if (only and f not in only) or dest.exists():
         continue
     v = vmap[spk]
     body = {"text": text, "model_id": "eleven_v3", "voice_settings": {"stability": v.get("stability", 0.5)}}
