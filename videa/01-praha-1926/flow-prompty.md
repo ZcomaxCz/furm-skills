@@ -476,7 +476,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Obrázek:**
 
 ```text
-Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Elegant 1920s Prague grand café interior: tall windows overlooking the Vltava river and Prague Castle, marble tables, round-headed cartoon figures reading newspapers on wooden holders, a waiter in a tailcoat; the orange-hoodie character from the attached image sitting at a marble table with a cup of coffee in front of him on the table, his hands resting next to it. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Elegant 1920s Prague grand café interior: tall windows overlooking the Vltava river and Prague Castle, marble tables, round-headed cartoon figures reading newspapers on wooden holders, a waiter in a tailcoat; in the foreground, medium-large in the frame, the orange-hoodie character from the attached image sitting at a marble table with a cup of coffee in front of him on the table, his hands resting next to it. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -490,9 +490,9 @@ Action, in this order:
 0–8 s: thin wisps of steam rise gently from the coffee cup.
 0–3 s: the orange-hoodie character lifts the cup.
 3–5 s: he takes a sip and closes his eyes with a happy expression.
-5–8 s: he sets the cup down; in the background the waiter who is already in the frame takes a few steps to the right and the newspapers of other guests rustle slightly.
+5–8 s: he sets the cup back down on the table and leans back contentedly; in the background the other guests turn a page of their newspapers.
 
-The café interior, the windows and the view of Prague Castle stay still and keep their exact shape. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+The café interior, the waiter, the windows and the view of Prague Castle stay still and keep their exact shape. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
 
 Duration 8 seconds. Audio: soft café ambience, clinking cups and rustling newspapers, no music, no speech.
 ```
