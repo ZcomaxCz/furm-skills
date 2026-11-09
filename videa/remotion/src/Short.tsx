@@ -23,7 +23,8 @@ const font = "'Oswald', 'Arial Narrow', sans-serif";
 const PAD = 0.25; // přesah na začátku a konci úseku (s)
 const END_CARD = 2; // s
 
-const segFrames = (s: Segment) => Math.round((s.to - s.from + 2 * PAD) * FPS);
+const segStart = (s: Segment) => Math.max(0, s.from - PAD);
+const segFrames = (s: Segment) => Math.round((s.to + PAD - segStart(s)) * FPS);
 export const shortFrames = (p: ShortProps) =>
   p.segments.reduce((a, s) => a + segFrames(s), 0) + END_CARD * FPS;
 
@@ -33,7 +34,7 @@ const FG_H = Math.round((FG_W * 9) / 16);
 const FG_TOP = 560;
 
 const Frame: React.FC<{ seg: Segment }> = ({ seg }) => {
-  const offset = Math.round((seg.from - PAD) * FPS);
+  const offset = Math.round(segStart(seg) * FPS);
   return (
     <AbsoluteFill>
       <AbsoluteFill style={{ filter: "blur(40px) brightness(0.55)", transform: "scale(1.2)" }}>
@@ -69,7 +70,7 @@ const Frame: React.FC<{ seg: Segment }> = ({ seg }) => {
 // titulky pod obrazem, jen ty, které patří do úseku
 const Captions: React.FC<{ seg: Segment }> = ({ seg }) => {
   const f = useCurrentFrame();
-  const t = seg.from - PAD + f / FPS;
+  const t = segStart(seg) + f / FPS;
   const cue = (cues as { start: number; end: number; text: string }[]).find(
     (c) => t >= c.start && t <= c.end + 0.04 && c.end > seg.from && c.start < seg.to
   );
