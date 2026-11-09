@@ -1,0 +1,11 @@
+set -e
+ffmpeg -y -v error -i audio_v4.m4a  -i /mnt/user-data/attachments/2d06be71-d921-5172-bcf6-a8261ee41d28/cf3909d4-hlavn__podkres.mp3 -i /mnt/user-data/attachments/2d06be71-d921-5172-bcf6-a8261ee41d28/8ffb80ec-nap_t_.mp3 -i /mnt/user-data/attachments/2d06be71-d921-5172-bcf6-a8261ee41d28/e25fcc3a-Ambient_Hum_Pitched.mp3  -i /mnt/user-data/attachments/2d06be71-d921-5172-bcf6-a8261ee41d28/76796896-Kr_tky_stinger.mp3 -i /mnt/user-data/attachments/2d06be71-d921-5172-bcf6-a8261ee41d28/23970039-Telephone_Ring.mp3 -i /mnt/user-data/attachments/2d06be71-d921-5172-bcf6-a8261ee41d28/5955fb87-Radiation_Suit_Rustle.mp3 -i /mnt/user-data/attachments/2d06be71-d921-5172-bcf6-a8261ee41d28/6d22ac74-Smashing_Car_Window.mp3 -filter_complex "
+[1:a]aformat=sample_rates=44100:channel_layouts=mono,atrim=0:92,asetpts=PTS-STARTPTS,volume=-28dB,afade=t=in:d=2,afade=t=out:st=88:d=3[b1];
+[1:a]aformat=sample_rates=44100:channel_layouts=mono,atrim=120:175,asetpts=PTS-STARTPTS,volume=-28dB,afade=t=in:d=3,afade=t=out:st=51:d=4,adelay=158000|158000[b2];
+[2:a]aformat=sample_rates=44100:channel_layouts=mono,atrim=0:72,asetpts=PTS-STARTPTS,volume=-27dB,afade=t=in:d=2.5,afade=t=out:st=68:d=4,adelay=89000|89000[t];
+[3:a]aformat=sample_rates=44100:channel_layouts=mono,atrim=0:19,asetpts=PTS-STARTPTS,volume=-8dB,afade=t=in:d=1.5,afade=t=out:st=16:d=3,adelay=25200|25200[h1];
+[3:a]aformat=sample_rates=44100:channel_layouts=mono,atrim=0:20,asetpts=PTS-STARTPTS,volume=-8dB,afade=t=in:d=1.5,afade=t=out:st=17:d=3,adelay=161000|161000[h2];
+[4:a]aformat=sample_rates=44100:channel_layouts=mono,atrim=0:18,asetpts=PTS-STARTPTS,volume=-27dB,afade=t=in:d=2.5,afade=t=out:st=14:d=4,adelay=178000|178000[s];
+[5:a]aformat=sample_rates=44100:channel_layouts=mono,atrim=0:1.5,asetpts=PTS-STARTPTS,volume=8dB,afade=t=out:st=1.2:d=0.3,adelay=100500|100500[r];
+[6:a]aformat=sample_rates=44100:channel_layouts=mono,atrim=0:23,asetpts=PTS-STARTPTS,volume=2dB,afade=t=in:d=1.5,afade=t=out:st=20:d=3,adelay=130000|130000[p];[7:a]aformat=sample_rates=44100:channel_layouts=mono,asetpts=PTS-STARTPTS,volume=-6dB,adelay=186600|186600[k];[0:a]aformat=sample_rates=44100:channel_layouts=mono[v];
+[v][b1][b2][t][h1][h2][s][r][p][k]amix=inputs=10:duration=first:normalize=0,alimiter=limit=0.95[o]" -map "[o]" -t 196.016 -c:a aac -b:a 256k audio_v5.m4a
