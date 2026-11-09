@@ -555,7 +555,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Obrázek:**
 
 ```text
-Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A huge stadium field seen from above: tens of thousands of round-headed cartoon gymnasts in white and red outfits standing in perfect geometric formation with their arms at their sides, ready to start a synchronized exercise, packed wooden grandstands, Czechoslovak flags. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A huge 1920s stadium seen from the front edge of a wooden grandstand: on the field, neat straight rows of round-headed cartoon gymnasts in white shirts and dark trousers stand in a perfect grid with their arms at their sides; the nearest five rows are clearly drawn and medium-sized, the rows behind them fade into a simple repeating pattern toward the far grandstands. Czechoslovak flags on tall poles. In the lower left foreground, medium-large in the frame, the orange-hoodie character from the attached image leans on the wooden railing and watches in amazement. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
@@ -566,13 +566,13 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 Camera: completely static, locked-off shot, no pan, no zoom.
 
 Action, in this order:
-0–3 s: all gymnasts on the field raise their arms up at the same moment in perfect unison.
-3–5 s: they hold the pose.
-5–8 s: they lower their arms together; the flags at the stadium flutter gently.
+0–3 s: all gymnasts on the field raise both arms straight up at the same moment in perfect unison.
+3–5 s: they hold the pose while the flags flutter gently.
+5–8 s: they lower their arms together; the orange-hoodie character at the railing claps his hands with a big smile.
 
-The stadium, the grandstands and the geometric formation stay still and keep their exact shape; the gymnasts move only their arms.
+The stadium, the grandstands and the grid of gymnasts stay in place and keep their exact shape; the gymnasts move only their arms and do not change position. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
 
-Duration 8 seconds. Audio: a distant brass band and crowd applause, no music, no speech.
+Duration 8 seconds. Audio: a distant brass band playing a march and crowd applause, no speech.
 ```
 
 ### S32 · Verdikt · 🖼️ Remotion
