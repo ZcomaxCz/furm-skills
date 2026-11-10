@@ -55,11 +55,11 @@ const jobs = [
   ["banner-tenkrat.png", 2560, 1440, banner({
     bg: "last/S33.png", filter: "sepia(.35) brightness(.9)",
     title: "TENKRÁT", sub: "Jak by ses měl, kdyby ses narodil o 100 let dřív?",
-    foot: "Animovaná historie · nové video každý týden" })],
+    foot: "Animovaná historie Česka a Slovenska" })],
   ["banner-oranzova-mikina.png", 2560, 1440, banner({
     bg: "S05.png", filter: "sepia(.2) brightness(.95)",
     title: "ORANŽOVÁ MIKINA", size: 118, sub: "Kluk z budoucnosti uprostřed dějin",
-    foot: "Přežil bys? · nové video každý týden" })],
+    foot: "Přežil bys? · Animovaná historie" })],
 ];
 
 (async () => {
