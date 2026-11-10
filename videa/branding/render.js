@@ -46,10 +46,21 @@ const banner = ({ bg, title, sub, foot, filter, size = 150 }) => `
   </div>
 </div>`;
 
+
+// náhledovka videa 1280×720
+const thumb = ({ bg, big, badge }) => `
+<div style="position:relative;width:1280px;height:720px;overflow:hidden;background:var(--ink)">
+  <img src="${url(path.join(DIR, bg))}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.12);transform-origin:38% 62%;filter:saturate(1.15) contrast(1.05)">
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg, rgba(42,34,26,.85) 0%, rgba(42,34,26,.35) 32%, rgba(42,34,26,0) 50%)"></div>
+  <div style="position:absolute;top:22px;left:0;right:0;text-align:center;font-weight:700;font-size:150px;line-height:1;color:#fff;letter-spacing:2px;-webkit-text-stroke:6px var(--ink);paint-order:stroke fill;text-shadow:8px 8px 0 var(--orange)">${big}</div>
+  <div style="position:absolute;right:28px;bottom:28px;font-weight:700;font-size:92px;line-height:1;color:var(--ink);background:var(--orange);padding:6px 26px 10px;border-radius:12px;border:6px solid var(--ink);transform:rotate(-4deg)">${badge}</div>
+</div>`;
+
 // náhled bezpečné zóny (jen pro kontrolu)
 const safe = (inner) => inner.replace('<div style="position:absolute;left:507px', '<div style="position:absolute;left:507px;top:508px;width:1546px;height:423px;outline:6px dashed #0f0;z-index:9"></div><div style="position:absolute;left:507px');
 
 const jobs = [
+  ["nahled-praha-1926.png", 1280, 720, thumb({ bg: "nahled-zaklad-S04.png", big: "PŘEŽIL BYS?", badge: "1926" })],
   ["logo-a-oranzovy-kruh.png", 800, 800, profile("#ff7a1a", "#2a221a")],
   ["logo-b-tmavy-kruh.png", 800, 800, profile("#2a221a", "#ff7a1a")],
   ["banner-tenkrat.png", 2560, 1440, banner({
