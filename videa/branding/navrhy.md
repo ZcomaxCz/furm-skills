@@ -1,5 +1,7 @@
 # Název kanálu, logo a bannery
 
+**Rozhodnuto:** název **Tenkrát**, logo **B** (tmavý okraj, oranžový kroužek), banner **Tenkrát**. Finální soubory jsou ve složce `final/`.
+
 ## Návrhy názvu
 
 | Název | Proč | Riziko |
