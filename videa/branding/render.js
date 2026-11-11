@@ -68,13 +68,13 @@ const thumbB = ({ bg, big, badge }) => `
 
 
 // náhledovka shortu 1080×1920: velká scéna uprostřed, text v bezpečné střední části
-const shortThumb = ({ bg, top, bottom }) => `
+const shortThumb = ({ bg, top, bottom, shift = -230, size = 150 }) => `
 <div style="position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--ink)">
   <img src="${url(path.join(DIR, bg))}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:blur(30px) brightness(.45) saturate(.6);transform:scale(1.2)">
   <div style="position:absolute;left:0;top:520px;width:1080px;height:1000px;overflow:hidden;border-top:10px solid var(--orange);border-bottom:10px solid var(--orange)">
-    <img src="${url(path.join(DIR, bg))}" style="position:absolute;height:1000px;left:-230px;filter:saturate(1.35) contrast(1.1)">
+    <img src="${url(path.join(DIR, bg))}" style="position:absolute;height:1000px;left:${shift}px;filter:saturate(1.35) contrast(1.1)">
   </div>
-  <div style="position:absolute;top:185px;left:40px;right:40px;text-align:center;font-weight:700;font-size:150px;line-height:1;color:#fff;-webkit-text-stroke:7px var(--ink);paint-order:stroke fill;text-shadow:9px 9px 0 var(--orange)">${top}</div>
+  <div style="position:absolute;top:185px;left:40px;right:40px;text-align:center;font-weight:700;font-size:${size}px;line-height:1;color:#fff;-webkit-text-stroke:7px var(--ink);paint-order:stroke fill;text-shadow:9px 9px 0 var(--orange)">${top}</div>
   <div style="position:absolute;top:1560px;left:0;right:0;display:flex;justify-content:center">
     <div style="font-weight:700;font-size:100px;line-height:1;color:var(--ink);background:var(--orange);padding:10px 36px 16px;border-radius:14px;border:7px solid var(--ink);transform:rotate(-3deg)">${bottom}</div>
   </div>
@@ -84,6 +84,7 @@ const shortThumb = ({ bg, top, bottom }) => `
 const safe = (inner) => inner.replace('<div style="position:absolute;left:507px', '<div style="position:absolute;left:507px;top:508px;width:1546px;height:423px;outline:6px dashed #0f0;z-index:9"></div><div style="position:absolute;left:507px');
 
 const jobs = [
+  ["nahled-short-5-mlcet.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-S34.png", top: "DOKÁZAL BYS<br>MLČET?", bottom: "PRAHA 1926", shift: -356, size: 140 })],
   ["nahled-short-1-auto.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-S04.png", top: "SRAZÍ TĚ<br>ZPRAVA!", bottom: "PRAHA 1926" })],
   ["nahled-praha-1926-B.png", 1280, 720, thumbB({ bg: "nahled-zaklad-S04.png", big: "PŘEŽIL BYS?", badge: "1926" })],
   ["nahled-praha-1926.png", 1280, 720, thumb({ bg: "nahled-zaklad-S04.png", big: "PŘEŽIL BYS?", badge: "1926" })],
