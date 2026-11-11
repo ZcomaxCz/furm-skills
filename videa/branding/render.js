@@ -84,6 +84,7 @@ const shortThumb = ({ bg, top, bottom, shift = -230, size = 150 }) => `
 const safe = (inner) => inner.replace('<div style="position:absolute;left:507px', '<div style="position:absolute;left:507px;top:508px;width:1546px;height:423px;outline:6px dashed #0f0;z-index:9"></div><div style="position:absolute;left:507px');
 
 const jobs = [
+  ["nahled-short-4-bacily.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-S23.png", top: "NEVIDITELNÝ<br>ZABIJÁK", bottom: "PRAHA 1926", shift: -349, size: 140 })],
   ["nahled-short-2-karta.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-S11.png", top: "ZAPLATÍŠ<br>KARTOU?", bottom: "PRAHA 1926", shift: -250 })],
   ["nahled-short-5-mlcet.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-S34.png", top: "DOKÁZAL BYS<br>MLČET?", bottom: "PRAHA 1926", shift: -356, size: 140 })],
   ["nahled-short-1-auto.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-S04.png", top: "SRAZÍ TĚ<br>ZPRAVA!", bottom: "PRAHA 1926" })],
