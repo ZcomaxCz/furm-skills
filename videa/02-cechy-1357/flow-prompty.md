@@ -1,6 +1,6 @@
 # Prompty pro obrázky (Nano Banana) a animace (Flow) – Přežil bys ve středověkých Čechách? Rok 1357
 
-Celkem 38 obrázků, z toho **12 animovat ve Flow (Veo)**; zbytek rozpohybujeme v Remotionu (zoom, pan, parallax).
+Celkem 42 obrázků, z toho **13 animovat ve Flow (Veo)**; zbytek rozpohybujeme v Remotionu (zoom, pan, parallax).
 
 ## 1. Instrukce pro Nano Banana (jednou na začátku konverzace / do Gemu)
 
@@ -505,7 +505,70 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 
 **Pohyb v Remotionu:** Zoom na vejce; štítek „Legenda“ v Remotionu.
 
-### S30 · Nebezpečí · 🎬 VEO
+### S30 · Zábava · 🖼️ Remotion
+
+> Ale středověk není jen dřina. Kalendář je plný svátků a o svátcích se nepracuje. Ráno mše a procesí, odpoledne trh, jídlo a pivo.
+
+**Obrázek:**
+
+```text
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A festive medieval town square on a holy day: a procession of round-headed cartoon townspeople carrying colorful banners and a small statue of a saint, behind them market stalls with food and beer barrels, bunting between the houses; the orange-hoodie character from the attached image walks along with the procession, smiling. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted earthy medieval palette of ochre, moss green, warm brown and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
+```
+
+**Pohyb v Remotionu:** Pomalý boční pan s průvodem.
+
+### S31 · Zábava · 🎬 VEO
+
+> Na trzích vystupují kejklíři, žongléři a provazochodci. Občas přijde i medvědář s cvičeným medvědem. Žádné kino, žádný telefon. Tohle je tvůj Netflix.
+
+**Obrázek:**
+
+```text
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A lively medieval market: a round-headed cartoon juggler in a colorful two-tone costume juggles three balls in the middle, a rope walker balances on a rope between two houses above, and a crowd of townspeople watches; the orange-hoodie character from the attached image stands in the front row, medium-large in the frame, amazed. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted earthy medieval palette of ochre, moss green, warm brown and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
+```
+
+**Animace (Flow → Frames to Video, start frame = obrázek výše):**
+
+```text
+2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+
+Camera: completely static, locked-off shot, no pan, no zoom.
+
+Action, in this order:
+0–8 s: the juggler juggles the three balls in a steady loop.
+0–8 s: the rope walker sways slightly left and right with his arms out for balance.
+4–8 s: the crowd and the orange-hoodie character clap their hands.
+
+The houses, the rope and the market stalls stay still and keep their exact shape. All people keep their round white heads and medieval clothing. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+
+Duration 8 seconds. Audio: crowd cheering and clapping, a lute playing in the distance, no speech.
+```
+
+### S32 · Zábava · 🖼️ Remotion
+
+> A hraje se v kostky. Tak vášnivě, že ho města čas od času zakazují. Kdo prohraje poslední groš, prohraje i večeři.
+
+**Obrázek:**
+
+```text
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A smoky medieval tavern: round-headed cartoon men around a wooden table throwing dice, one celebrating with arms up, another holding his head in despair over an empty coin purse; the orange-hoodie character from the attached image watches from the side holding a wooden beer mug. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted earthy medieval palette of ochre, moss green, warm brown and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
+```
+
+**Pohyb v Remotionu:** Zoom na kostky na stole.
+
+### S33 · Zábava · 🖼️ Remotion
+
+> A ty máš eso v rukávu: vtipy, které tu ještě nikdo neslyšel. Jen opatrně s těmi o králi. Za ty by ses tady nesmál dlouho.
+
+**Obrázek:**
+
+```text
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: In the tavern: the orange-hoodie character from the attached image stands on a wooden barrel telling jokes with big gestures, round-headed cartoon peasants laughing hard and slapping the table; in the background a stern town guard with a spear frowns and crosses his arms. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted earthy medieval palette of ochre, moss green, warm brown and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
+```
+
+**Pohyb v Remotionu:** Pomalý zoom ze smějícího se davu na zamračeného strážného.
+
+### S34 · Nebezpečí · 🎬 VEO
 
 > Jenže město není jen krása. V noci jsou ulice tmavé, brány zavřené a po setmění venku chodí jen ten, kdo nemá dobré úmysly.
 
@@ -532,7 +595,7 @@ The alley walls, doors and cobblestones stay still and keep their exact shape. T
 Duration 8 seconds. Audio: crackling torch and distant footsteps, no music, no speech.
 ```
 
-### S31 · Nebezpečí · 🖼️ Remotion
+### S35 · Nebezpečí · 🖼️ Remotion
 
 > A ještě oheň. Domy jsou často ze dřeva, svítí se svíčkami a vaří na otevřeném ohni. Jeden požár může spolknout celou ulici.
 
@@ -544,7 +607,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 
 **Pohyb v Remotionu:** Pomalý zoom; blikání plamenů v Remotionu.
 
-### S32 · Nebezpečí · 🖼️ Remotion
+### S36 · Nebezpečí · 🖼️ Remotion
 
 > A spravedlnost je rychlá a tvrdá. Za krádež tě můžou zmrskat, vyhnat z města, nebo i hůř. Žádný advokát, žádné odvolání.
 
@@ -556,7 +619,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 
 **Pohyb v Remotionu:** Pomalý zoom na pranýř.
 
-### S33 · Verdikt · 🖼️ Remotion
+### S37 · Verdikt · 🖼️ Remotion
 
 > Takže, jak dlouho bys vydržel? První den je o tom, aby tě nikdo nepovažoval za čaroděje. První zima o tom, jestli najdeš střechu a jídlo. A pak už jen o tom, jestli tě nedostane nemoc.
 
@@ -568,7 +631,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 
 **Pohyb v Remotionu:** Panely naskakují postupně; nad ně „1. DEN / 1. ZIMA / ROKY“ v Remotionu.
 
-### S34 · Verdikt · 🎬 VEO
+### S38 · Verdikt · 🎬 VEO
 
 > Jednu výhodu bys tu ale měl. Výhodu, kterou jsi v roce 1926 neměl. Nemusíš mlčet. Klidně vyprávěj o letadlech a internetu. Stejně to budou brát jako pohádku.
 
@@ -595,7 +658,7 @@ The houses, the night sky and the thought bubble stay still and keep their exact
 Duration 8 seconds. Audio: crackling campfire and quiet crickets, no music, no speech.
 ```
 
-### S35 · Verdikt · 🎬 VEO
+### S39 · Verdikt · 🎬 VEO
 
 > A když budeš mít štěstí, jednoho rána uvidíš, jak se nad Vltavou zvedají první oblouky mostu, po kterém jsi kdysi chodil. Za šest set let. Nebo vlastně před chvílí.
 
@@ -621,7 +684,7 @@ The bridge arches, the scaffolding, the castle and the riverbank stay completely
 Duration 8 seconds. Audio: soft river water and morning birds, no music, no speech.
 ```
 
-### S36 · Verdikt · 🖼️ Remotion
+### S40 · Verdikt · 🖼️ Remotion
 
 > Příště půjdeme ještě dál. Do doby, kdy po Čechách chodili mamuti. A tam už ti nepomůže ani mýdlo.
 
@@ -633,7 +696,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 
 **Pohyb v Remotionu:** Bílý záblesk, zoom-out; „PŘÍŠTĚ: DOBA LEDOVÁ“ v Remotionu.
 
-### S37 · Závěr · 🖼️ Remotion
+### S41 · Závěr · 🖼️ Remotion
 
 > Mimochodem, rychtář ti tu oranžovou mikinu chtěl zabavit. Jako důkaz, že čarodějové opravdu existují. Naštěstí byl záblesk rychlejší.
 
@@ -645,7 +708,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 
 **Pohyb v Remotionu:** Rychlý zoom, na konci bílý záblesk.
 
-### S38 · Závěr · 🖼️ Remotion
+### S42 · Závěr · 🖼️ Remotion
 
 > A jestli se ti video líbilo, dej like a odběr. Ve středověku by ti za to nikdo nepoděkoval. Tady ano.
 

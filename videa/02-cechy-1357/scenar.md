@@ -6,7 +6,7 @@
 - Probudíš se v roce 1357. Jak dlouho vydržíš?
 - Co kdybys cestoval 670 let do minulosti? Čechy 1357
 
-**Rozsah:** 38 scén, 934 slov, 5326 znaků narace, délka 7:23.
+**Rozsah:** 42 scén, 1025 slov, 5840 znaků narace, délka 8:05.
 
 ## Kapitoly (do popisu videa)
 
@@ -19,9 +19,10 @@
 3:17 Jídlo
 3:52 Hygiena a zdraví
 4:44 Praha
-5:46 Nebezpečí
-6:17 Verdikt
-7:06 Závěr
+5:46 Zábava
+6:28 Nebezpečí
+7:00 Verdikt
+7:48 Závěr
 ```
 
 ## Úvod
@@ -214,21 +215,47 @@ Mimochodem, podle legendy se do malty přidávala vejce. Jestli je to pravda, ni
 
 *Obraz:* 🖼️ obrázek + pohyb v Remotionu
 
-## Nebezpečí
+## Zábava
 
 ### S30 · 5:46
+
+Ale středověk není jen dřina. Kalendář je plný svátků a o svátcích se nepracuje. Ráno mše a procesí, odpoledne trh, jídlo a pivo.
+
+*Obraz:* 🖼️ obrázek + pohyb v Remotionu
+
+### S31 · 5:57
+
+Na trzích vystupují kejklíři, žongléři a provazochodci. Občas přijde i medvědář s cvičeným medvědem. Žádné kino, žádný telefon. Tohle je tvůj Netflix.
+
+*Obraz:* 🎬 Flow (Veo)
+
+### S32 · 6:09
+
+A hraje se v kostky. Tak vášnivě, že ho města čas od času zakazují. Kdo prohraje poslední groš, prohraje i večeři.
+
+*Obraz:* 🖼️ obrázek + pohyb v Remotionu
+
+### S33 · 6:18
+
+A ty máš eso v rukávu: vtipy, které tu ještě nikdo neslyšel. Jen opatrně s těmi o králi. Za ty by ses tady nesmál dlouho.
+
+*Obraz:* 🖼️ obrázek + pohyb v Remotionu
+
+## Nebezpečí
+
+### S34 · 6:28
 
 Jenže město není jen krása. V noci jsou ulice tmavé, brány zavřené a po setmění venku chodí jen ten, kdo nemá dobré úmysly.
 
 *Obraz:* 🎬 Flow (Veo)
 
-### S31 · 5:56
+### S35 · 6:38
 
 A ještě oheň. Domy jsou často ze dřeva, svítí se svíčkami a vaří na otevřeném ohni. Jeden požár může spolknout celou ulici.
 
 *Obraz:* 🖼️ obrázek + pohyb v Remotionu
 
-### S32 · 6:07
+### S36 · 6:49
 
 A spravedlnost je rychlá a tvrdá. Za krádež tě můžou zmrskat, vyhnat z města, nebo i hůř. Žádný advokát, žádné odvolání.
 
@@ -236,25 +263,25 @@ A spravedlnost je rychlá a tvrdá. Za krádež tě můžou zmrskat, vyhnat z m�
 
 ## Verdikt
 
-### S33 · 6:17
+### S37 · 7:00
 
 Takže, jak dlouho bys vydržel? První den je o tom, aby tě nikdo nepovažoval za čaroděje. První zima o tom, jestli najdeš střechu a jídlo. A pak už jen o tom, jestli tě nedostane nemoc.
 
 *Obraz:* 🖼️ obrázek + pohyb v Remotionu
 
-### S34 · 6:32
+### S38 · 7:14
 
 Jednu výhodu bys tu ale měl. Výhodu, kterou jsi v roce 1926 neměl. Nemusíš mlčet. Klidně vyprávěj o letadlech a internetu. Stejně to budou brát jako pohádku.
 
 *Obraz:* 🎬 Flow (Veo)
 
-### S35 · 6:46
+### S39 · 7:29
 
 A když budeš mít štěstí, jednoho rána uvidíš, jak se nad Vltavou zvedají první oblouky mostu, po kterém jsi kdysi chodil. Za šest set let. Nebo vlastně před chvílí.
 
 *Obraz:* 🎬 Flow (Veo)
 
-### S36 · 6:59
+### S40 · 7:41
 
 Příště půjdeme ještě dál. Do doby, kdy po Čechách chodili mamuti. A tam už ti nepomůže ani mýdlo.
 
@@ -262,13 +289,13 @@ Příště půjdeme ještě dál. Do doby, kdy po Čechách chodili mamuti. A ta
 
 ## Závěr
 
-### S37 · 7:06
+### S41 · 7:48
 
 Mimochodem, rychtář ti tu oranžovou mikinu chtěl zabavit. Jako důkaz, že čarodějové opravdu existují. Naštěstí byl záblesk rychlejší.
 
 *Obraz:* 🖼️ obrázek + pohyb v Remotionu
 
-### S38 · 7:16
+### S42 · 7:58
 
 A jestli se ti video líbilo, dej like a odběr. Ve středověku by ti za to nikdo nepoděkoval. Tady ano.
 
