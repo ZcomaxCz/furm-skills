@@ -279,7 +279,7 @@ Jednu výhodu bys tu ale měl. Výhodu, kterou jsi v roce 1926 neměl. Nemusíš
 
 A když budeš mít štěstí, jednoho rána uvidíš, jak se nad Vltavou zvedají první oblouky mostu, po kterém jsi kdysi chodil. Za šest set let. Nebo vlastně před chvílí.
 
-*Obraz:* 🎬 Flow (Veo)
+*Obraz:* 🖼️ obrázek + pohyb v Remotionu
 
 ### S40 · 7:41
 

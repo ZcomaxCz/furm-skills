@@ -375,7 +375,7 @@
    "image": "Three-panel composition side by side showing the main character: panel 1 with curious villagers staring at him, panel 2 shivering in a snowy village wrapped in a blanket over his hoodie, panel 3 working happily at a bridge construction site. Plain space above each panel for words to be added later.",
    "motion": {
     "type": "remotion",
-    "prompt": "Panely naskakují postupně; nad ně „1. DEN / 1. ZIMA / ROKY“ v Remotionu."
+    "prompt": "Obrázek neprošel: tři panely složím v Remotionu z obrázků S08, S16 a S28, nad ně „1. DEN / 1. ZIMA / ROKY“."
    }
   },
   {
@@ -394,8 +394,8 @@
    "narration": "A když budeš mít štěstí, jednoho rána uvidíš, jak se nad Vltavou zvedají první oblouky mostu, po kterém jsi kdysi chodil. Za šest set let. Nebo vlastně před chvílí.",
    "image": "Dawn over the Vltava in 14th-century Prague: the first stone arches of a new bridge rise from the river with wooden scaffolding; Prague Castle with the unfinished cathedral on the hill; the main character sits on the riverbank, seen from behind and medium-large in the lower right, looking at the bridge.",
    "motion": {
-    "type": "veo",
-    "prompt": "Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. Soft morning mist drifts slowly over the river and the warm sunrise light grows a little brighter. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds."
+    "type": "remotion",
+    "prompt": "Ve Flow neprošlo: pomalý zoom a zesilující světlo svítání (Remotion)."
    }
   },
   {

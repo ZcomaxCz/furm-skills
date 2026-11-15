@@ -1,6 +1,6 @@
 # Prompty pro obrázky (Nano Banana) a animace (Flow) – Přežil bys ve středověkých Čechách? Rok 1357
 
-Celkem 42 obrázků, z toho **12 animovat ve Flow (Veo)**; zbytek rozpohybujeme v Remotionu (zoom, pan, parallax).
+Celkem 42 obrázků, z toho **11 animovat ve Flow (Veo)**; zbytek rozpohybujeme v Remotionu (zoom, pan, parallax).
 
 ## 1. Instrukce pro Nano Banana (jednou na začátku konverzace / do Gemu)
 
@@ -528,7 +528,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Three-panel composition side by side showing the orange-hoodie character from the attached image: panel 1 with curious villagers staring at him, panel 2 shivering in a snowy village wrapped in a blanket over his hoodie, panel 3 working happily at a bridge construction site. Plain space above each panel for words to be added later. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted earthy medieval palette of ochre, moss green, warm brown and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
-**Pohyb v Remotionu:** Panely naskakují postupně; nad ně „1. DEN / 1. ZIMA / ROKY“ v Remotionu.
+**Pohyb v Remotionu:** Obrázek neprošel: tři panely složím v Remotionu z obrázků S08, S16 a S28, nad ně „1. DEN / 1. ZIMA / ROKY“.
 
 ### S38 · Verdikt · 🎬 VEO
 
@@ -546,7 +546,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The campfire flames flicker and a few small sparks rise into the night sky. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds.
 ```
 
-### S39 · Verdikt · 🎬 VEO
+### S39 · Verdikt · 🖼️ Remotion
 
 > A když budeš mít štěstí, jednoho rána uvidíš, jak se nad Vltavou zvedají první oblouky mostu, po kterém jsi kdysi chodil. Za šest set let. Nebo vlastně před chvílí.
 
@@ -556,11 +556,7 @@ Flat 2D cartoon illustration gently coming to life, same style and composition a
 Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Dawn over the Vltava in 14th-century Prague: the first stone arches of a new bridge rise from the river with wooden scaffolding; Prague Castle with the unfinished cathedral on the hill; the orange-hoodie character from the attached image sits on the riverbank, seen from behind and medium-large in the lower right, looking at the bridge. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted earthy medieval palette of ochre, moss green, warm brown and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
-**Animace (Flow → Frames to Video, start frame = obrázek výše):**
-
-```text
-Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. Soft morning mist drifts slowly over the river and the warm sunrise light grows a little brighter. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds.
-```
+**Pohyb v Remotionu:** Ve Flow neprošlo: pomalý zoom a zesilující světlo svítání (Remotion).
 
 ### S40 · Verdikt · 🖼️ Remotion
 
