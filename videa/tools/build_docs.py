@@ -61,6 +61,7 @@ if data.get("facts"):
 
 # ---------- flow-prompty.md ----------
 STYLE, CHAR = data["style"], data["character"]
+PALETTE = data.get("palette", "muted vintage palette of sepia, warm grey and soft teal")
 agent = """You are my illustrator for a Czech faceless YouTube channel with long-form animated explainers ("What if you travelled back in time…", "How long would you survive…"). For every scene I send, you create ONE image in 16:9 landscape format. All images of a video must look like frames from the same animated film.
 
 THE MAIN CHARACTER IS IN THE ATTACHED IMAGE. Keep him exactly as he is drawn there in every image: the same large perfectly round white head (about one third of his height) with a thin black outline, the same two black dot eyes and small simple mouth, no nose, ears or hair, the same bright orange hoodie with hood, drawstrings and kangaroo pocket, the same dark blue jeans, white sneakers and round white mitten-like hands. Do not redesign, restyle or recolor him. You may change only his pose, facial expression (simple eyebrows and mouth, like in the reference) and what he holds. He is the only person in modern clothes and the only bright orange thing in the picture.
@@ -89,7 +90,7 @@ for s in scenes:
     img = (f"Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. "
            f"Scene: {scene} "
            "Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. "
-           "Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted vintage palette of sepia, warm grey and soft teal, soft natural light, subtle paper texture. "
+           "Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, " + PALETTE + ", soft natural light, subtle paper texture. "
            "No text, letters, numbers or logos anywhere in the image.")
     fp += [f"### {s['id']} · {s['part']} · {tag}", "",
            f"> {s['narration']}", "",
