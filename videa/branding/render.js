@@ -84,6 +84,12 @@ const shortThumb = ({ bg, top, bottom, shift = -230, size = 150 }) => `
 const safe = (inner) => inner.replace('<div style="position:absolute;left:507px', '<div style="position:absolute;left:507px;top:508px;width:1546px;height:423px;outline:6px dashed #0f0;z-index:9"></div><div style="position:absolute;left:507px');
 
 const jobs = [
+  ["nahled-e2-short-1-carodej.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-ep2-S11.png", top: "ČARODĚJ?", bottom: "ČECHY 1357", shift: -267 })],
+  ["nahled-e2-short-2-brambory.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-ep2-S18.png", top: "ŽÁDNÉ<br>BRAMBORY?", bottom: "ČECHY 1357", shift: -177, size: 140 })],
+  ["nahled-e2-short-3-lazebnik.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-ep2-S22.png", top: "LÉČBA<br>PIJAVICEMI", bottom: "ČECHY 1357", shift: -266, size: 140 })],
+  ["nahled-e2-short-4-most.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-ep2-S29.png", top: "VEJCE<br>V MALTĚ?", bottom: "KARLŮV MOST", shift: -535, size: 140 })],
+  ["nahled-e2-short-5-zabava.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-ep2-S33.png", top: "STŘEDOVĚKÝ<br>NETFLIX", bottom: "ČECHY 1357", shift: -356, size: 132 })],
+  ["nahled-e2-short-6-katedrala.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-ep2-S06.png", top: "585 LET<br>STAVBY", bottom: "SV. VÍT", shift: -356, size: 140 })],
   ["nahled-cechy-1357-B.png", 1280, 720, thumb({ bg: "nahled-zaklad-ep2-S11.png", big: "ČARODĚJ?", badge: "1357" })],
   ["nahled-cechy-1357.png", 1280, 720, thumb({ bg: "nahled-zaklad-ep2-S11.png", big: "PŘEŽIL BYS?", badge: "1357" })],
   ["nahled-short-3-zachod.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-S18.png", top: "1 ZÁCHOD<br>NA CELÉ PATRO", bottom: "PRAHA 1926", shift: -280, size: 128 })],
