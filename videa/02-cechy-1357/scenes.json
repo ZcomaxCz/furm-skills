@@ -342,10 +342,10 @@
    "id": "S34",
    "part": "Nebezpečí",
    "narration": "Jenže město není jen krása. V noci jsou ulice tmavé, brány zavřené a po setmění venku chodí jen ten, kdo nemá dobré úmysly.",
-   "image": "A dark narrow medieval Prague alley at night lit by a single torch on the wall; a hooded round-headed cartoon figure walks in the distance; the main character hides in a doorway in the foreground, medium-large in the frame, peeking out nervously.",
+   "image": "A dark, quiet narrow medieval Prague alley at night lit by a single torch on the wall, a long shadow at the far end; the main character stands in a doorway in the foreground, medium-large in the frame, peeking out curiously.",
    "motion": {
     "type": "veo",
-    "prompt": "Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The torch flame on the wall flickers softly and its warm light moves gently on the walls. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds."
+    "prompt": "Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The torch flame on the wall flickers softly and its warm light moves gently on the walls. The character stands calmly with a subtle idle breathing motion and blinks. 8 seconds."
    }
   },
   {
