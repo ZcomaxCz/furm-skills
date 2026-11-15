@@ -168,7 +168,7 @@ const ep2 = makeEpisode({
   scenes: data2.scenes,
   durations: durations2 as Record<string, number>,
   Overlay: Overlay2,
-  imageFor: { S01: "S02.png" }, // klip S01 zatím chybí
+  imageFor: { S01: "S01.png" }, // animace S01 ve Flow neprošla, jen obrázek
   Custom: { S37: Verdict },
 });
 export const Episode2 = ep2.Component;
