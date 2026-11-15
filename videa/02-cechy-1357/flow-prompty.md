@@ -530,18 +530,17 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
 
-Camera: completely static, locked-off shot, no pan, no zoom.
+Camera: static, no pan, no zoom.
 
-Action, in this order:
-0–8 s: the juggler juggles the three balls in a steady loop.
-0–8 s: the rope walker sways slightly left and right with his arms out for balance.
-4–8 s: the crowd and the orange-hoodie character clap their hands.
+Action:
+0–8 s: the juggler in the colorful costume tosses three balls up and catches them in a steady, playful loop.
+3–8 s: the people watching smile and clap their hands. The orange-hoodie character claps too and smiles.
 
-The houses, the rope and the market stalls stay still and keep their exact shape. All people keep their round white heads and medieval clothing. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+Everything else in the picture stays still: the houses, the market stalls and the rope between the houses. All characters keep their appearance exactly as in the start frame.
 
-Duration 8 seconds. Audio: crowd cheering and clapping, a lute playing in the distance, no speech.
+Duration 8 seconds. Audio: cheerful crowd clapping and a lute in the distance, no speech.
 ```
 
 ### S32 · Zábava · 🖼️ Remotion
