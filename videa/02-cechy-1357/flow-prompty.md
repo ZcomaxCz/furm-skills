@@ -151,18 +151,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
 
-Camera: completely static, locked-off shot, no pan, no zoom.
+Camera: static, no pan, no zoom.
 
-Action, in this order:
-0–4 s: the orange-hoodie character keeps gesturing with both hands as if explaining something.
-4–6 s: the three peasants turn their heads and look at each other.
-6–8 s: they all shrug at the same time.
+Action:
+0–4 s: the orange-hoodie character talks and gestures cheerfully with both hands.
+4–6 s: the three villagers look at each other with puzzled faces.
+6–8 s: all three shrug at the same time.
 
-The village street and houses stay still. All peasants keep their round white heads and medieval clothing. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+The village street and houses stay still. All characters keep their appearance exactly as in the start frame.
 
-Duration 8 seconds. Audio: village ambience and a rooster in the distance, no music, no speech.
+Duration 8 seconds. Audio: calm village ambience and a rooster in the distance, no speech.
 ```
 
 ### S09 · První kontakt · 🖼️ Remotion
@@ -226,18 +226,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
 
-Camera: completely static, locked-off shot, no pan, no zoom.
+Camera: static, no pan, no zoom.
 
-Action, in this order:
-0–4 s: the nobleman on his horse rides a few steps forward at a slow walk.
-2–5 s: the peasants on both sides bow deeply.
-5–8 s: the orange-hoodie character notices too late and quickly bows as well.
+Action:
+0–8 s: the fire in the forge glows warmly and flickers.
+0–8 s: the orange-hoodie character pushes the big leather bellows up and down, and the fire glows a little brighter with each push.
+3–8 s: the blacksmith nods approvingly.
 
-The houses and the street stay still and keep their exact shape. The nobleman, his horse and the guards keep their appearance. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+The forge walls, tools and anvil stay still. All characters keep their appearance exactly as in the start frame.
 
-Duration 8 seconds. Audio: horse hooves on mud and quiet murmuring, no music, no speech.
+Duration 8 seconds. Audio: crackling fire and the soft whoosh of the bellows, no speech.
 ```
 
 ### S14 · Peníze a pán · 🎬 VEO
@@ -253,17 +253,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
 
-Camera: completely static, locked-off shot, no pan, no zoom.
+Camera: static, no pan, no zoom.
 
-Action, in this order:
-0–8 s: the blacksmith strikes the glowing horseshoe on the anvil in a steady rhythm and small sparks fly.
-0–8 s: the orange-hoodie character pushes the big leather bellows up and down, and the fire glows brighter with each push.
+Action:
+0–8 s: the nobleman on his horse rides slowly forward at a calm walk.
+2–5 s: the villagers on both sides bow politely.
+5–8 s: the orange-hoodie character notices a moment late and quickly bows too.
 
-The forge walls, tools and the anvil stay still and keep their exact shape. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+The houses and the street stay still. All characters keep their appearance exactly as in the start frame.
 
-Duration 8 seconds. Audio: ringing hammer strikes and the whoosh of the bellows, no music, no speech.
+Duration 8 seconds. Audio: calm horse hooves and quiet murmuring, no speech.
 ```
 
 ### S15 · Čas a světlo · 🎬 VEO
@@ -279,18 +280,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
 
-Camera: completely static, locked-off shot, no pan, no zoom.
+Camera: static, no pan, no zoom.
 
-Action, in this order:
-0–8 s: the bell ringer pulls the rope down and up in a steady rhythm and the bronze bell swings back and forth.
-2–6 s: a few small birds fly up from the roof and out of the frame.
-5–8 s: the orange-hoodie character covers his ears with both hands.
+Action:
+0–8 s: the bell ringer pulls the rope down and up in a calm rhythm and the bell swings gently.
+2–6 s: a few small birds fly up from the roof and away.
+5–8 s: the orange-hoodie character covers his ears and smiles.
 
-The church, the tower and the sky stay still and keep their exact shape. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+The church, the tower and the sky stay still. All characters keep their appearance exactly as in the start frame.
 
-Duration 8 seconds. Audio: a deep church bell ringing and birds, no music, no speech.
+Duration 8 seconds. Audio: a church bell ringing and birds, no speech.
 ```
 
 ### S16 · Čas a světlo · 🖼️ Remotion
@@ -360,24 +361,24 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Obrázek:**
 
 ```text
-Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Inside a medieval public bathhouse with wooden tubs and steam: the orange-hoodie character from the attached image sits in a wooden tub, shown from the chest up with a small towel on his head, smiling; a round-headed cartoon bath attendant stands next to him holding a wooden bucket of water. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted earthy medieval palette of ochre, moss green, warm brown and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Inside a medieval public bathhouse with wooden tubs and soft steam: the orange-hoodie character from the attached image, fully dressed in his orange hoodie and jeans, sits on a wooden bench next to the tubs, and a friendly round-headed cartoon bath attendant in a simple linen apron offers him a folded towel; wooden beams, buckets on the floor. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted earthy medieval palette of ochre, moss green, warm brown and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
 
-Camera: completely static, locked-off shot, no pan, no zoom.
+Camera: static, no pan, no zoom.
 
-Action, in this order:
-0–8 s: soft steam rises slowly from the tubs.
-2–5 s: the bath attendant tips the wooden bucket and pours water over the character's shoulders.
-5–8 s: the orange-hoodie character closes his eyes and smiles contentedly.
+Action:
+0–8 s: soft steam rises slowly from the wooden tubs.
+2–6 s: the bath attendant hands a folded towel to the orange-hoodie character.
+6–8 s: the orange-hoodie character takes the towel and smiles.
 
-The bathhouse walls, tubs and wooden beams stay still and keep their exact shape.
+The bathhouse walls, tubs and wooden beams stay still. All characters keep their appearance exactly as in the start frame.
 
-Duration 8 seconds. Audio: splashing water and soft bathhouse chatter, no music, no speech.
+Duration 8 seconds. Audio: gentle water sounds and soft chatter, no speech.
 ```
 
 ### S22 · Hygiena a zdraví · 🖼️ Remotion
@@ -405,18 +406,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
 
-Camera: completely static, locked-off shot, no pan, no zoom.
+Camera: static, no pan, no zoom.
 
-Action, in this order:
-0–8 s: thin fog drifts slowly along the street.
-2–5 s: two ravens on the roofs flap their wings and turn their heads.
-5–8 s: one raven flies off and out of the frame.
+Action:
+0–8 s: thin fog drifts slowly along the empty street.
+2–6 s: two black birds on a roof turn their heads.
+6–8 s: one bird flies away.
 
-The houses, doors, cart and street stay completely still and keep their exact shape.
+The houses, doors, cart and street stay still. All characters keep their appearance exactly as in the start frame.
 
-Duration 8 seconds. Audio: soft wind and a few raven calls, no music, no speech.
+Duration 8 seconds. Audio: soft wind and a few bird calls, no speech.
 ```
 
 ### S24 · Hygiena a zdraví · 🖼️ Remotion
@@ -468,17 +469,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
 
-Camera: completely static, locked-off shot, no pan, no zoom.
+Camera: static, no pan, no zoom.
 
-Action, in this order:
-0–8 s: the ferryman pulls the oars in a slow steady rhythm and the boat glides a short distance to the right, leaving small ripples.
-0–8 s: the river surface ripples gently.
+Action:
+0–8 s: the ferryman rows calmly and the small boat glides slowly to the right, leaving gentle ripples.
+0–8 s: the river surface ripples softly.
+4–8 s: the orange-hoodie character looks around at the city and smiles.
 
-The riverbanks, the bridge foundations, the castle and the sky stay still and keep their exact shape. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+The riverbanks, the bridge foundations, the castle and the sky stay still. All characters keep their appearance exactly as in the start frame.
 
-Duration 8 seconds. Audio: oars splashing and river water, no music, no speech.
+Duration 8 seconds. Audio: oars splashing gently and river water, no speech.
 ```
 
 ### S28 · Praha · 🖼️ Remotion
@@ -580,18 +582,17 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
 
-Camera: completely static, locked-off shot, no pan, no zoom.
+Camera: static, no pan, no zoom.
 
-Action, in this order:
-0–8 s: the torch flame on the wall flickers softly and its light trembles on the walls.
-2–6 s: the hooded figure in the distance walks a few steps across the alley and disappears into the shadows.
-6–8 s: the orange-hoodie character pulls back into the doorway.
+Action:
+0–8 s: the torch flame on the wall flickers softly and its warm light moves gently on the walls.
+3–8 s: the orange-hoodie character peeks out from the doorway, looks left and right, then pulls back.
 
-The alley walls, doors and cobblestones stay still and keep their exact shape. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+The alley walls, doors, cobblestones and the distant figure stay still. All characters keep their appearance exactly as in the start frame.
 
-Duration 8 seconds. Audio: crackling torch and distant footsteps, no music, no speech.
+Duration 8 seconds. Audio: a crackling torch and quiet night ambience, no speech.
 ```
 
 ### S35 · Nebezpečí · 🖼️ Remotion
@@ -643,18 +644,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
 
-Camera: completely static, locked-off shot, no pan, no zoom.
+Camera: static, no pan, no zoom.
 
-Action, in this order:
+Action:
 0–8 s: the campfire flames flicker and a few small sparks rise.
-0–5 s: the orange-hoodie character spreads his arms wide like airplane wings.
-5–8 s: the children lean forward with wide eyes.
+0–5 s: the orange-hoodie character spreads his arms wide like airplane wings while telling a story.
+5–8 s: the listeners lean forward with big curious eyes.
 
-The houses, the night sky and the thought bubble stay still and keep their exact shape. All villagers keep their round white heads and medieval clothing. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+The houses, the night sky and the thought bubble stay still. All characters keep their appearance exactly as in the start frame.
 
-Duration 8 seconds. Audio: crackling campfire and quiet crickets, no music, no speech.
+Duration 8 seconds. Audio: a crackling campfire and quiet crickets, no speech.
 ```
 
 ### S39 · Verdikt · 🎬 VEO
@@ -670,17 +671,17 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
 
-Camera: completely static, locked-off shot, no pan, no zoom.
+Camera: static, no pan, no zoom.
 
-Action, in this order:
-0–8 s: soft morning mist drifts slowly over the river and the warm sunrise light spreads a little brighter.
-3–8 s: the orange-hoodie character slowly leans back on his hands, relaxed.
+Action:
+0–8 s: soft morning mist drifts slowly over the river and the warm sunrise light grows a little brighter.
+3–8 s: the orange-hoodie character, seen from behind, slowly leans back on his hands, relaxed. He does not turn around.
 
-The bridge arches, the scaffolding, the castle and the riverbank stay completely still and keep their exact shape. The orange-hoodie character stays seen from behind for the whole shot. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+The bridge arches, the scaffolding, the castle and the riverbank stay still. All characters keep their appearance exactly as in the start frame.
 
-Duration 8 seconds. Audio: soft river water and morning birds, no music, no speech.
+Duration 8 seconds. Audio: soft river water and morning birds, no speech.
 ```
 
 ### S40 · Verdikt · 🖼️ Remotion
