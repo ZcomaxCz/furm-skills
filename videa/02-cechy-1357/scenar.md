@@ -175,7 +175,7 @@ Jenže lazebník je zároveň tvůj lékař. A jeho oblíbená léčba? Pouště
 
 A pak je tu mor. Černá smrt právě prošla Evropou a zabila možná třetinu jejích obyvatel. Čechy podle kronik první vlnu přečkaly lépe než jiné země. Ale mor se bude vracet.
 
-*Obraz:* 🎬 Flow (Veo)
+*Obraz:* 🖼️ obrázek + pohyb v Remotionu
 
 ### S24 · 4:32
 

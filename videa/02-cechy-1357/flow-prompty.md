@@ -1,6 +1,6 @@
 # Prompty pro obrázky (Nano Banana) a animace (Flow) – Přežil bys ve středověkých Čechách? Rok 1357
 
-Celkem 42 obrázků, z toho **13 animovat ve Flow (Veo)**; zbytek rozpohybujeme v Remotionu (zoom, pan, parallax).
+Celkem 42 obrázků, z toho **12 animovat ve Flow (Veo)**; zbytek rozpohybujeme v Remotionu (zoom, pan, parallax).
 
 ## 1. Instrukce pro Nano Banana (jednou na začátku konverzace / do Gemu)
 
@@ -338,7 +338,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 
 **Pohyb v Remotionu:** Rychlý zoom na vyděšený obličej.
 
-### S23 · Hygiena a zdraví · 🎬 VEO
+### S23 · Hygiena a zdraví · 🖼️ Remotion
 
 > A pak je tu mor. Černá smrt právě prošla Evropou a zabila možná třetinu jejích obyvatel. Čechy podle kronik první vlnu přečkaly lépe než jiné země. Ale mor se bude vracet.
 
@@ -348,11 +348,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A quiet, empty medieval town street at dusk: closed wooden shutters, an empty wooden cart, thin fog over the cobblestones, two black birds sitting on a roof; calm, melancholic mood, no people. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted earthy medieval palette of ochre, moss green, warm brown and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
-**Animace (Flow → Frames to Video, start frame = obrázek výše):**
-
-```text
-Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. Thin fog drifts slowly along the empty street, and a black bird on a roof turns its head. 8 seconds.
-```
+**Pohyb v Remotionu:** Ve Flow neprošlo: pomalý zoom do ulice a jemně plující mlha přes obraz (Remotion).
 
 ### S24 · Hygiena a zdraví · 🖼️ Remotion
 

@@ -234,8 +234,8 @@
    "narration": "A pak je tu mor. Černá smrt právě prošla Evropou a zabila možná třetinu jejích obyvatel. Čechy podle kronik první vlnu přečkaly lépe než jiné země. Ale mor se bude vracet.",
    "image": "A quiet, empty medieval town street at dusk: closed wooden shutters, an empty wooden cart, thin fog over the cobblestones, two black birds sitting on a roof; calm, melancholic mood, no people.",
    "motion": {
-    "type": "veo",
-    "prompt": "Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. Thin fog drifts slowly along the empty street, and a black bird on a roof turns its head. 8 seconds."
+    "type": "remotion",
+    "prompt": "Ve Flow neprošlo: pomalý zoom do ulice a jemně plující mlha přes obraz (Remotion)."
    }
   },
   {
