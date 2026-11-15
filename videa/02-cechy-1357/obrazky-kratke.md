@@ -137,7 +137,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 ## S33
 
 ```text
-Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn. Scene: In the tavern: the orange-hoodie character stands on a wooden barrel telling jokes with big gestures, round-headed cartoon peasants laughing hard and slapping the table; in the background a stern town guard with a spear frowns and crosses his arms. Style: 2D hand-drawn explainer illustration, flat colors, muted earthy medieval palette of ochre, moss green, warm brown and soft teal, subtle paper texture. No text, letters or logos.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn. Scene: In the tavern: the orange-hoodie character stands on a wooden barrel telling jokes with big gestures, round-headed cartoon peasants laughing hard and slapping the table; in the background a stern town guard frowns and crosses his arms. Style: 2D hand-drawn explainer illustration, flat colors, muted earthy medieval palette of ochre, moss green, warm brown and soft teal, subtle paper texture. No text, letters or logos.
 ```
 
 ## S35
@@ -161,7 +161,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 ## S40
 
 ```text
-Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn. Scene: Teaser: a snowy Ice Age steppe with a herd of woolly mammoths in the distance; the orange-hoodie character appears in a flash of white light, standing in the snow, hugging himself and shivering in his orange hoodie. Style: 2D hand-drawn explainer illustration, flat colors, muted earthy medieval palette of ochre, moss green, warm brown and soft teal, subtle paper texture. No text, letters or logos.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn. Scene: Teaser: a snowy Ice Age steppe with a herd of woolly mammoths in the distance; the orange-hoodie character appears in a flash of white light, standing in the snow, hugging himself and shivering in his orange hoodie. Style: 2D hand-drawn explainer illustration, flat colors, cold Ice Age palette of white, pale blue, grey and soft teal, subtle paper texture. No text, letters or logos.
 ```
 
 ## S41

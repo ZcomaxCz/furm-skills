@@ -332,7 +332,7 @@
    "id": "S33",
    "part": "Zábava",
    "narration": "A ty máš eso v rukávu: vtipy, které tu ještě nikdo neslyšel. Jen opatrně s těmi o králi. Za ty by ses tady nesmál dlouho.",
-   "image": "In the tavern: the main character stands on a wooden barrel telling jokes with big gestures, round-headed cartoon peasants laughing hard and slapping the table; in the background a stern town guard with a spear frowns and crosses his arms.",
+   "image": "In the tavern: the main character stands on a wooden barrel telling jokes with big gestures, round-headed cartoon peasants laughing hard and slapping the table; in the background a stern town guard frowns and crosses his arms.",
    "motion": {
     "type": "remotion",
     "prompt": "Pomalý zoom ze smějícího se davu na zamračeného strážného."
