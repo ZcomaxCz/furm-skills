@@ -100,18 +100,18 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation. Keep the exact art style, colors, line work and composition of the start frame; flat illustrated look, no 3D, no realism, no new objects or people.
+2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
 
-Camera: completely static, locked-off shot, no pan, no zoom.
+Camera: static, no pan, no zoom.
 
-Action, in this order:
-0–8 s: the large wooden treadwheel crane slowly turns and lifts the stone block a little higher on its rope.
-0–8 s: two workers on the scaffolding repeat one small hammering motion.
-4–8 s: the orange-hoodie character tilts his head back and looks up at the cathedral in awe.
+Action:
+0–8 s: the big wooden wheel of the crane turns slowly and steadily.
+0–8 s: small clouds of light dust drift gently in the air around the building site.
+4–8 s: the orange-hoodie character tilts his head back and looks up at the tall church with an amazed smile.
 
-The cathedral, the scaffolding and the sky stay still and keep their exact shape. The orange-hoodie character keeps his round white head, dot eyes, orange hoodie, jeans and white sneakers exactly as in the start frame.
+The church, the scaffolding and the sky stay still. All characters keep their appearance exactly as in the start frame.
 
-Duration 8 seconds. Audio: wooden creaking of the crane and distant hammering on stone, no music, no speech.
+Duration 8 seconds. Audio: soft wooden creaking and a calm building-site ambience, no speech.
 ```
 
 ### S06 · Kde to jsi · 🖼️ Remotion
