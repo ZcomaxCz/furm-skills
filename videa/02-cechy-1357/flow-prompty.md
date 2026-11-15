@@ -1,6 +1,6 @@
 # Prompty pro obrázky (Nano Banana) a animace (Flow) – Přežil bys ve středověkých Čechách? Rok 1357
 
-Celkem 36 obrázků, z toho **12 animovat ve Flow (Veo)**; zbytek rozpohybujeme v Remotionu (zoom, pan, parallax).
+Celkem 38 obrázků, z toho **12 animovat ve Flow (Veo)**; zbytek rozpohybujeme v Remotionu (zoom, pan, parallax).
 
 ## 1. Instrukce pro Nano Banana (jednou na začátku konverzace / do Gemu)
 
@@ -632,3 +632,27 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 ```
 
 **Pohyb v Remotionu:** Bílý záblesk, zoom-out; „PŘÍŠTĚ: DOBA LEDOVÁ“ v Remotionu.
+
+### S37 · Závěr · 🖼️ Remotion
+
+> Mimochodem, rychtář ti tu oranžovou mikinu chtěl zabavit. Jako důkaz, že čarodějové opravdu existují. Naštěstí byl záblesk rychlejší.
+
+**Obrázek:**
+
+```text
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: Inside the medieval village house: the stern round-headed cartoon village headman with a beard tugs hard at the sleeve of the orange-hoodie character from the attached image's orange hoodie, while the orange-hoodie character from the attached image pulls the other way with a panicked grin; a faint white glow of a magic flash starts to appear around the orange-hoodie character from the attached image. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted earthy medieval palette of ochre, moss green, warm brown and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
+```
+
+**Pohyb v Remotionu:** Rychlý zoom, na konci bílý záblesk.
+
+### S38 · Závěr · 🖼️ Remotion
+
+> A jestli se ti video líbilo, dej like a odběr. Ve středověku by ti za to nikdo nepoděkoval. Tady ano.
+
+**Obrázek:**
+
+```text
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: The orange-hoodie character from the attached image standing in the center on a plain warm paper background, smiling and giving a big thumbs-up with one hand and waving with the other; plenty of empty space on both sides for buttons to be added later. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted earthy medieval palette of ochre, moss green, warm brown and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
+```
+
+**Pohyb v Remotionu:** Vedle postavy naskočí tlačítka LIKE a ODEBÍRAT (Remotion).

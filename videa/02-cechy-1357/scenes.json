@@ -367,6 +367,26 @@
     "type": "remotion",
     "prompt": "Bílý záblesk, zoom-out; „PŘÍŠTĚ: DOBA LEDOVÁ“ v Remotionu."
    }
+  },
+  {
+   "id": "S37",
+   "part": "Závěr",
+   "narration": "Mimochodem, rychtář ti tu oranžovou mikinu chtěl zabavit. Jako důkaz, že čarodějové opravdu existují. Naštěstí byl záblesk rychlejší.",
+   "image": "Inside the medieval village house: the stern round-headed cartoon village headman with a beard tugs hard at the sleeve of the main character's orange hoodie, while the main character pulls the other way with a panicked grin; a faint white glow of a magic flash starts to appear around the main character.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Rychlý zoom, na konci bílý záblesk."
+   }
+  },
+  {
+   "id": "S38",
+   "part": "Závěr",
+   "narration": "A jestli se ti video líbilo, dej like a odběr. Ve středověku by ti za to nikdo nepoděkoval. Tady ano.",
+   "image": "The main character standing in the center on a plain warm paper background, smiling and giving a big thumbs-up with one hand and waving with the other; plenty of empty space on both sides for buttons to be added later.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Vedle postavy naskočí tlačítka LIKE a ODEBÍRAT (Remotion)."
+   }
   }
  ],
  "facts": [

@@ -6,7 +6,7 @@
 - Probudíš se v roce 1357. Jak dlouho vydržíš?
 - Co kdybys cestoval 670 let do minulosti? Čechy 1357
 
-**Rozsah:** 36 scén, 896 slov, 5092 znaků narace, délka 7:06.
+**Rozsah:** 38 scén, 934 slov, 5326 znaků narace, délka 7:23.
 
 ## Kapitoly (do popisu videa)
 
@@ -21,6 +21,7 @@
 4:44 Praha
 5:46 Nebezpečí
 6:17 Verdikt
+7:06 Závěr
 ```
 
 ## Úvod
@@ -256,6 +257,20 @@ A když budeš mít štěstí, jednoho rána uvidíš, jak se nad Vltavou zvedaj
 ### S36 · 6:59
 
 Příště půjdeme ještě dál. Do doby, kdy po Čechách chodili mamuti. A tam už ti nepomůže ani mýdlo.
+
+*Obraz:* 🖼️ obrázek + pohyb v Remotionu
+
+## Závěr
+
+### S37 · 7:06
+
+Mimochodem, rychtář ti tu oranžovou mikinu chtěl zabavit. Jako důkaz, že čarodějové opravdu existují. Naštěstí byl záblesk rychlejší.
+
+*Obraz:* 🖼️ obrázek + pohyb v Remotionu
+
+### S38 · 7:16
+
+A jestli se ti video líbilo, dej like a odběr. Ve středověku by ti za to nikdo nepoděkoval. Tady ano.
 
 *Obraz:* 🖼️ obrázek + pohyb v Remotionu
 
