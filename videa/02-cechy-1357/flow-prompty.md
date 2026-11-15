@@ -151,18 +151,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
-
-Camera: static, no pan, no zoom.
-
-Action:
-0–4 s: the orange-hoodie character talks and gestures cheerfully with both hands.
-4–6 s: the three villagers look at each other with puzzled faces.
-6–8 s: all three shrug at the same time.
-
-The village street and houses stay still. All characters keep their appearance exactly as in the start frame.
-
-Duration 8 seconds. Audio: calm village ambience and a rooster in the distance, no speech.
+Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. A soft breeze moves the leaves and the thin smoke from a chimney. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds.
 ```
 
 ### S09 · První kontakt · 🖼️ Remotion
@@ -226,18 +215,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
-
-Camera: static, no pan, no zoom.
-
-Action:
-0–8 s: the fire in the forge glows warmly and flickers.
-0–8 s: the orange-hoodie character pushes the big leather bellows up and down, and the fire glows a little brighter with each push.
-3–8 s: the blacksmith nods approvingly.
-
-The forge walls, tools and anvil stay still. All characters keep their appearance exactly as in the start frame.
-
-Duration 8 seconds. Audio: crackling fire and the soft whoosh of the bellows, no speech.
+Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The fire in the forge glows and flickers warmly, and a few small sparks drift up from the coals. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds.
 ```
 
 ### S14 · Peníze a pán · 🎬 VEO
@@ -253,18 +231,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
-
-Camera: static, no pan, no zoom.
-
-Action:
-0–8 s: the nobleman on his horse rides slowly forward at a calm walk.
-2–5 s: the villagers on both sides bow politely.
-5–8 s: the orange-hoodie character notices a moment late and quickly bows too.
-
-The houses and the street stay still. All characters keep their appearance exactly as in the start frame.
-
-Duration 8 seconds. Audio: calm horse hooves and quiet murmuring, no speech.
+Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. A soft breeze moves the cloaks and the horse's mane, and the horse gently shakes its head. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds.
 ```
 
 ### S15 · Čas a světlo · 🎬 VEO
@@ -280,18 +247,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
-
-Camera: static, no pan, no zoom.
-
-Action:
-0–8 s: the bell ringer pulls the rope down and up in a calm rhythm and the bell swings gently.
-2–6 s: a few small birds fly up from the roof and away.
-5–8 s: the orange-hoodie character covers his ears and smiles.
-
-The church, the tower and the sky stay still. All characters keep their appearance exactly as in the start frame.
-
-Duration 8 seconds. Audio: a church bell ringing and birds, no speech.
+Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The bell in the tower swings gently, and a few small birds fly across the morning sky. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds.
 ```
 
 ### S16 · Čas a světlo · 🖼️ Remotion
@@ -367,18 +323,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
-
-Camera: static, no pan, no zoom.
-
-Action:
-0–8 s: soft steam rises slowly from the wooden tubs.
-2–6 s: the bath attendant hands a folded towel to the orange-hoodie character.
-6–8 s: the orange-hoodie character takes the towel and smiles.
-
-The bathhouse walls, tubs and wooden beams stay still. All characters keep their appearance exactly as in the start frame.
-
-Duration 8 seconds. Audio: gentle water sounds and soft chatter, no speech.
+Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. Soft steam rises slowly from the wooden tubs. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds.
 ```
 
 ### S22 · Hygiena a zdraví · 🖼️ Remotion
@@ -406,18 +351,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
-
-Camera: static, no pan, no zoom.
-
-Action:
-0–8 s: thin fog drifts slowly along the empty street.
-2–6 s: two black birds on a roof turn their heads.
-6–8 s: one bird flies away.
-
-The houses, doors, cart and street stay still. All characters keep their appearance exactly as in the start frame.
-
-Duration 8 seconds. Audio: soft wind and a few bird calls, no speech.
+Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. Thin fog drifts slowly along the empty street, and a black bird on a roof turns its head. 8 seconds.
 ```
 
 ### S24 · Hygiena a zdraví · 🖼️ Remotion
@@ -469,18 +403,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
-
-Camera: static, no pan, no zoom.
-
-Action:
-0–8 s: the ferryman rows calmly and the small boat glides slowly to the right, leaving gentle ripples.
-0–8 s: the river surface ripples softly.
-4–8 s: the orange-hoodie character looks around at the city and smiles.
-
-The riverbanks, the bridge foundations, the castle and the sky stay still. All characters keep their appearance exactly as in the start frame.
-
-Duration 8 seconds. Audio: oars splashing gently and river water, no speech.
+Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The river surface ripples softly and the small boat bobs gently on the water. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds.
 ```
 
 ### S28 · Praha · 🖼️ Remotion
@@ -532,17 +455,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
-
-Camera: static, no pan, no zoom.
-
-Action:
-0–8 s: the juggler in the colorful costume tosses three balls up and catches them in a steady, playful loop.
-3–8 s: the people watching smile and clap their hands. The orange-hoodie character claps too and smiles.
-
-Everything else in the picture stays still: the houses, the market stalls and the rope between the houses. All characters keep their appearance exactly as in the start frame.
-
-Duration 8 seconds. Audio: cheerful crowd clapping and a lute in the distance, no speech.
+Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The colorful flags and bunting flutter gently in the breeze, and the juggler's balls bob slightly in the air. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds.
 ```
 
 ### S32 · Zábava · 🖼️ Remotion
@@ -582,17 +495,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
-
-Camera: static, no pan, no zoom.
-
-Action:
-0–8 s: the torch flame on the wall flickers softly and its warm light moves gently on the walls.
-3–8 s: the orange-hoodie character peeks out from the doorway, looks left and right, then pulls back.
-
-The alley walls, doors, cobblestones and the distant figure stay still. All characters keep their appearance exactly as in the start frame.
-
-Duration 8 seconds. Audio: a crackling torch and quiet night ambience, no speech.
+Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The torch flame on the wall flickers softly and its warm light moves gently on the walls. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds.
 ```
 
 ### S35 · Nebezpečí · 🖼️ Remotion
@@ -644,18 +547,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
-
-Camera: static, no pan, no zoom.
-
-Action:
-0–8 s: the campfire flames flicker and a few small sparks rise.
-0–5 s: the orange-hoodie character spreads his arms wide like airplane wings while telling a story.
-5–8 s: the listeners lean forward with big curious eyes.
-
-The houses, the night sky and the thought bubble stay still. All characters keep their appearance exactly as in the start frame.
-
-Duration 8 seconds. Audio: a crackling campfire and quiet crickets, no speech.
+Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The campfire flames flicker and a few small sparks rise into the night sky. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds.
 ```
 
 ### S39 · Verdikt · 🎬 VEO
@@ -671,17 +563,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-2D hand-drawn cartoon animation in a flat illustrated style. Keep the exact art style, colors and composition of the start frame. No 3D, no realism.
-
-Camera: static, no pan, no zoom.
-
-Action:
-0–8 s: soft morning mist drifts slowly over the river and the warm sunrise light grows a little brighter.
-3–8 s: the orange-hoodie character, seen from behind, slowly leans back on his hands, relaxed. He does not turn around.
-
-The bridge arches, the scaffolding, the castle and the riverbank stay still. All characters keep their appearance exactly as in the start frame.
-
-Duration 8 seconds. Audio: soft river water and morning birds, no speech.
+Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. Soft morning mist drifts slowly over the river and the warm sunrise light grows a little brighter. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds.
 ```
 
 ### S40 · Verdikt · 🖼️ Remotion
