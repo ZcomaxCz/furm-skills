@@ -215,7 +215,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The fire in the forge glows and flickers warmly, and a few small sparks drift up from the coals. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds.
+Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. A soft breeze moves the cloaks and the horse's mane, and the horse gently shakes its head. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds.
 ```
 
 ### S14 · Peníze a pán · 🎬 VEO
@@ -231,7 +231,7 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. A soft breeze moves the cloaks and the horse's mane, and the horse gently shakes its head. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds.
+Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The fire in the forge glows and flickers warmly, and a few small sparks drift up from the coals. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds.
 ```
 
 ### S15 · Čas a světlo · 🎬 VEO
