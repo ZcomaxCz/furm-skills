@@ -485,13 +485,13 @@ Create a 16:9 landscape illustration. Use the orange-hoodie character from the a
 **Obrázek:**
 
 ```text
-Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A dark, quiet narrow medieval Prague alley at night lit by a single torch on the wall, a long shadow at the far end; the orange-hoodie character from the attached image stands in a doorway in the foreground, medium-large in the frame, peeking out curiously. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted earthy medieval palette of ochre, moss green, warm brown and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
+Create a 16:9 landscape illustration. Use the orange-hoodie character from the attached image and keep him exactly as drawn: same round white head, face, hoodie, jeans, sneakers and proportions. Scene: A narrow medieval street in the late evening, softly lit by one warm lantern hanging on a wall; closed wooden doors and shutters, cobblestones, deep blue evening sky. The orange-hoodie character from the attached image walks along the street holding a small lantern and looks around curiously. Calm, slightly mysterious mood. Draw all other people in the same cartoon style: large round white heads, dot eyes, white mitten hands, period clothing in muted colors. Style: 2D hand-drawn explainer illustration, flat-colored characters in a richly detailed painted background, muted earthy medieval palette of ochre, moss green, warm brown and soft teal, soft natural light, subtle paper texture. No text, letters, numbers or logos anywhere in the image.
 ```
 
 **Animace (Flow → Frames to Video, start frame = obrázek výše):**
 
 ```text
-Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The torch flame on the wall flickers softly and its warm light moves gently on the walls. The character stands calmly with a subtle idle breathing motion and blinks. 8 seconds.
+Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The lantern lights flicker softly and their warm glow moves gently on the walls. The character stands calmly with a subtle idle breathing motion and blinks. 8 seconds.
 ```
 
 ### S35 · Nebezpečí · 🖼️ Remotion
