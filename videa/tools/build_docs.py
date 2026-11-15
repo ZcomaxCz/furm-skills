@@ -54,17 +54,9 @@ for s in scenes:
     kind = "🎬 Flow (Veo)" if s["motion"]["type"] == "veo" else "🖼️ obrázek + pohyb v Remotionu"
     out += [f"### {s['id']}{tm}", "", s["narration"], "", f"*Obraz:* {kind}", ""]
 
-out += ["---", "", "## Ověřená fakta použitá ve scénáři", "",
-        "- Levostranný provoz v Československu do roku 1939 (Čechy a Morava od března 1939).",
-        "- Velká Praha vznikla 1. 1. 1922; sčítání 1921 ≈ 677 tis., 1930 ≈ 849 tis. obyvatel.",
-        "- Zákon o osmihodinové pracovní době: prosinec 1918.",
-        "- Radiojournal: pravidelné vysílání od 18. 5. 1923, stan ve Kbelích.",
-        "- Penicilin: Fleming 1928, běžné použití ve 40. letech.",
-        "- Kafka zemřel v červnu 1924; R.U.R. (1920) – slovo „robot“ vymyslel Josef Čapek.",
-        "- VIII. všesokolský slet: léto 1926, Praha.",
-        "- Veletržní palác: stavba 1925–1928.",
-        "- Novogotické křídlo Staroměstské radnice vyhořelo v květnu 1945.",
-        "- Tuberkulóza = „morbus viennensis“ (vídeňská nemoc).", ""]
+if data.get("facts"):
+    out += ["---", "", "## Fakta použitá ve scénáři (ověřit před vydáním)", ""]
+    out += [f"- {f}" for f in data["facts"]] + [""]
 (proj / "scenar.md").write_text("\n".join(out), encoding="utf-8")
 
 # ---------- flow-prompty.md ----------
@@ -75,7 +67,7 @@ THE MAIN CHARACTER IS IN THE ATTACHED IMAGE. Keep him exactly as he is drawn the
 
 Every other person is drawn the same way as him: large round white head, dot eyes, simple mouth, white mitten hands and a clothed body with thin black outlines, but dressed in clothing of the scene's era in muted colors. Never draw realistic people and never the likeness of a real, recognizable person.
 
-The look is a 2D hand-drawn explainer illustration: flat-colored cartoon characters placed in richly detailed painted backgrounds, a muted vintage palette matching the era (for Prague 1926: sepia, warm grey and soft teal), soft natural light and a subtle paper texture. Architecture, vehicles, clothing and objects are accurate for the place and year of the scene; nothing modern appears except what the main character carries. The composition is cinematic and the bottom part of the frame stays calm because subtitles will go there.
+The look is a 2D hand-drawn explainer illustration: flat-colored cartoon characters placed in richly detailed painted backgrounds, a muted palette matching the era of the scene, soft natural light and a subtle paper texture. Architecture, vehicles, clothing and objects are accurate for the place and year of the scene; nothing modern appears except what the main character carries. The composition is cinematic and the bottom part of the frame stays calm because subtitles will go there.
 
 Never put any text, letters, numbers, readable signs, logos or watermarks into the image; titles are added later in editing.
 

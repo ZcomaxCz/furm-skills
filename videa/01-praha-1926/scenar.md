@@ -255,7 +255,7 @@ Příště se podíváme ještě dál – do středověkých Čech. A tam by to 
 
 ---
 
-## Ověřená fakta použitá ve scénáři
+## Fakta použitá ve scénáři (ověřit před vydáním)
 
 - Levostranný provoz v Československu do roku 1939 (Čechy a Morava od března 1939).
 - Velká Praha vznikla 1. 1. 1922; sčítání 1921 ≈ 677 tis., 1930 ≈ 849 tis. obyvatel.

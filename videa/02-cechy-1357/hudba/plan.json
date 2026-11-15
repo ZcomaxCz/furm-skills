@@ -1,0 +1,18 @@
+{
+ "music_level": 0.07,
+ "sources": [
+  {"id": "src-vesnice", "length": 75,
+   "prompt": "Playful, gently comedic medieval folk instrumental: plucked lute, wooden recorder and soft hand drum, around 95 BPM, curious lighthearted village mood, warm and quiet, seamless loopable phrase."},
+  {"id": "src-temno", "length": 50,
+   "prompt": "Dark, tense but restrained medieval instrumental: low drone of hurdy-gurdy and bowed strings, sparse slow frame drum, mysterious ominous atmosphere, quiet, seamless loopable phrase."},
+  {"id": "src-praha", "length": 70,
+   "prompt": "Warm, wondrous medieval instrumental with a gothic cathedral feeling: lute, soft recorder melody and gentle bells, slow tempo around 75 BPM, sense of awe and hope, quiet, seamless loopable phrase."}
+ ],
+ "tracks": [
+  {"id": "t1", "source": "src-vesnice", "start": 0, "end": 231.9},
+  {"id": "t2", "source": "src-temno", "start": 231.9, "end": 284.1},
+  {"id": "t3", "source": "src-praha", "start": 284.1, "end": 345.9},
+  {"id": "t4", "source": "src-temno", "start": 345.9, "end": 377.2},
+  {"id": "t5", "source": "src-praha", "start": 377.2, "end": 426.8}
+ ]
+}

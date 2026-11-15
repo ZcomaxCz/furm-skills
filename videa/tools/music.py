@@ -2,6 +2,8 @@
 
 Použití: python3 music.py <složka projektu>
 Úseky a nálady jsou v hudba/plan.json. Skladby se ukládají do hudba/<id>.mp3 (existující se negenerují znovu).
+Úspornější varianta: v plan.json "sources" (kratší skladby s "length") a u úseku "source": <id> –
+skladba se pak pod úsekem opakuje dokola.
 Výstup: audio/mix.wav (narace + hudba s automatickým ztišením pod hlasem).
 """
 import json
@@ -14,22 +16,26 @@ proj = Path(sys.argv[1])
 plan = json.loads((proj / "hudba" / "plan.json").read_text(encoding="utf-8"))
 XF = 3.0  # překryv sousedních skladeb (s)
 
-for i, tr in enumerate(plan["tracks"]):
-    dest = proj / "hudba" / f"{tr['id']}.mp3"
+todo = [(src["id"], src["prompt"], src["length"]) for src in plan.get("sources", [])]
+todo += [(tr["id"], tr["prompt"], tr["end"] - tr["start"] + XF + 1) for tr in plan["tracks"] if "source" not in tr]
+for tid, prompt, length in todo:
+    dest = proj / "hudba" / f"{tid}.mp3"
     if dest.exists():
         continue
-    length = tr["end"] - tr["start"] + XF + 1
-    body = {"prompt": tr["prompt"] + " Instrumental only, no vocals, steady background music for a documentary voiceover.",
+    body = {"prompt": prompt + " Instrumental only, no vocals, steady background music for a documentary voiceover.",
             "music_length_ms": int(length * 1000)}
     req = urllib.request.Request("https://api.elevenlabs.io/v1/music?output_format=mp3_44100_128",
                                  data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
     dest.write_bytes(urllib.request.urlopen(req, timeout=600).read())
-    print("hotovo", tr["id"], round(length), "s", flush=True)
+    print("hotovo", tid, round(length), "s", flush=True)
 
 # hudební stopa: každá skladba na své místo, prolínání XF sekund
 args, filt, labels = ["ffmpeg", "-y", "-v", "error", "-i", str(proj / "audio" / "narace.wav")], [], []
 for i, tr in enumerate(plan["tracks"], start=1):
-    args += ["-i", str(proj / "hudba" / f"{tr['id']}.mp3")]
+    if "source" in tr:  # opakovat kratší skladbu dokola
+        args += ["-stream_loop", "-1", "-i", str(proj / "hudba" / f"{tr['source']}.mp3")]
+    else:
+        args += ["-i", str(proj / "hudba" / f"{tr['id']}.mp3")]
     start = max(0, tr["start"] - (XF if i > 1 else 0))
     dur = tr["end"] - start + (XF if i < len(plan["tracks"]) else 2)
     fin = XF if i > 1 else 1.5

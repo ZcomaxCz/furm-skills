@@ -13,7 +13,7 @@ THE MAIN CHARACTER IS IN THE ATTACHED IMAGE. Keep him exactly as he is drawn the
 
 Every other person is drawn the same way as him: large round white head, dot eyes, simple mouth, white mitten hands and a clothed body with thin black outlines, but dressed in clothing of the scene's era in muted colors. Never draw realistic people and never the likeness of a real, recognizable person.
 
-The look is a 2D hand-drawn explainer illustration: flat-colored cartoon characters placed in richly detailed painted backgrounds, a muted vintage palette matching the era (for Prague 1926: sepia, warm grey and soft teal), soft natural light and a subtle paper texture. Architecture, vehicles, clothing and objects are accurate for the place and year of the scene; nothing modern appears except what the main character carries. The composition is cinematic and the bottom part of the frame stays calm because subtitles will go there.
+The look is a 2D hand-drawn explainer illustration: flat-colored cartoon characters placed in richly detailed painted backgrounds, a muted palette matching the era of the scene, soft natural light and a subtle paper texture. Architecture, vehicles, clothing and objects are accurate for the place and year of the scene; nothing modern appears except what the main character carries. The composition is cinematic and the bottom part of the frame stays calm because subtitles will go there.
 
 Never put any text, letters, numbers, readable signs, logos or watermarks into the image; titles are added later in editing.
 
