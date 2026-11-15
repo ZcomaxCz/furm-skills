@@ -61,7 +61,7 @@ const Frame: React.FC<{ seg: Segment }> = ({ seg }) => {
           </Sequence>
         </div>
       </div>
-      <Audio src={staticFile("audio/mix.wav")} trimBefore={offset} />
+      <Audio src={staticFile("01-praha-1926/audio/mix.wav")} trimBefore={offset} />
       <Captions seg={seg} />
     </AbsoluteFill>
   );

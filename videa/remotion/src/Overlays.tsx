@@ -1,17 +1,17 @@
 import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 
-const INK = "#2a221a";
-const PAPER = "#f3e9d6";
-const ORANGE = "#ff7a1a";
-const font = "'Oswald', 'Arial Narrow', sans-serif";
+export const INK = "#2a221a";
+export const PAPER = "#f3e9d6";
+export const ORANGE = "#ff7a1a";
+export const font = "'Oswald', 'Arial Narrow', sans-serif";
 
-const usePop = (delay: number) => {
+export const usePop = (delay: number) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   return spring({ frame: f - delay, fps, config: { damping: 14, stiffness: 140 } });
 };
 
-const Title: React.FC = () => {
+export const Title: React.FC<{ text?: string; sub?: string }> = ({ text = "PRAHA 1926", sub = "Jak dlouho bys vydržel?" }) => {
   const p = usePop(8);
   const p2 = usePop(22);
   return (
@@ -29,7 +29,7 @@ const Title: React.FC = () => {
           textShadow: `6px 6px 0 ${ORANGE}`,
         }}
       >
-        PRAHA 1926
+        {text}
       </div>
       <div
         style={{
@@ -42,13 +42,13 @@ const Title: React.FC = () => {
           transform: `translateY(${(1 - p2) * 20}px)`,
         }}
       >
-        Jak dlouho bys vydržel?
+        {sub}
       </div>
     </AbsoluteFill>
   );
 };
 
-const Tag: React.FC<{ text: string; delay: number; style?: React.CSSProperties }> = ({
+export const Tag: React.FC<{ text: string; delay: number; style?: React.CSSProperties }> = ({
   text,
   delay,
   style,
@@ -135,7 +135,7 @@ const VerdictLabel: React.FC<{ t: string; x: number; w: number; delay: number }>
   );
 };
 
-const Caption: React.FC<{ text: string; delay?: number }> = ({ text, delay = 12 }) => (
+export const Caption: React.FC<{ text: string; delay?: number }> = ({ text, delay = 12 }) => (
   <Tag text={text} delay={delay} style={{ left: "calc(70px + var(--inset, 0px))", top: 70, fontSize: 40, fontWeight: 500 }} />
 );
 
