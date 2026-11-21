@@ -1,0 +1,52 @@
+{
+ "music_level": 0.07,
+ "sources": [
+  {
+   "id": "src-led",
+   "length": 70,
+   "prompt": "Cold, wide and wondrous ambient instrumental for an Ice Age landscape: soft airy synth pads, distant low wooden flute, gentle wind-like textures, slow tempo, sense of vast frozen space, quiet, seamless loopable phrase."
+  },
+  {
+   "id": "src-tabor",
+   "length": 75,
+   "prompt": "Warm prehistoric campfire instrumental: soft hand frame drums, bone flute melody, gentle rattles and low humming drone, around 85 BPM, cozy tribal mood, quiet, seamless loopable phrase."
+  },
+  {
+   "id": "src-nebezpeci",
+   "length": 50,
+   "prompt": "Tense, cold prehistoric instrumental: low droning strings, slow deep drum pulse, howling wind textures, ominous but restrained, quiet, seamless loopable phrase."
+  }
+ ],
+ "tracks": [
+  {
+   "source": "src-led",
+   "start": 0,
+   "end": 146.33,
+   "id": "t1"
+  },
+  {
+   "source": "src-tabor",
+   "start": 146.33,
+   "end": 312.31,
+   "id": "t2"
+  },
+  {
+   "source": "src-nebezpeci",
+   "start": 312.31,
+   "end": 365.95,
+   "id": "t3"
+  },
+  {
+   "source": "src-tabor",
+   "start": 365.95,
+   "end": 423.05,
+   "id": "t4"
+  },
+  {
+   "source": "src-led",
+   "start": 423.05,
+   "end": 487.72,
+   "id": "t5"
+  }
+ ]
+}

@@ -1,0 +1,435 @@
+{
+ "title": "Přežil bys v době ledové? Čechy před 27 000 lety",
+ "title_options": [
+  "Přežil bys v době ledové? Čechy před 27 000 lety",
+  "Probudíš se v době ledové. Jak dlouho vydržíš?",
+  "Co kdybys žil s lovci mamutů?"
+ ],
+ "character": "a cartoon character with a large perfectly round white head (about one third of his height) with a thin clean black outline, two small black dot eyes and a small simple mouth (no nose, no ears, no hair), wearing a bright orange hoodie (#FF7A1A) with hood, drawstrings and a kangaroo pocket, dark blue jeans and white sneakers, round white mitten-like hands",
+ "style": "2D hand-drawn explainer illustration, simple round-headed cartoon characters with flat colors on richly detailed painted backgrounds, cold Ice Age palette of white, pale blue, grey and soft teal with warm orange firelight, subtle paper texture, cinematic 16:9, no text",
+ "palette": "cold Ice Age palette of white, pale blue, grey and soft teal with warm orange firelight",
+ "facts": [
+  "Poslední glaciální maximum zhruba před 26–19 tisíci lety; kontinentální ledovec končil severně od Sudet, horské ledovce v Krkonoších a na Šumavě.",
+  "Krajina: mamutí step (tundrostep), málo stromů.",
+  "Neandrtálci vymřeli zhruba před 40 tisíci lety.",
+  "Dolní Věstonice a Pavlov (gravettien, cca 31–25 tisíc let): bohatá tábořiště lovců mamutů.",
+  "Věstonická venuše: keramická soška, cca 29–25 tisíc let; jedna z nejstarších keramik na světě, dávno před keramickými nádobami.",
+  "Otisky textilu v pálené hlíně z Pavlova a Dolních Věstonic, stáří přes 25 tisíc let.",
+  "Topení kostmi doloženo na gravettských lokalitách.",
+  "Domestikace psa: možné rané psy z Předmostí u Přerova a dalších lokalit, mezi vědci sporné.",
+  "Eduard Štorch: Lovci mamutů (1918).",
+  "Bohemia z latinského jména kmene Bójů (keltský kmen)."
+ ],
+ "scenes": [
+  {
+   "id": "S01",
+   "part": "Úvod",
+   "narration": "Minule tě před rychtářem zachránil záblesk. Jenže tentokrát tě nevyhodil do teplé hospody. Stojíš po kolena ve sněhu, fouká ledový vítr a v dálce se pomalu pohybuje stádo mamutů.",
+   "image": "The main character stands knee-deep in snow on a wide frozen steppe, hugging himself against the wind, medium-large in the foreground; far in the distance a herd of woolly mammoths walks slowly across the plain; grey sky.",
+   "motion": {
+    "type": "veo",
+    "prompt": "Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. Light snow drifts across the frame in the wind and the distant mammoths move very slowly. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds."
+   }
+  },
+  {
+   "id": "S02",
+   "part": "Úvod",
+   "narration": "Žádné domy. Žádné cesty. Žádný kostel ani hrad. Jen bílá pláň, sem tam keř a nebe, které vypadá, že každou chvíli začne zase sněžit.",
+   "image": "A very wide, empty snowy steppe with a few small shrubs and low hills under a heavy grey sky; the main character is a tiny orange figure in the middle of the empty landscape.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý zoom-out."
+   }
+  },
+  {
+   "id": "S03",
+   "part": "Úvod",
+   "narration": "Vítej v době ledové. Jsme v Čechách a na Moravě zhruba před sedmadvaceti tisíci lety. Dnes zjistíme, jestli bys přežil první noc, první lov a první zimu. A tentokrát ti nepomůže ani mýdlo.",
+   "image": "Clean title-card composition: the main character in the center wrapped in a fur cloak over his orange hoodie, surrounded by four small vignettes in the same style: a wooden spear with a stone tip, a small campfire, a curved mammoth tusk, and a fur coat. Large empty plain area in the upper third reserved for a title.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Ikonky naskakují; nahoru titulek „DOBA LEDOVÁ“ v Remotionu."
+   }
+  },
+  {
+   "id": "S04",
+   "part": "Kde to jsi",
+   "narration": "Nejdřív to nejdůležitější. Ledovec Čechy úplně nepokryl. Obrovský ledový štít končil severně od našich hor. Ale Krkonoše a Šumava měly vlastní ledovce a celá krajina mezi nimi byla studená step.",
+   "image": "Hand-drawn illustrated bird's-eye map of Central Europe in the Ice Age: a huge white ice sheet in the north ending beyond a chain of mountains, small glaciers on the mountain tops, and a wide pale-green and white steppe south of the mountains with rivers; no labels.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý pan ze severu na jih; popisek „Ledovec končil za Krkonošemi“ v Remotionu."
+   }
+  },
+  {
+   "id": "S05",
+   "part": "Kde to jsi",
+   "narration": "Lesy skoro zmizely. Místo nich tráva, mech a zakrslé keře. Krajina podobná dnešní severní Sibiři. A přes ni vane vítr, který nese prach a sníh.",
+   "image": "A cold, treeless steppe with tall dry grass, moss and small dwarf shrubs, wind blowing snow and dust across the plain; the main character stands in the grass, medium-large, holding his hood against the wind.",
+   "motion": {
+    "type": "veo",
+    "prompt": "Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The tall dry grass sways in the wind and thin streaks of snow blow across the plain. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds."
+   }
+  },
+  {
+   "id": "S06",
+   "part": "Kde to jsi",
+   "narration": "Mimochodem, krajinu kolem sebe znáš. Jen bez lesů, silnic a měst. Tam, kde je dnes Praha, teče Vltava pustou zamrzlou stepí.",
+   "image": "A wide river valley with a partly frozen river winding through an empty snowy steppe, rocky slopes on both sides, no buildings, no trees; the main character stands on a rock above the valley, seen from behind.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý zoom do údolí; štítek „Tady bude jednou Praha“ v Remotionu."
+   }
+  },
+  {
+   "id": "S07",
+   "part": "Kde to jsi",
+   "narration": "Léto je krátké a chladné. Zima dlouhá a krutá. A ty máš na sobě mikinu, džíny a tenisky. To je zhruba nejhorší oblečení, jaké sis mohl vybrat.",
+   "image": "Close-up of the main character shivering in the snow, teeth chattering, frost on his white sneakers, snowflakes on his orange hoodie, a comically miserable face.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Rychlý zoom na obličej, lehké třesení."
+   }
+  },
+  {
+   "id": "S08",
+   "part": "Zvířata",
+   "narration": "Ale zvířat je tu spousta. Mamuti srstnatí, srstnatí nosorožci, sobi, divocí koně a bizoni. Celá step je jako obrovská pastvina.",
+   "image": "A wide snowy steppe full of grazing animals: a herd of woolly mammoths, two woolly rhinoceroses, reindeer and wild horses, all drawn in a friendly cartoon style; the main character watches from a small hill in the foreground.",
+   "motion": {
+    "type": "veo",
+    "prompt": "Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The grass sways gently and the animals graze calmly, slowly moving their heads. 8 seconds."
+   }
+  },
+  {
+   "id": "S09",
+   "part": "Zvířata",
+   "narration": "Mamut je velký zhruba jako dnešní slon. Má hustou srst, malé uši, aby mu nemrzly, a obrovské zahnuté kly. Na tebe se dívá spíš zvědavě.",
+   "image": "A friendly cartoon woolly mammoth with thick brown fur, small ears and long curved tusks stands a few steps away from the main character and looks at him curiously; the character looks up at it, amazed; snowy steppe.",
+   "motion": {
+    "type": "veo",
+    "prompt": "Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The mammoth breathes slowly, small clouds of warm breath rise from its trunk, and its small ears twitch. 8 seconds."
+   }
+  },
+  {
+   "id": "S10",
+   "part": "Zvířata",
+   "narration": "A srstnatý nosorožec je ještě horší společník. Má dva rohy, špatně vidí, a když se lekne, vyrazí. Takže radši velkým obloukem a potichu.",
+   "image": "A woolly rhinoceros with two horns stands grazing on the snowy steppe in the middle distance; the main character tiptoes past it in a big curve, holding his breath, with a comically careful face.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý boční pan."
+   }
+  },
+  {
+   "id": "S11",
+   "part": "Zvířata",
+   "narration": "Jenže jsou tu i lovci. Vlci, hyeny a jeskynní lev, který byl ještě větší než dnešní lvi. A pro ně jsi to nejpomalejší a nejbarevnější jídlo v okolí.",
+   "image": "A large cartoon cave lion lies calmly on a distant rock on the snowy steppe, a few wolves walk far away on the horizon; in the foreground the main character notices them and looks nervous.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý zoom ze lva na nervózní postavu."
+   }
+  },
+  {
+   "id": "S12",
+   "part": "Zvířata",
+   "narration": "A neandrtálce tady nepotkáš. Ti vymřeli už zhruba před čtyřiceti tisíci lety. Všichni lidé, které tu potkáš, jsou stejní jako ty. Jen umějí přežít mnohem líp.",
+   "image": "The main character stands at the dark entrance of an empty cave in a rocky hillside, peeking inside curiously, finding only a few old stone tools on the ground.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý zoom do jeskyně."
+   }
+  },
+  {
+   "id": "S13",
+   "part": "Lidé",
+   "narration": "Po chvíli uvidíš kouř. Tábor lovců mamutů. Pár chýší, oheň a kolem dvaceti, třiceti lidí. To je celá jejich tlupa.",
+   "image": "A small Ice Age camp in a sheltered valley: three round huts made of hides stretched over mammoth bones and tusks, a campfire with smoke rising, adult people in fur clothing working; the main character approaches from the foreground, seen from behind.",
+   "motion": {
+    "type": "veo",
+    "prompt": "Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. Smoke rises slowly from the campfire and from the huts, and the fire flickers. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds."
+   }
+  },
+  {
+   "id": "S14",
+   "part": "Lidé",
+   "narration": "Rozumět jim nebudeš vůbec. Jejich jazyk nikdo nezná a nikdy znát nebude. Žádná čeština, žádná latina. Zbývají ruce, nohy a úsměv.",
+   "image": "The main character gestures with both hands, trying to explain something to three adult round-headed cartoon people in fur clothing who look at him with puzzled faces; Ice Age camp in the background.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý zoom na zmatené tváře."
+   }
+  },
+  {
+   "id": "S15",
+   "part": "Lidé",
+   "narration": "A tvoje šance? Paradoxně lepší než ve středověku. Tady nikdo neví, co je čaroděj. Cizinec je hlavně další pár rukou. A tlupa potřebuje každého, kdo umí pracovat.",
+   "image": "A friendly adult round-headed cartoon man in fur clothing offers the main character a thick fur cloak; the character takes it gratefully; other camp members smile in the background.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý zoom na předávaný kožich."
+   }
+  },
+  {
+   "id": "S16",
+   "part": "Lidé",
+   "narration": "Den v tlupě začíná u ohně. Lidé jdou sbírat, lovit, stahovat kůže, nosit dřevo a kosti. Každý má svou práci. I ty.",
+   "image": "Morning in the Ice Age camp: adults in fur clothing carry firewood and bones, scrape a stretched hide on a wooden frame, and tend the fire; the main character, wearing a fur cloak over his hoodie, carries a bundle of sticks.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý boční pan přes tábor."
+   }
+  },
+  {
+   "id": "S17",
+   "part": "Lidé",
+   "narration": "A kdo tu velí? Žádný král ani pán. Rozhoduje se společně a poslouchají se ti nejzkušenější. Kdo umí najít zvěř, vodu a cestu domů, toho ostatní berou vážně.",
+   "image": "Adults of the Ice Age camp sit in a circle around the fire and listen to an experienced woman in furs who points at a simple map scratched into the snow; the main character sits among them, listening.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý zoom na mapu ve sněhu."
+   }
+  },
+  {
+   "id": "S18",
+   "part": "Bydlení a oblečení",
+   "narration": "Bydlí se v chýších z kůží napnutých přes kosti a kly mamutů. Uprostřed hoří oheň, kouř odchází otvorem nahoře. Uvnitř je tma, kouř a teplo. A teplo je tu nejcennější věc na světě.",
+   "image": "Interior of a round Ice Age hut: a frame of curved mammoth tusks and bones covered with hides, a small fire in the center with smoke rising to a hole in the roof, furs on the floor; the main character sits by the fire warming his hands, relaxed.",
+   "motion": {
+    "type": "veo",
+    "prompt": "Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The fire flickers warmly and thin smoke rises slowly to the hole in the roof. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds."
+   }
+  },
+  {
+   "id": "S19",
+   "part": "Bydlení a oblečení",
+   "narration": "Dřeva je na stepi málo. A tak se topí i kostmi. Kosti hoří pomalu a dlouho. A ten zápach si radši ani nepředstavuj.",
+   "image": "A campfire with large animal bones burning in it, an adult in fur clothing adds another bone; the main character holds his nose with a funny face.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Zoom na oheň."
+   }
+  },
+  {
+   "id": "S20",
+   "part": "Bydlení a oblečení",
+   "narration": "Oblečení se šije z kůží a kožešin. Jehly jsou z kostí, nitě ze šlach. Tvoje mikina by tu za týden byla na cucky.",
+   "image": "By the fire, an adult woman in fur clothing sews a fur coat with a small bone needle; the main character sits next to her looking at a big hole in the sleeve of his orange hoodie.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý zoom na díru v rukávu."
+   }
+  },
+  {
+   "id": "S21",
+   "part": "Bydlení a oblečení",
+   "narration": "Oheň nikdy nesmí vyhasnout. Rozdělat ho znovu bez zapalovače je dřina. Křesáním kamenů nebo třením dřeva. A ty umíš tak nanejvýš zapnout plynový sporák.",
+   "image": "The main character kneels in the snow trying to make fire by striking two stones together, with no success; an adult hunter in furs stands next to him smiling and shaking his head.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Rychlý zoom na kameny."
+   }
+  },
+  {
+   "id": "S22",
+   "part": "Jídlo",
+   "narration": "A co se jí? Maso. Hlavně maso. A tuk a morek z kostí. Zeleniny je v zimě skoro nic. Ovoce? Leda pár bobulí v létě.",
+   "image": "Pieces of meat roasting on sticks over a campfire, adults in furs sitting around and eating; the main character holds a piece of roasted meat and looks at it uncertainly.",
+   "motion": {
+    "type": "veo",
+    "prompt": "Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The fire flickers and thin steam rises from the roasting meat. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds."
+   }
+  },
+  {
+   "id": "S23",
+   "part": "Jídlo",
+   "narration": "A pití? Sníh a led roztápěný u ohně. Místo lahve máš kožený vak a místo hrnku dlaně.",
+   "image": "The main character holds a small leather water bag next to the fire, snow melting in a hollow stone by the flames; snowy camp behind him.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý zoom."
+   }
+  },
+  {
+   "id": "S24",
+   "part": "Jídlo",
+   "narration": "Lov mamuta je práce celé tlupy. Žádné kouzelné zbraně, jen oštěpy s kamennými hroty, odvaha a dobrý plán. Mnohem častěji se ale lovili sobi, koně a menší zvířata.",
+   "image": "A group of adult hunters in fur clothing stands on a snowy ridge, holding long spears upright, calmly watching a herd of reindeer far below in the valley; the main character stands with them holding a spear awkwardly.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý pan přes hřeben."
+   }
+  },
+  {
+   "id": "S25",
+   "part": "Jídlo",
+   "narration": "A sobi? Ti jsou pro tlupu skoro všechno. Maso, kůže, šlachy i parohy na nástroje. Kde táhnou sobí stáda, tam se za nimi stěhují i lidé. Doba ledová je život na cestě.",
+   "image": "A long line of adult people in fur clothing walks across the snowy steppe carrying bundles and poles, following a large herd of reindeer in the distance; the main character walks with them, carrying a bundle on his back.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý boční pan s průvodem."
+   }
+  },
+  {
+   "id": "S26",
+   "part": "Jídlo",
+   "narration": "A nic se neplýtvá. Maso se sní, z kůže se ušije oblečení, kosti se spálí nebo z nich postaví chýše a z klů se vyřežou nástroje i šperky.",
+   "image": "Neatly arranged on a fur: bone needles, an ivory bead necklace, a carved tusk, stone blades and a bone spoon; the main character's hand points at the necklace.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý pan přes předměty."
+   }
+  },
+  {
+   "id": "S27",
+   "part": "Nebezpečí",
+   "narration": "Největší nebezpečí? Zima. Omrzliny, hlad a nemoci. Žádný doktor, žádné léky. Malé zranění, které se zanítí, tu může být konec.",
+   "image": "The main character, wrapped in a fur cloak, walks bent forward through a snowstorm on the open steppe, snow blowing around him.",
+   "motion": {
+    "type": "veo",
+    "prompt": "Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. Thick snow blows across the frame in the wind. 8 seconds."
+   }
+  },
+  {
+   "id": "S28",
+   "part": "Nebezpečí",
+   "narration": "A tvoje tenisky? Ty tu zradí jako první. Mokré boty v mrazu znamenají omrzlé prsty. Proto ti tlupa ušije boty z kůže a vycpe je suchou trávou.",
+   "image": "By the fire, a friendly adult in furs hands the main character a pair of simple fur boots stuffed with dry grass; the character holds up one soaking wet white sneaker with a sad face.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Zoom na mokrou tenisku."
+   }
+  },
+  {
+   "id": "S29",
+   "part": "Nebezpečí",
+   "narration": "Život je tu kratší než dnes. Hodně dětí nepřežije první roky. Ale kdo dospěl, mohl se dožít čtyřiceti i víc let. A to je na dobu ledovou docela slušný výkon.",
+   "image": "An elderly round-headed cartoon man with a long grey beard in fur clothing sits by the fire telling a story to a few adults who listen respectfully; the main character sits among them.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý zoom na starce."
+   }
+  },
+  {
+   "id": "S30",
+   "part": "Nebezpečí",
+   "narration": "A pak šelmy. V noci se drží oheň a hlídá se. Vlci obcházejí tábor a čekají na zbytky. Možná proto si s nimi lidé časem začali rozumět. Někteří vědci si myslí, že první psi se objevili právě v téhle době.",
+   "image": "Night in the Ice Age camp: a campfire, an adult hunter sits by it, and a calm wolf sits at the edge of the firelight looking at him; the main character watches from the other side of the fire.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý zoom na vlka u ohně."
+   }
+  },
+  {
+   "id": "S31",
+   "part": "Lovci mamutů",
+   "narration": "A teď to nejpřekvapivější. Tihle lidé nejsou žádní primitivové. Pod Pálavou, kde dnes leží Dolní Věstonice a Pavlov, mají jedno z nejbohatších tábořišť celé Evropy.",
+   "image": "A wide view of rocky limestone hills rising above a snowy plain, a large Ice Age camp with many hide huts and campfires at the foot of the hills; the main character stands in the foreground looking at it.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý pan; štítek „Dolní Věstonice · Pavlov“ v Remotionu."
+   }
+  },
+  {
+   "id": "S32",
+   "part": "Lovci mamutů",
+   "narration": "Vyrábějí sošky z pálené hlíny. Zvířata i lidi. Nejslavnější z nich, Věstonická venuše, je jedna z nejstarších keramických sošek na světě. Vznikla mnoho tisíc let předtím, než někdo vymyslel hrnec.",
+   "image": "An adult craftsman in furs sits by a small fire shaping little clay animal figurines: a mammoth, a bear and a lion; finished figurines stand on a flat stone; the main character leans in, amazed.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Zoom na sošky."
+   }
+  },
+  {
+   "id": "S33",
+   "part": "Lovci mamutů",
+   "narration": "A podle otisků v hlíně to vypadá, že tu už uměli tkát a plést. Tkaniny z rostlinných vláken, staré přes pětadvacet tisíc let.",
+   "image": "An adult woman in furs weaves a small piece of fabric from plant fibres on a simple wooden frame next to the hut; the main character watches with raised eyebrows.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý zoom na tkaninu."
+   }
+  },
+  {
+   "id": "S34",
+   "part": "Lovci mamutů",
+   "narration": "Nosí náhrdelníky z mušlí, zubů a slonoviny. Zdobí, tancují a pohřbívají své mrtvé s péčí. Jsou to lidé jako ty. Jen v mnohem těžších podmínkách.",
+   "image": "Evening celebration in the Ice Age camp: adults wearing necklaces of shells and ivory beads sit and stand around a big campfire, one plays a simple bone flute; the main character sits among them smiling.",
+   "motion": {
+    "type": "veo",
+    "prompt": "Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The big campfire flickers and a few small sparks rise into the evening sky. The characters stand or sit calmly with a subtle idle breathing motion and blink. 8 seconds."
+   }
+  },
+  {
+   "id": "S35",
+   "part": "Lovci mamutů",
+   "narration": "Mimochodem, jestli ti tohle všechno něco připomíná, tak správně. Eduard Štorch o nich napsal knihu Lovci mamutů. Četly ji celé generace školáků.",
+   "image": "An old closed hardcover book with a simple drawing of a mammoth on its cover lies on a stone next to the campfire; the main character points at it with a knowing grin.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Zoom na knihu."
+   }
+  },
+  {
+   "id": "S36",
+   "part": "Verdikt",
+   "narration": "Takže, jak dlouho bys vydržel? Sám? Pravděpodobně ani první noc. Bez ohně, bez kožešin a bez tlupy tě doba ledová spolkne.",
+   "image": "Night on the empty snowy steppe under a starry sky: the main character sits alone and tiny in the snow, hugging his knees, no fire nearby; cold blue light.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Pomalý zoom-out, ztmavení."
+   }
+  },
+  {
+   "id": "S37",
+   "part": "Verdikt",
+   "narration": "S tlupou? To je jiný příběh. Když tě přijmou, naučíš se šít, rozdělat oheň a stopovat. A tvoje znalosti z budoucnosti tu konečně k něčemu jsou. Víš, že se rány mají čistit a voda převařovat.",
+   "image": "Three-panel composition (assembled in Remotion from other scenes).",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Tři panely z obrázků S36, S24, S27; nad ně „1. NOC / 1. LOV / 1. ZIMA“ v Remotionu."
+   }
+  },
+  {
+   "id": "S38",
+   "part": "Verdikt",
+   "narration": "A pak je tu jedna věc, kterou ti nikdo nevezme. Pohled na stádo mamutů, jak se pomalu táhne stepí pod Pálavou. To už nikdy nikdo neuvidí. Jen ty.",
+   "image": "Sunset over the snowy steppe: a herd of woolly mammoths walks slowly in a line along the horizon against a warm orange sky; the main character sits on a hill in the foreground, seen from behind, wrapped in a fur cloak, watching them.",
+   "motion": {
+    "type": "veo",
+    "prompt": "Flat 2D cartoon illustration gently coming to life, same style and composition as the start frame. Static camera. The warm sunset light glows softly and the distant mammoths walk very slowly along the horizon. The character, seen from behind, sits calmly and does not turn around. 8 seconds."
+   }
+  },
+  {
+   "id": "S39",
+   "part": "Verdikt",
+   "narration": "Příště se vrátíme o kus blíž. Do doby, kdy po Čechách chodili Keltové. Lidé, po kterých se naše země dodnes latinsky jmenuje Bohemia.",
+   "image": "Teaser: a Celtic hillfort with wooden palisade walls and round thatched houses on a green hill; the main character appears in a flash of white light in front of the gate, while Celtic people in checked cloaks stare at him.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Bílý záblesk, zoom-out; „PŘÍŠTĚ: KELTOVÉ“ v Remotionu."
+   }
+  },
+  {
+   "id": "S40",
+   "part": "Závěr",
+   "narration": "Mimochodem, ten mamut, co na tebe celou dobu zíral? Pořád nemohl pochopit, proč máš tak tenkou srst.",
+   "image": "A woolly mammoth leans its head down and gently pokes the main character's orange hoodie with its trunk, puzzled; the character laughs; snowy steppe.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Rychlý zoom, na konci bílý záblesk."
+   }
+  },
+  {
+   "id": "S41",
+   "part": "Závěr",
+   "narration": "A jestli se ti video líbilo, dej like a odběr. V době ledové by sis tím aspoň zahřál palec.",
+   "image": "The main character stands in the center on a plain warm paper background, wrapped in a fur cloak over his orange hoodie, smiling and giving a big thumbs-up with one hand and waving with the other; plenty of empty space on both sides for buttons to be added later.",
+   "motion": {
+    "type": "remotion",
+    "prompt": "Tlačítka LIKE a ODEBÍRAT v Remotionu."
+   }
+  }
+ ]
+}
