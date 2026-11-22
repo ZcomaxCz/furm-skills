@@ -190,7 +190,7 @@ const ep3 = makeEpisode({
   scenes: data3.scenes,
   durations: durations3 as Record<string, number>,
   Overlay: Overlay3,
-  imageFor: { S18: "S18.png", S27: "S27.png", S34: "S30.png" }, // animace chybí / obsahuje chybu
+  imageFor: { S18: "S18.png", S27: "S27.png" }, // animace chybí
   Custom: {
     S04: IceMap,
     S37: makeVerdict(DIR, [
