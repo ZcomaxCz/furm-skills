@@ -84,6 +84,15 @@ const shortThumb = ({ bg, top, bottom, shift = -230, size = 150 }) => `
 const safe = (inner) => inner.replace('<div style="position:absolute;left:507px', '<div style="position:absolute;left:507px;top:508px;width:1546px;height:423px;outline:6px dashed #0f0;z-index:9"></div><div style="position:absolute;left:507px');
 
 const jobs = [
+  ["nahled-doba-ledova.png", 1280, 720, thumb({ bg: "nahled-zaklad-ep3-S09.png", big: "PŘEŽIL BYS?", badge: "-27 000" })],
+  ["nahled-doba-ledova-B.png", 1280, 720, thumb({ bg: "nahled-zaklad-ep3-S07.png", big: "BRRR!", badge: "DOBA LEDOVÁ" })],
+  ["nahled-e3-short-1-mamut.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-ep3-S09.png", top: "POTKAL BYS<br>MAMUTA?", bottom: "DOBA LEDOVÁ", shift: -300, size: 140 })],
+  ["nahled-e3-short-2-ledovec.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-ep3-S07.png", top: "LEDOVEC<br>V ČECHÁCH?", bottom: "DOBA LEDOVÁ", shift: -356, size: 140 })],
+  ["nahled-e3-short-3-kosti.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-ep3-S18.png", top: "DŮM<br>Z KOSTÍ", bottom: "DOBA LEDOVÁ", shift: -400 })],
+  ["nahled-e3-short-4-venuse.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-ep3-S32.png", top: "29 000 LET<br>STARÉ", bottom: "VĚSTONICE", shift: -356, size: 140 })],
+  ["nahled-e3-short-5-tenisky.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-ep3-S28.png", top: "TENISKY<br>TĚ ZABIJÍ", bottom: "DOBA LEDOVÁ", shift: -500, size: 140 })],
+  ["nahled-e3-short-6-pes.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-ep3-S30.png", top: "PRVNÍ<br>PES?", bottom: "DOBA LEDOVÁ", shift: -600 })],
+  ["nahled-e3-short-7-tlupa.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-ep3-S14.png", top: "PŘIJALI<br>BY TĚ?", bottom: "DOBA LEDOVÁ", shift: -356 })],
   ["nahled-e2-short-1-carodej.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-ep2-S11.png", top: "ČARODĚJ?", bottom: "ČECHY 1357", shift: -267 })],
   ["nahled-e2-short-2-brambory.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-ep2-S18.png", top: "ŽÁDNÉ<br>BRAMBORY?", bottom: "ČECHY 1357", shift: -177, size: 140 })],
   ["nahled-e2-short-3-lazebnik.png", 1080, 1920, shortThumb({ bg: "nahled-zaklad-ep2-S22.png", top: "LÉČBA<br>PIJAVICEMI", bottom: "ČECHY 1357", shift: -266, size: 140 })],

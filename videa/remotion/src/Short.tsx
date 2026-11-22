@@ -11,13 +11,16 @@ import {
 } from "remotion";
 import cues1 from "../../01-praha-1926/titulky.json";
 import cues2 from "../../02-cechy-1357/titulky.json";
+import cues3 from "../../03-doba-ledova/titulky.json";
 import { EpisodeVisual, FPS } from "./Episode";
 import { Episode2Visual } from "./Episode2";
+import { Episode3Visual } from "./Episode3";
 
 type Cue = { start: number; end: number; text: string };
 const EPISODES: Record<number, { Visual: React.FC; cues: Cue[]; dir: string; label: string }> = {
   1: { Visual: EpisodeVisual, cues: cues1 as Cue[], dir: "01-praha-1926", label: "PRAHA 1926" },
   2: { Visual: Episode2Visual, cues: cues2 as Cue[], dir: "02-cechy-1357", label: "ČECHY 1357" },
+  3: { Visual: Episode3Visual, cues: cues3 as Cue[], dir: "03-doba-ledova", label: "DOBA LEDOVÁ" },
 };
 
 // úseky v sekundách času hlavního videa

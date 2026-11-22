@@ -16,6 +16,13 @@ const SHORTS: Record<string, ShortProps> = {
   "e2-short-4-most": { episode: 2, title: "Karlův most a vejce v maltě?", segments: [{ from: 310.03, to: 345.58 }] },
   "e2-short-5-zabava": { episode: 2, title: "Středověký Netflix", segments: [{ from: 345.93, to: 387.94 }] },
   "e2-short-6-katedrala": { episode: 2, title: "Katedrálu sv. Víta stavěli 585 let", segments: [{ from: 39.45, to: 69.93 }] },
+  "e3-short-1-mamut": { episode: 3, title: "Potkal bys mamuta?", segments: [{ from: 88.42, to: 121.75 }] },
+  "e3-short-2-ledovec": { episode: 3, title: "Pokryl ledovec Čechy?", segments: [{ from: 38.61, to: 75.57 }] },
+  "e3-short-3-kosti": { episode: 3, title: "Chýše z mamutích kostí", segments: [{ from: 206.18, to: 251.69 }] },
+  "e3-short-4-venuse": { episode: 3, title: "Nejstarší keramika světa je z Moravy", segments: [{ from: 365.95, to: 401.68 }] },
+  "e3-short-5-tenisky": { episode: 3, title: "Tvoje tenisky by tě zabily", segments: [{ from: 312.31, to: 336.17 }] },
+  "e3-short-6-pes": { episode: 3, title: "Odkud se vzal první pes?", segments: [{ from: 336.52, to: 365.6 }] },
+  "e3-short-7-tlupa": { episode: 3, title: "Přijala by tě tlupa?", segments: [{ from: 158.1, to: 205.83 }] },
   "short-5-mlcet": {
     title: "Dokázal bys mlčet?",
     segments: [
