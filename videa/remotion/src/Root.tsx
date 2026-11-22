@@ -2,6 +2,7 @@ import { Composition } from "remotion";
 import { Episode, episodeFrames, FPS } from "./Episode";
 import { Short, ShortProps, shortFrames } from "./Short";
 import { Episode2, episode2Frames } from "./Episode2";
+import { Episode3, episode3Frames } from "./Episode3";
 
 // shorty z dílu: úseky v sekundách hlavního videa
 const SHORTS: Record<string, ShortProps> = {
@@ -38,6 +39,14 @@ export const Root: React.FC = () => (
       id="Cechy1357"
       component={Episode2}
       durationInFrames={episode2Frames}
+      fps={FPS}
+      width={1920}
+      height={1080}
+    />
+    <Composition
+      id="DobaLedova"
+      component={Episode3}
+      durationInFrames={episode3Frames}
       fps={FPS}
       width={1920}
       height={1080}

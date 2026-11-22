@@ -7,7 +7,7 @@ import { Caption, INK, ORANGE, PAPER, Tag, Title, font, usePop } from "./Overlay
 const DIR = "02-cechy-1357";
 
 // mlha přes obraz (S23)
-const Fog: React.FC<{ frames: number }> = ({ frames }) => {
+export const Fog: React.FC<{ frames: number }> = ({ frames }) => {
   const f = useCurrentFrame();
   const x = interpolate(f, [0, frames], [-200, 200]);
   return (
@@ -22,7 +22,7 @@ const Fog: React.FC<{ frames: number }> = ({ frames }) => {
 };
 
 // zesilující světlo svítání (S39)
-const Sunrise: React.FC<{ frames: number }> = ({ frames }) => {
+export const Sunrise: React.FC<{ frames: number }> = ({ frames }) => {
   const f = useCurrentFrame();
   const o = interpolate(f, [0, frames], [0, 0.45], { extrapolateRight: "clamp" });
   return (
@@ -37,14 +37,14 @@ const Sunrise: React.FC<{ frames: number }> = ({ frames }) => {
 };
 
 // bílý záblesk na konci scény (S41)
-const FlashOut: React.FC<{ frames: number }> = ({ frames }) => {
+export const FlashOut: React.FC<{ frames: number }> = ({ frames }) => {
   const f = useCurrentFrame();
   const o = interpolate(f, [frames - 20, frames - 6], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return <AbsoluteFill style={{ background: "#fff", opacity: o }} />;
 };
 
 // tlačítka LIKE a ODEBÍRAT (S42)
-const Buttons: React.FC = () => {
+export const Buttons: React.FC = () => {
   const p1 = usePop(20);
   const p2 = usePop(45);
   const btn = (text: string, bg: string, color: string, p: number, side: "left" | "right") => (
@@ -76,7 +76,7 @@ const Buttons: React.FC = () => {
   );
 };
 
-const NextEpisode: React.FC = () => {
+export const NextEpisode: React.FC<{ text?: string }> = ({ text = "PŘÍŠTĚ: DOBA LEDOVÁ" }) => {
   const p = usePop(25);
   return (
     <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: 90 }}>
@@ -94,35 +94,30 @@ const NextEpisode: React.FC = () => {
           transform: `translateY(${(1 - p) * 40}px)`,
         }}
       >
-        PŘÍŠTĚ: DOBA LEDOVÁ
+        {text}
       </div>
     </AbsoluteFill>
   );
 };
 
 // S37: verdikt složený ze tří hotových obrázků
-const Verdict: React.FC<{ frames: number }> = () => {
+export const makeVerdict = (dir: string, panels: { img: string; t: string }[]): React.FC<{ frames: number }> => () => {
   const { fps } = useVideoConfig();
-  const panels = [
-    { img: "S11.png", t: "1. DEN" },
-    { img: "S16.png", t: "1. ZIMA" },
-    { img: "S28.png", t: "ROKY" },
-  ];
   return (
     <AbsoluteFill style={{ background: PAPER, flexDirection: "row", gap: 30, padding: "60px 40px", alignItems: "center" }}>
       {panels.map((p, i) => (
-        <Panel key={p.t} {...p} delay={Math.round((0.6 + i * 2.6) * fps)} />
+        <Panel key={p.t} {...p} dir={dir} delay={Math.round((0.6 + i * 2.6) * fps)} />
       ))}
     </AbsoluteFill>
   );
 };
-const Panel: React.FC<{ img: string; t: string; delay: number }> = ({ img, t, delay }) => {
+const Panel: React.FC<{ img: string; t: string; delay: number; dir: string }> = ({ img, t, delay, dir }) => {
   const p = usePop(delay);
   return (
     <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", gap: 24, opacity: p, transform: `translateY(${(1 - p) * 60}px)` }}>
       <div style={{ fontFamily: font, fontWeight: 700, fontSize: 84, color: INK, textShadow: `5px 5px 0 ${ORANGE}` }}>{t}</div>
       <div style={{ width: "100%", aspectRatio: "9 / 12", overflow: "hidden", border: `8px solid ${INK}`, borderRadius: 14 }}>
-        <Img src={staticFile(`${DIR}/flow/${img}`)} style={{ ...fill, objectPosition: "50% 50%" }} />
+        <Img src={staticFile(`${dir}/flow/${img}`)} style={{ ...fill, objectPosition: "50% 50%" }} />
       </div>
     </div>
   );
@@ -169,7 +164,7 @@ const ep2 = makeEpisode({
   durations: durations2 as Record<string, number>,
   Overlay: Overlay2,
   imageFor: { S01: "S01.png" }, // animace S01 ve Flow neprošla, jen obrázek
-  Custom: { S37: Verdict },
+  Custom: { S37: makeVerdict(DIR, [{ img: "S11.png", t: "1. DEN" }, { img: "S16.png", t: "1. ZIMA" }, { img: "S28.png", t: "ROKY" }]) },
 });
 export const Episode2 = ep2.Component;
 export const Episode2Visual = ep2.Visual;
